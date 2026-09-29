@@ -8,6 +8,7 @@ from urllib.parse import quote
 import os
 import io
 from math import radians, cos, sin, asin, sqrt
+import re
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -113,12 +114,21 @@ def load_csv_data():
     return pd.DataFrame()
 
 def get_google_maps_url(lat, lon, name):
-    """Crea URL Google Maps per aprire il luogo."""
+    """Crea URL Google Maps per aprire il luogo (senza indicazioni)."""
     if pd.notna(lat) and pd.notna(lon):
-        return f"https://www.google.com/maps/dir/?api=1&destination={lat},{lon}"
+        return f"https://www.google.com/maps/search/?api=1&query={lat},{lon}"
     else:
         # Fallback con nome del luogo
         return f"https://www.google.com/maps/search/{quote(name)}"
+
+def make_links_clickable(text):
+    """Rende i link nella descrizione cliccabili in HTML."""
+    if not isinstance(text, str):
+        return text
+    # Regex per trovare URL http/https
+    url_pattern = r'(https?://[^\s<>"{}|\\^`\[\]]*)'
+    text = re.sub(url_pattern, r'<a href="\1" target="_blank" style="color: #3498db;">🔗 Link</a>', text)
+    return text
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calcola la distanza in km tra due coordinate usando la formula di Haversine."""
@@ -182,19 +192,24 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
             dist = haversine_distance(user_lat, user_lon, row['Lat'], row['Lon'])
             distance_text = f"<p><b>Distanza:</b> {dist:.1f} km</p>"
 
+        # Rendi link cliccabili nella descrizione
+        descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
+
         # Crea popup HTML
         popup_text = f"""
-        <div style='font-family: Arial; width: 250px;'>
+        <div style='font-family: Arial; width: 280px;'>
             <h4>{row['Nome']}</h4>
             <p><b>Categoria:</b> {row.get('Categoria', 'N/A')}</p>
             <p><b>Città:</b> {row.get('Città', 'N/A')}</p>
             <p><b>Citazioni:</b> {row.get('Citazioni', 'N/A')}</p>
             {distance_text}
-            <p><b>Descrizione:</b> {row.get('Descrizione', 'N/A')[:150]}...</p>
-            <a href="{get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])}"
-               target="_blank" style='color: #3498db; text-decoration: none;'>
-               📍 Apri su Google Maps
-            </a>
+            <p><b>Descrizione:</b><br>{descrizione[:200]}...</p>
+            <p>
+                <a href="{get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])}"
+                   target="_blank" style='color: #3498db; text-decoration: none;'>
+                   📍 Vedi su Google Maps
+                </a>
+            </p>
         </div>
         """
 
@@ -395,12 +410,14 @@ if len(df_filtered) > 0:
     if st.checkbox("Mostra descrizioni complete"):
         for idx, row in df_filtered.iterrows():
             with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
-                st.write(f"**Descrizione:** {row.get('Descrizione', 'N/A')}")
+                # Rendi link cliccabili nella descrizione
+                descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
+                st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
                 st.write(f"**Posizione:** {row.get('Posizione', 'N/A')}")
                 if pd.notna(row['Lat']) and pd.notna(row['Lon']):
                     st.write(f"**Coordinate:** {row['Lat']}, {row['Lon']}")
                     st.link_button(
-                        "🔗 Apri su Google Maps",
+                        "📍 Vedi su Google Maps",
                         get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
                     )
 else:
