@@ -325,10 +325,20 @@ esclusione = st.sidebar.text_input(
     help="Esclude luoghi che contengono questo termine nel nome o nella posizione"
 )
 
+# Salva i luoghi esclusi prima di filtrarli
+df_esclusi = df_filtered.copy()
 if esclusione:
     mask_nome = ~df_filtered['Nome'].str.contains(esclusione, case=False, na=False)
     mask_posizione = ~df_filtered['Posizione'].str.contains(esclusione, case=False, na=False)
+    df_esclusi = df_filtered[~(mask_nome & mask_posizione)]
     df_filtered = df_filtered[mask_nome & mask_posizione]
+
+# Mostra elenco esclusi
+show_esclusi = st.sidebar.checkbox("📋 Mostra esclusi", value=False)
+if show_esclusi and len(df_esclusi) > 0:
+    with st.sidebar.expander(f"🚫 Esclusi ({len(df_esclusi)})"):
+        for idx, row in df_esclusi.iterrows():
+            st.write(f"• {row['Nome']}")
 
 # ============= TUA POSIZIONE =============
 st.sidebar.divider()
@@ -427,6 +437,25 @@ with col2:
         mask_nome = df_filtered['Nome'].str.contains(nome_ricerca, case=False, na=False)
         mask_descrizione = df_filtered['Descrizione'].str.contains(nome_ricerca, case=False, na=False)
         df_filtered = df_filtered[mask_nome | mask_descrizione]
+
+    # Modalità di ordinamento
+    ordinamento_options = ["Predefinito"]
+    if user_lat is not None and user_lon is not None and sort_by_distance:
+        ordinamento_options.insert(0, "Distanza")
+
+    ordinamento = st.radio(
+        "📊 Ordinamento",
+        options=ordinamento_options,
+        horizontal=True
+    )
+
+    if ordinamento == "Distanza" and user_lat is not None and user_lon is not None:
+        df_filtered['Distanza_km'] = df_filtered.apply(
+            lambda row: haversine_distance(user_lat, user_lon, row['Lat'], row['Lon'])
+            if pd.notna(row['Lat']) and pd.notna(row['Lon']) else float('inf'),
+            axis=1
+        )
+        df_filtered = df_filtered.sort_values('Distanza_km')
 
     st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
