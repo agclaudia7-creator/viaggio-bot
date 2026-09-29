@@ -7,6 +7,7 @@ import json
 from urllib.parse import quote
 import os
 import io
+from math import radians, cos, sin, asin, sqrt
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -119,7 +120,17 @@ def get_google_maps_url(lat, lon, name):
         # Fallback con nome del luogo
         return f"https://www.google.com/maps/search/{quote(name)}"
 
-def create_map(df_filtered, user_lat=None, user_lon=None):
+def haversine_distance(lat1, lon1, lat2, lon2):
+    """Calcola la distanza in km tra due coordinate usando la formula di Haversine."""
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a))
+    km = 6371 * c
+    return km
+
+def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
     """Crea mappa Folium con i dati filtrati."""
     # Calcola il centro della mappa basato sui dati disponibili
     valid_coords = df_filtered.dropna(subset=['Lat', 'Lon'])
@@ -165,6 +176,12 @@ def create_map(df_filtered, user_lat=None, user_lon=None):
         category = row.get('Categoria', 'altro').lower()
         color = category_colors.get(category, '#95a5a6')
 
+        # Calcola distanza se richiesto
+        distance_text = ""
+        if show_distance and user_lat is not None and user_lon is not None:
+            dist = haversine_distance(user_lat, user_lon, row['Lat'], row['Lon'])
+            distance_text = f"<p><b>Distanza:</b> {dist:.1f} km</p>"
+
         # Crea popup HTML
         popup_text = f"""
         <div style='font-family: Arial; width: 250px;'>
@@ -172,6 +189,7 @@ def create_map(df_filtered, user_lat=None, user_lon=None):
             <p><b>Categoria:</b> {row.get('Categoria', 'N/A')}</p>
             <p><b>Città:</b> {row.get('Città', 'N/A')}</p>
             <p><b>Citazioni:</b> {row.get('Citazioni', 'N/A')}</p>
+            {distance_text}
             <p><b>Descrizione:</b> {row.get('Descrizione', 'N/A')[:150]}...</p>
             <a href="{get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])}"
                target="_blank" style='color: #3498db; text-decoration: none;'>
@@ -302,6 +320,20 @@ elif input_type == "Per Città":
         except Exception as e:
             st.sidebar.error(f"Errore nella geocodifica: {e}")
 
+# Ordinamento per distanza
+sort_by_distance = False
+if user_lat is not None and user_lon is not None:
+    sort_by_distance = st.sidebar.checkbox("📏 Ordina per distanza", value=False)
+    if sort_by_distance:
+        # Calcola distanza per ogni luogo con coordinate
+        df_filtered['Distanza_km'] = df_filtered.apply(
+            lambda row: haversine_distance(user_lat, user_lon, row['Lat'], row['Lon'])
+            if pd.notna(row['Lat']) and pd.notna(row['Lon']) else float('inf'),
+            axis=1
+        )
+        # Ordina per distanza
+        df_filtered = df_filtered.sort_values('Distanza_km')
+
 # ============= MAIN CONTENT =============
 col1, col2 = st.columns([3, 1])
 
@@ -309,7 +341,7 @@ with col1:
     st.subheader(f"📌 Mappa - {len(df_filtered)} Luoghi")
 
     if len(df_filtered) > 0:
-        map_obj = create_map(df_filtered, user_lat, user_lon)
+        map_obj = create_map(df_filtered, user_lat, user_lon, sort_by_distance)
         if map_obj:
             st_folium(map_obj, width=1200, height=600)
     else:
@@ -337,20 +369,26 @@ st.subheader("📋 Elenco Dettagliato")
 if len(df_filtered) > 0:
     # Mostra un'anteprima della tabella
     display_cols = ['Nome', 'Categoria', 'Città', 'Stato', 'Citazioni', 'Nazione_CSV']
+    if sort_by_distance and 'Distanza_km' in df_filtered.columns:
+        display_cols.insert(1, 'Distanza_km')
     df_display = df_filtered[display_cols].copy()
+
+    column_config = {
+        "Nome": st.column_config.TextColumn(width="medium"),
+        "Categoria": st.column_config.TextColumn(width="small"),
+        "Città": st.column_config.TextColumn(width="small"),
+        "Stato": st.column_config.TextColumn(width="small"),
+        "Citazioni": st.column_config.NumberColumn(width="small"),
+        "Nazione_CSV": st.column_config.TextColumn(width="small"),
+    }
+    if sort_by_distance and 'Distanza_km' in df_display.columns:
+        column_config["Distanza_km"] = st.column_config.NumberColumn(width="small", format="%.1f km")
 
     st.dataframe(
         df_display,
         use_container_width=True,
         hide_index=True,
-        column_config={
-            "Nome": st.column_config.TextColumn(width="medium"),
-            "Categoria": st.column_config.TextColumn(width="small"),
-            "Città": st.column_config.TextColumn(width="small"),
-            "Stato": st.column_config.TextColumn(width="small"),
-            "Citazioni": st.column_config.NumberColumn(width="small"),
-            "Nazione_CSV": st.column_config.TextColumn(width="small"),
-        }
+        column_config=column_config
     )
 
     # Opzione per visualizzare descrizioni complete
