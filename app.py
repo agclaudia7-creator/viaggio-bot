@@ -45,15 +45,16 @@ check_password()
 
 st.title("🗺️ Mappa Interattiva - Viaggio Sud-Est Asiatico")
 
-# URL Google Drive dei CSV (condivisi pubblicamente)
-GOOGLE_DRIVE_FOLDER = "https://drive.google.com/uc?id="
+# URL GitHub Pages per i CSV (branch gh-pages)
+GITHUB_PAGES_URL = "https://raw.githubusercontent.com/agclaudia7-creator/viaggio-bot/gh-pages"
 CSV_FILES = {
-    "Thailandia": "1XYZ...",  # Sostituisci con file_id reale
-    "Laos": "1ABC...",
-    "Cambogia": "1DEF...",
-    "Indonesia": "1GHI...",
-    "Malesia": "1JKL...",
-    "Singapore": "1MNO...",
+    "Thailandia": f"{GITHUB_PAGES_URL}/Thailandia.csv",
+    "Laos": f"{GITHUB_PAGES_URL}/Laos.csv",
+    "Cambogia": f"{GITHUB_PAGES_URL}/Cambogia.csv",
+    "Indonesia": f"{GITHUB_PAGES_URL}/Indonesia.csv",
+    "Malesia": f"{GITHUB_PAGES_URL}/Malesia.csv",
+    "Singapore": f"{GITHUB_PAGES_URL}/Singapore.csv",
+    "Luang Prabang": f"{GITHUB_PAGES_URL}/Luang Prabang.csv",
 }
 
 @st.cache_data
@@ -80,7 +81,7 @@ def load_places_data():
 
 @st.cache_data
 def load_csv_data():
-    """Carica i dati dai CSV di MyMaps (locale o Google Drive)."""
+    """Carica i dati dai CSV di MyMaps (locale o GitHub Pages)."""
     all_data = []
 
     # Prova locale prima
@@ -95,18 +96,16 @@ def load_csv_data():
             except Exception as e:
                 st.warning(f"Errore nel caricamento di {csv_file}: {e}")
 
-    # Se non ci sono file locali, prova Google Drive
+    # Se non ci sono file locali, carica da GitHub Pages
     if not all_data:
-        st.info("📶 Caricamento dati da Google Drive...")
-        for nation, file_id in CSV_FILES.items():
-            if file_id.startswith("1"):  # Verifica che sia un ID valido
-                try:
-                    url = f"{GOOGLE_DRIVE_FOLDER}{file_id}"
-                    df = pd.read_csv(url)
-                    df['Nazione_CSV'] = nation
-                    all_data.append(df)
-                except Exception as e:
-                    st.warning(f"Errore nel caricamento da Google Drive ({nation}): {e}")
+        st.info("📶 Caricamento dati da GitHub Pages...")
+        for nation, url in CSV_FILES.items():
+            try:
+                df = pd.read_csv(url)
+                df['Nazione_CSV'] = nation
+                all_data.append(df)
+            except Exception as e:
+                st.warning(f"Errore nel caricamento da GitHub Pages ({nation}): {e}")
 
     if all_data:
         return pd.concat(all_data, ignore_index=True)
