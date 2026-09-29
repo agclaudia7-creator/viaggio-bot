@@ -169,8 +169,32 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
         st.warning("Nessun luogo con coordinate per la visualizzazione sulla mappa.")
         return None
 
-    center_lat = valid_coords['Lat'].mean()
-    center_lon = valid_coords['Lon'].mean()
+    # Determina centro e zoom della mappa
+    if user_lat is not None and user_lon is not None:
+        # Centra sulla posizione dell'utente
+        center_lat = user_lat
+        center_lon = user_lon
+
+        # Calcola il bounding box dei luoghi + posizione utente
+        all_lats = list(valid_coords['Lat']) + [user_lat]
+        all_lons = list(valid_coords['Lon']) + [user_lon]
+
+        min_lat, max_lat = min(all_lats), max(all_lats)
+        min_lon, max_lon = min(all_lons), max(all_lons)
+
+        # Aggiungi padding al bounding box
+        lat_padding = (max_lat - min_lat) * 0.1
+        lon_padding = (max_lon - min_lon) * 0.1
+
+        bounds = [
+            [min_lat - lat_padding, min_lon - lon_padding],
+            [max_lat + lat_padding, max_lon + lon_padding]
+        ]
+    else:
+        # Centra sui luoghi
+        center_lat = valid_coords['Lat'].mean()
+        center_lon = valid_coords['Lon'].mean()
+        bounds = None
 
     # Crea mappa
     m = folium.Map(
@@ -178,6 +202,10 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
         zoom_start=5,
         tiles="OpenStreetMap"
     )
+
+    # Applica il bounding box se disponibile
+    if bounds:
+        m.fit_bounds(bounds)
 
     # Aggiungi bottone per geolocalizzazione automatica
     folium.plugins.LocateControl().add_to(m)
