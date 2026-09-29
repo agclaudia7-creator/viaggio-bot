@@ -250,12 +250,12 @@ if len(df_filtered) > 0:
 nome_ricerca = st.sidebar.text_input(
     "Cerca per Nome",
     placeholder="Es. Bangkok, Waterfall...",
-    help="Ricerca case-insensitive nel nome del luogo"
+    help="Ricerca case-insensitive nel nome e nella descrizione"
 )
 if nome_ricerca:
-    df_filtered = df_filtered[
-        df_filtered['Nome'].str.contains(nome_ricerca, case=False, na=False)
-    ]
+    mask_nome = df_filtered['Nome'].str.contains(nome_ricerca, case=False, na=False)
+    mask_descrizione = df_filtered['Descrizione'].str.contains(nome_ricerca, case=False, na=False)
+    df_filtered = df_filtered[mask_nome | mask_descrizione]
 
 # ============= MAIN CONTENT =============
 col1, col2 = st.columns([3, 1])
