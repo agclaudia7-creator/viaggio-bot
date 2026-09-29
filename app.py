@@ -119,7 +119,7 @@ def get_google_maps_url(lat, lon, name):
         # Fallback con nome del luogo
         return f"https://www.google.com/maps/search/{quote(name)}"
 
-def create_map(df_filtered):
+def create_map(df_filtered, user_lat=None, user_lon=None):
     """Crea mappa Folium con i dati filtrati."""
     # Calcola il centro della mappa basato sui dati disponibili
     valid_coords = df_filtered.dropna(subset=['Lat', 'Lon'])
@@ -137,6 +137,18 @@ def create_map(df_filtered):
         zoom_start=5,
         tiles="OpenStreetMap"
     )
+
+    # Aggiungi bottone per geolocalizzazione automatica
+    folium.plugins.LocateControl().add_to(m)
+
+    # Aggiungi marker per la posizione dell'utente (se fornita)
+    if user_lat is not None and user_lon is not None:
+        folium.Marker(
+            location=[user_lat, user_lon],
+            popup="📍 La tua posizione",
+            icon=folium.Icon(color='blue', icon='user', prefix='fa'),
+            tooltip="La tua posizione attuale"
+        ).add_to(m)
 
     # Colori per categoria
     category_colors = {
@@ -257,6 +269,39 @@ if nome_ricerca:
     mask_descrizione = df_filtered['Descrizione'].str.contains(nome_ricerca, case=False, na=False)
     df_filtered = df_filtered[mask_nome | mask_descrizione]
 
+# ============= TUA POSIZIONE =============
+st.sidebar.divider()
+st.sidebar.title("📍 La tua Posizione")
+
+user_lat = None
+user_lon = None
+
+# Opzione 1: Input manuale
+input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Per Città"])
+
+if input_type == "Manuale (Lat/Lon)":
+    col_lat, col_lon = st.sidebar.columns(2)
+    with col_lat:
+        user_lat = st.number_input("Latitudine", value=None, format="%.6f", help="Es. 13.7563")
+    with col_lon:
+        user_lon = st.number_input("Longitudine", value=None, format="%.6f", help="Es. 100.5018")
+
+elif input_type == "Per Città":
+    citta_input = st.sidebar.text_input("Nome città", placeholder="Es. Bangkok, Chiang Mai...")
+    if citta_input:
+        try:
+            from geopy.geocoders import Nominatim
+            geocoder = Nominatim(user_agent="viaggio_bot")
+            location = geocoder.geocode(citta_input)
+            if location:
+                user_lat = location.latitude
+                user_lon = location.longitude
+                st.sidebar.success(f"✅ {citta_input}: {user_lat:.4f}, {user_lon:.4f}")
+            else:
+                st.sidebar.warning(f"❌ Città '{citta_input}' non trovata")
+        except Exception as e:
+            st.sidebar.error(f"Errore nella geocodifica: {e}")
+
 # ============= MAIN CONTENT =============
 col1, col2 = st.columns([3, 1])
 
@@ -264,7 +309,7 @@ with col1:
     st.subheader(f"📌 Mappa - {len(df_filtered)} Luoghi")
 
     if len(df_filtered) > 0:
-        map_obj = create_map(df_filtered)
+        map_obj = create_map(df_filtered, user_lat, user_lon)
         if map_obj:
             st_folium(map_obj, width=1200, height=600)
     else:
