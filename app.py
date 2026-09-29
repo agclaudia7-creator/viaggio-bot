@@ -374,7 +374,7 @@ if user_lat is not None and user_lon is not None:
         df_filtered = df_filtered.sort_values('Distanza_km')
 
 # ============= MAIN CONTENT =============
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([1, 1])
 
 with col1:
     st.subheader(f"📌 Mappa - {len(df_filtered)} Luoghi")
@@ -382,7 +382,7 @@ with col1:
     if len(df_filtered) > 0:
         map_obj = create_map(df_filtered, user_lat, user_lon, sort_by_distance)
         if map_obj:
-            st_folium(map_obj, width=1200, height=600)
+            st_folium(map_obj, width=600, height=600)
     else:
         st.warning("Nessun luogo corrisponde ai filtri selezionati.")
 
