@@ -265,43 +265,6 @@ selected_categorie = st.sidebar.multiselect(
 if selected_categorie:
     df_filtered = df_filtered[df_filtered['Categoria'].isin(selected_categorie)]
 
-# Filtro Stato
-stati = sorted(df_filtered['Stato'].unique())
-selected_stati = st.sidebar.multiselect(
-    "Seleziona Stato/i",
-    options=stati,
-    default=stati,
-    help="da_fare, visitato, ecc."
-)
-
-if selected_stati:
-    df_filtered = df_filtered[df_filtered['Stato'].isin(selected_stati)]
-
-# Filtro Citazioni (range)
-if len(df_filtered) > 0:
-    citazioni_min, citazioni_max = st.sidebar.slider(
-        "Filtro Citazioni",
-        min_value=int(df_filtered['Citazioni'].min()),
-        max_value=int(df_filtered['Citazioni'].max()),
-        value=(int(df_filtered['Citazioni'].min()), int(df_filtered['Citazioni'].max())),
-        help="Mostra solo luoghi menzionati N volte"
-    )
-    df_filtered = df_filtered[
-        (df_filtered['Citazioni'] >= citazioni_min) &
-        (df_filtered['Citazioni'] <= citazioni_max)
-    ]
-
-# Filtro Nome (ricerca testuale)
-nome_ricerca = st.sidebar.text_input(
-    "Cerca per Nome",
-    placeholder="Es. Bangkok, Waterfall...",
-    help="Ricerca case-insensitive nel nome e nella descrizione"
-)
-if nome_ricerca:
-    mask_nome = df_filtered['Nome'].str.contains(nome_ricerca, case=False, na=False)
-    mask_descrizione = df_filtered['Descrizione'].str.contains(nome_ricerca, case=False, na=False)
-    df_filtered = df_filtered[mask_nome | mask_descrizione]
-
 # ============= TUA POSIZIONE =============
 st.sidebar.divider()
 st.sidebar.title("📍 La tua Posizione")
@@ -363,10 +326,34 @@ with col1:
         st.warning("Nessun luogo corrisponde ai filtri selezionati.")
 
 with col2:
+    # Filtro Citazioni
+    if len(df_filtered) > 0:
+        citazioni_min, citazioni_max = st.slider(
+            "Citazioni",
+            min_value=int(df_filtered['Citazioni'].min()),
+            max_value=int(df_filtered['Citazioni'].max()),
+            value=(int(df_filtered['Citazioni'].min()), int(df_filtered['Citazioni'].max()))
+        )
+        df_filtered = df_filtered[
+            (df_filtered['Citazioni'] >= citazioni_min) &
+            (df_filtered['Citazioni'] <= citazioni_max)
+        ]
+
+    # Filtro Nome (ricerca testuale)
+    nome_ricerca = st.text_input(
+        "🔍 Cerca",
+        placeholder="Nome, descrizione...",
+        help="Ricerca nel nome e descrizione"
+    )
+    if nome_ricerca:
+        mask_nome = df_filtered['Nome'].str.contains(nome_ricerca, case=False, na=False)
+        mask_descrizione = df_filtered['Descrizione'].str.contains(nome_ricerca, case=False, na=False)
+        df_filtered = df_filtered[mask_nome | mask_descrizione]
+
     st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
     # Container scrollabile con altezza fissa (come la mappa)
-    with st.container(height=600):
+    with st.container(height=450):
         if len(df_filtered) > 0:
             for idx, row in df_filtered.iterrows():
                 with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
