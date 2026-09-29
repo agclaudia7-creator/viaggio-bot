@@ -273,7 +273,7 @@ user_lat = None
 user_lon = None
 
 # Opzione 1: Input manuale
-input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Per Città"])
+input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
 
 if input_type == "Manuale (Lat/Lon)":
     col_lat, col_lon = st.sidebar.columns(2)
@@ -282,21 +282,40 @@ if input_type == "Manuale (Lat/Lon)":
     with col_lon:
         user_lon = st.number_input("Longitudine", value=None, format="%.6f", help="Es. 100.5018")
 
-elif input_type == "Per Città":
-    citta_input = st.sidebar.text_input("Nome città", placeholder="Es. Bangkok, Chiang Mai...")
-    if citta_input:
+elif input_type == "Nome/Link Maps":
+    location_input = st.sidebar.text_input(
+        "Nome luogo o link Google Maps",
+        placeholder="Es. Bangkok oppure maps.google.com/...",
+        help="Scrivi il nome di una città o incolla un link di Google Maps"
+    )
+    if location_input:
         try:
-            from geopy.geocoders import Nominatim
-            geocoder = Nominatim(user_agent="viaggio_bot")
-            location = geocoder.geocode(citta_input)
-            if location:
-                user_lat = location.latitude
-                user_lon = location.longitude
-                st.sidebar.success(f"✅ {citta_input}: {user_lat:.4f}, {user_lon:.4f}")
-            else:
-                st.sidebar.warning(f"❌ Città '{citta_input}' non trovata")
+            # Prova a estrarre coordinate da link Google Maps
+            coords_found = False
+
+            # Regex per estrarre coordinate dal link (es. /@13.7563,100.5018,)
+            import re
+            coord_pattern = r'/@([-+]?\d+\.\d+),([-+]?\d+\.\d+)'
+            match = re.search(coord_pattern, location_input)
+            if match:
+                user_lat = float(match.group(1))
+                user_lon = float(match.group(2))
+                coords_found = True
+                st.sidebar.success(f"✅ Coordinate estratte: {user_lat:.4f}, {user_lon:.4f}")
+
+            # Se non trovo coordinate nel link, provo a geocodificare il nome
+            if not coords_found:
+                from geopy.geocoders import Nominatim
+                geocoder = Nominatim(user_agent="viaggio_bot")
+                location = geocoder.geocode(location_input)
+                if location:
+                    user_lat = location.latitude
+                    user_lon = location.longitude
+                    st.sidebar.success(f"✅ {location_input}: {user_lat:.4f}, {user_lon:.4f}")
+                else:
+                    st.sidebar.warning(f"❌ Posizione '{location_input}' non trovata")
         except Exception as e:
-            st.sidebar.error(f"Errore nella geocodifica: {e}")
+            st.sidebar.error(f"Errore: {e}")
 
 # Ordinamento per distanza
 sort_by_distance = False
