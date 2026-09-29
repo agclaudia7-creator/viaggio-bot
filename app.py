@@ -10,6 +10,39 @@ import io
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
+
+# Password per l'app
+PASSWORD = "viaggi2026"
+
+# Controllo autenticazione
+def check_password():
+    """Controlla se l'utente ha inserito la password corretta."""
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.markdown("""
+        <div style='text-align: center; padding: 50px;'>
+            <h1>🗺️ Mappa Interattiva - Viaggio Sud-Est Asiatico</h1>
+            <p style='font-size: 18px; color: #666;'>Accedi per visualizzare la mappa</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            password = st.text_input("🔐 Password", type="password", placeholder="Inserisci password")
+            if st.button("🔓 Accedi", use_container_width=True):
+                if password == PASSWORD:
+                    st.session_state.authenticated = True
+                    st.rerun()
+                else:
+                    st.error("❌ Password errata. Riprova!")
+
+        st.stop()
+
+# Verifica password
+check_password()
+
 st.title("🗺️ Mappa Interattiva - Viaggio Sud-Est Asiatico")
 
 # URL Google Drive dei CSV (condivisi pubblicamente)
