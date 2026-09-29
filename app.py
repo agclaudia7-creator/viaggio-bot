@@ -9,6 +9,7 @@ import os
 import io
 from math import radians, cos, sin, asin, sqrt
 import re
+import requests
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -129,6 +130,25 @@ def make_links_clickable(text):
     url_pattern = r'(https?://[^\s<>"{}|\\^`\[\]]*)'
     text = re.sub(url_pattern, r'<a href="\1" target="_blank" style="color: #3498db;">🔗 Link</a>', text)
     return text
+
+def extract_coords_from_maps_url(url):
+    """Estrae coordinate da URL Google Maps (risolve anche short link)."""
+    try:
+        # Se è uno short link, risolvilo
+        if "maps.app.goo.gl" in url or "goo.gl" in url:
+            response = requests.head(url, allow_redirects=True, timeout=5)
+            url = response.url
+
+        # Regex per estrarre coordinate dal link risotto
+        coord_pattern = r'/@([-+]?\d+\.\d+),([-+]?\d+\.\d+)'
+        match = re.search(coord_pattern, url)
+        if match:
+            lat = float(match.group(1))
+            lon = float(match.group(2))
+            return lat, lon
+    except Exception as e:
+        pass
+    return None, None
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calcola la distanza in km tra due coordinate usando la formula di Haversine."""
@@ -285,26 +305,20 @@ if input_type == "Manuale (Lat/Lon)":
 elif input_type == "Nome/Link Maps":
     location_input = st.sidebar.text_input(
         "Nome luogo o link Google Maps",
-        placeholder="Es. Bangkok oppure maps.google.com/...",
-        help="Scrivi il nome di una città o incolla un link di Google Maps"
+        placeholder="Es. Bangkok oppure maps.app.goo.gl/...",
+        help="Scrivi il nome di una città o incolla un link di Google Maps (anche short link)"
     )
     if location_input:
         try:
-            # Prova a estrarre coordinate da link Google Maps
-            coords_found = False
+            # Prova a estrarre coordinate da link Google Maps (anche short link)
+            lat, lon = extract_coords_from_maps_url(location_input)
 
-            # Regex per estrarre coordinate dal link (es. /@13.7563,100.5018,)
-            import re
-            coord_pattern = r'/@([-+]?\d+\.\d+),([-+]?\d+\.\d+)'
-            match = re.search(coord_pattern, location_input)
-            if match:
-                user_lat = float(match.group(1))
-                user_lon = float(match.group(2))
-                coords_found = True
+            if lat is not None and lon is not None:
+                user_lat = lat
+                user_lon = lon
                 st.sidebar.success(f"✅ Coordinate estratte: {user_lat:.4f}, {user_lon:.4f}")
-
-            # Se non trovo coordinate nel link, provo a geocodificare il nome
-            if not coords_found:
+            else:
+                # Se non trovo coordinate nel link, provo a geocodificare il nome
                 from geopy.geocoders import Nominatim
                 geocoder = Nominatim(user_agent="viaggio_bot")
                 location = geocoder.geocode(location_input)
