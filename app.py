@@ -393,9 +393,7 @@ with col2:
                     # Rendi link cliccabili nella descrizione
                     descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
                     st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
-                    st.write(f"**Posizione:** {row.get('Posizione', 'N/A')}")
                     if pd.notna(row['Lat']) and pd.notna(row['Lon']):
-                        st.write(f"**Coordinate:** {row['Lat']}, {row['Lon']}")
                         st.link_button(
                             "📍 Vedi su Google Maps",
                             get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
