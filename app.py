@@ -363,51 +363,9 @@ with col1:
         st.warning("Nessun luogo corrisponde ai filtri selezionati.")
 
 with col2:
-    st.subheader("📊 Statistiche")
-    st.metric("Totale Luoghi", len(df_filtered))
+    st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
     if len(df_filtered) > 0:
-        st.write("**Per Categoria:**")
-        cat_counts = df_filtered['Categoria'].value_counts()
-        for cat, count in cat_counts.items():
-            st.write(f"• {cat}: {count}")
-
-        st.write("\n**Per Stato:**")
-        stato_counts = df_filtered['Stato'].value_counts()
-        for stato, count in stato_counts.items():
-            st.write(f"• {stato}: {count}")
-
-# ============= TABELLA DETTAGLIATA =============
-st.divider()
-st.subheader("📋 Elenco Dettagliato")
-
-if len(df_filtered) > 0:
-    # Mostra un'anteprima della tabella
-    display_cols = ['Nome', 'Categoria', 'Città', 'Stato', 'Citazioni', 'Nazione_CSV']
-    if sort_by_distance and 'Distanza_km' in df_filtered.columns:
-        display_cols.insert(1, 'Distanza_km')
-    df_display = df_filtered[display_cols].copy()
-
-    column_config = {
-        "Nome": st.column_config.TextColumn(width="medium"),
-        "Categoria": st.column_config.TextColumn(width="small"),
-        "Città": st.column_config.TextColumn(width="small"),
-        "Stato": st.column_config.TextColumn(width="small"),
-        "Citazioni": st.column_config.NumberColumn(width="small"),
-        "Nazione_CSV": st.column_config.TextColumn(width="small"),
-    }
-    if sort_by_distance and 'Distanza_km' in df_display.columns:
-        column_config["Distanza_km"] = st.column_config.NumberColumn(width="small", format="%.1f km")
-
-    st.dataframe(
-        df_display,
-        use_container_width=True,
-        hide_index=True,
-        column_config=column_config
-    )
-
-    # Opzione per visualizzare descrizioni complete
-    if st.checkbox("Mostra descrizioni complete"):
         for idx, row in df_filtered.iterrows():
             with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
                 # Rendi link cliccabili nella descrizione
@@ -420,8 +378,9 @@ if len(df_filtered) > 0:
                         "📍 Vedi su Google Maps",
                         get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
                     )
-else:
-    st.info("Nessun luogo disponibile per questa selezione.")
+    else:
+        st.info("Nessun luogo disponibile")
+
 
 # ============= FOOTER =============
 st.divider()
