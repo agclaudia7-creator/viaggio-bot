@@ -330,7 +330,7 @@ if "reinclusti" not in st.session_state:
     st.session_state.reinclusti = set()
 
 # Salva i luoghi esclusi prima di filtrarli
-df_esclusi = df_filtered.copy()
+df_esclusi = pd.DataFrame()
 if esclusione:
     mask_nome = df_filtered['Nome'].str.contains(esclusione, case=False, na=False)
     mask_posizione = df_filtered['Posizione'].str.contains(esclusione, case=False, na=False)
@@ -341,25 +341,32 @@ if esclusione:
     df_esclusi = df_filtered[mask_esclusione].copy()
 
     # Rimuovi dai filtrati quelli non reinclusti
-    df_esclusi_permanenti = df_esclusi[~df_esclusi['id'].isin(st.session_state.reinclusti)] if 'id' in df_esclusi.columns else df_esclusi
-    df_filtered = df_filtered[~mask_esclusione | df_filtered['id'].isin(st.session_state.reinclusti)] if 'id' in df_filtered.columns else df_filtered[~mask_esclusione]
+    df_filtered = df_filtered[~mask_esclusione | df_filtered['Nome'].isin(st.session_state.reinclusti)]
 
 # Mostra elenco esclusi
 show_esclusi = st.sidebar.checkbox("📋 Mostra esclusi", value=False)
 if show_esclusi and len(df_esclusi) > 0:
     with st.sidebar.expander(f"🚫 Esclusi ({len(df_esclusi)})"):
+        checkbox_changed = False
         for idx, row in df_esclusi.iterrows():
-            row_id = row.get('id', idx)
-            is_reincluded = row_id in st.session_state.reinclusti
+            nome = row['Nome']
+            is_reincluded = nome in st.session_state.reinclusti
 
             if st.checkbox(
-                f"✓ {row['Nome']}",
+                f"✓ {nome}",
                 value=is_reincluded,
-                key=f"reincl_{row_id}"
+                key=f"reincl_{nome}_{idx}"
             ):
-                st.session_state.reinclusti.add(row_id)
+                if nome not in st.session_state.reinclusti:
+                    st.session_state.reinclusti.add(nome)
+                    checkbox_changed = True
             else:
-                st.session_state.reinclusti.discard(row_id)
+                if nome in st.session_state.reinclusti:
+                    st.session_state.reinclusti.discard(nome)
+                    checkbox_changed = True
+
+        if checkbox_changed:
+            st.rerun()
 
 # ============= TUA POSIZIONE =============
 st.sidebar.divider()
