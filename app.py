@@ -283,7 +283,53 @@ if df.empty:
     st.error("Nessun dato trovato. Verifica che i file CSV siano presenti in MyMaps/")
     st.stop()
 
+# ============= SIDEBAR - TUA POSIZIONE =============
+st.sidebar.title("📍 La tua Posizione")
+
+user_lat = None
+user_lon = None
+
+# Opzione 1: Input manuale
+input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
+
+if input_type == "Manuale (Lat/Lon)":
+    col_lat, col_lon = st.sidebar.columns(2)
+    with col_lat:
+        user_lat = st.number_input("Latitudine", value=None, format="%.6f", help="Es. 13.7563")
+    with col_lon:
+        user_lon = st.number_input("Longitudine", value=None, format="%.6f", help="Es. 100.5018")
+
+elif input_type == "Nome/Link Maps":
+    location_input = st.sidebar.text_input(
+        "Nome luogo o link Google Maps",
+        placeholder="Es. Bangkok oppure maps.app.goo.gl/...",
+        help="Scrivi il nome di una città o incolla un link di Google Maps (anche short link)"
+    )
+    if location_input:
+        try:
+            # Prova a estrarre coordinate da link Google Maps (anche short link)
+            lat, lon = extract_coords_from_maps_url(location_input)
+
+            if lat is not None and lon is not None:
+                user_lat = lat
+                user_lon = lon
+                st.sidebar.success(f"✅ Coordinate estratte: {user_lat:.4f}, {user_lon:.4f}")
+            else:
+                # Se non trovo coordinate nel link, provo a geocodificare il nome
+                from geopy.geocoders import Nominatim
+                geocoder = Nominatim(user_agent="viaggio_bot")
+                location = geocoder.geocode(location_input)
+                if location:
+                    user_lat = location.latitude
+                    user_lon = location.longitude
+                    st.sidebar.success(f"✅ {location_input}: {user_lat:.4f}, {user_lon:.4f}")
+                else:
+                    st.sidebar.warning(f"❌ Posizione '{location_input}' non trovata")
+        except Exception as e:
+            st.sidebar.error(f"Errore: {e}")
+
 # ============= SIDEBAR - FILTRI =============
+st.sidebar.divider()
 st.sidebar.title("🔍 Filtri")
 
 # Filtro Nazione
@@ -379,66 +425,6 @@ if show_esclusi and len(df_esclusi) > 0:
         if checkbox_changed:
             st.rerun()
 
-# ============= TUA POSIZIONE =============
-st.sidebar.divider()
-st.sidebar.title("📍 La tua Posizione")
-
-user_lat = None
-user_lon = None
-
-# Opzione 1: Input manuale
-input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
-
-if input_type == "Manuale (Lat/Lon)":
-    col_lat, col_lon = st.sidebar.columns(2)
-    with col_lat:
-        user_lat = st.number_input("Latitudine", value=None, format="%.6f", help="Es. 13.7563")
-    with col_lon:
-        user_lon = st.number_input("Longitudine", value=None, format="%.6f", help="Es. 100.5018")
-
-elif input_type == "Nome/Link Maps":
-    location_input = st.sidebar.text_input(
-        "Nome luogo o link Google Maps",
-        placeholder="Es. Bangkok oppure maps.app.goo.gl/...",
-        help="Scrivi il nome di una città o incolla un link di Google Maps (anche short link)"
-    )
-    if location_input:
-        try:
-            # Prova a estrarre coordinate da link Google Maps (anche short link)
-            lat, lon = extract_coords_from_maps_url(location_input)
-
-            if lat is not None and lon is not None:
-                user_lat = lat
-                user_lon = lon
-                st.sidebar.success(f"✅ Coordinate estratte: {user_lat:.4f}, {user_lon:.4f}")
-            else:
-                # Se non trovo coordinate nel link, provo a geocodificare il nome
-                from geopy.geocoders import Nominatim
-                geocoder = Nominatim(user_agent="viaggio_bot")
-                location = geocoder.geocode(location_input)
-                if location:
-                    user_lat = location.latitude
-                    user_lon = location.longitude
-                    st.sidebar.success(f"✅ {location_input}: {user_lat:.4f}, {user_lon:.4f}")
-                else:
-                    st.sidebar.warning(f"❌ Posizione '{location_input}' non trovata")
-        except Exception as e:
-            st.sidebar.error(f"Errore: {e}")
-
-# Ordinamento per distanza
-sort_by_distance = False
-if user_lat is not None and user_lon is not None:
-    sort_by_distance = st.sidebar.checkbox("📏 Ordina per distanza", value=False)
-    if sort_by_distance:
-        # Calcola distanza per ogni luogo con coordinate
-        df_filtered['Distanza_km'] = df_filtered.apply(
-            lambda row: haversine_distance(user_lat, user_lon, row['Lat'], row['Lon'])
-            if pd.notna(row['Lat']) and pd.notna(row['Lon']) else float('inf'),
-            axis=1
-        )
-        # Ordina per distanza
-        df_filtered = df_filtered.sort_values('Distanza_km')
-
 # ============= MAIN CONTENT =============
 col1, col2 = st.columns([2, 1])
 
@@ -478,9 +464,9 @@ with col2:
         df_filtered = df_filtered[mask_nome | mask_descrizione]
 
     # Modalità di ordinamento
-    ordinamento_options = ["Predefinito"]
-    if user_lat is not None and user_lon is not None and sort_by_distance:
-        ordinamento_options.insert(0, "Distanza")
+    ordinamento_options = ["Predefinito", "Citazioni ↓", "Citazioni ↑"]
+    if user_lat is not None and user_lon is not None:
+        ordinamento_options.append("Distanza")
 
     ordinamento = st.radio(
         "📊 Ordinamento",
@@ -495,6 +481,10 @@ with col2:
             axis=1
         )
         df_filtered = df_filtered.sort_values('Distanza_km')
+    elif ordinamento == "Citazioni ↓":
+        df_filtered = df_filtered.sort_values('Citazioni', ascending=False)
+    elif ordinamento == "Citazioni ↑":
+        df_filtered = df_filtered.sort_values('Citazioni', ascending=True)
 
     st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
