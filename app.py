@@ -135,7 +135,7 @@ def create_map(df_filtered):
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=5,
-        tiles="CartoDB positron"
+        tiles="OpenStreetMap"
     )
 
     # Colori per categoria
