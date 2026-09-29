@@ -352,18 +352,29 @@ if show_esclusi and len(df_esclusi) > 0:
             nome = row['Nome']
             is_reincluded = nome in st.session_state.reinclusti
 
-            if st.checkbox(
-                f"✓ {nome}",
-                value=is_reincluded,
-                key=f"reincl_{nome}_{idx}"
-            ):
-                if nome not in st.session_state.reinclusti:
-                    st.session_state.reinclusti.add(nome)
-                    checkbox_changed = True
-            else:
-                if nome in st.session_state.reinclusti:
-                    st.session_state.reinclusti.discard(nome)
-                    checkbox_changed = True
+            col1, col2 = st.columns([0.8, 0.2])
+
+            with col1:
+                if st.checkbox(
+                    f"✓ {nome}",
+                    value=is_reincluded,
+                    key=f"reincl_{nome}_{idx}"
+                ):
+                    if nome not in st.session_state.reinclusti:
+                        st.session_state.reinclusti.add(nome)
+                        checkbox_changed = True
+                else:
+                    if nome in st.session_state.reinclusti:
+                        st.session_state.reinclusti.discard(nome)
+                        checkbox_changed = True
+
+            with col2:
+                if pd.notna(row.get('Lat')) and pd.notna(row.get('Lon')):
+                    st.link_button(
+                        "📍",
+                        get_google_maps_url(row['Lat'], row['Lon'], nome),
+                        help="Apri su Google Maps"
+                    )
 
         if checkbox_changed:
             st.rerun()
