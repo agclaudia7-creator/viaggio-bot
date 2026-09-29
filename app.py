@@ -317,6 +317,19 @@ selected_categorie = st.sidebar.multiselect(
 if selected_categorie:
     df_filtered = df_filtered[df_filtered['Categoria'].isin(selected_categorie)]
 
+# Filtro Esclusione
+esclusione = st.sidebar.text_input(
+    "🚫 Escludi termine",
+    value="Borneo",
+    placeholder="Es. Borneo",
+    help="Esclude luoghi che contengono questo termine nel nome o nella posizione"
+)
+
+if esclusione:
+    mask_nome = ~df_filtered['Nome'].str.contains(esclusione, case=False, na=False)
+    mask_posizione = ~df_filtered['Posizione'].str.contains(esclusione, case=False, na=False)
+    df_filtered = df_filtered[mask_nome & mask_posizione]
+
 # ============= TUA POSIZIONE =============
 st.sidebar.divider()
 st.sidebar.title("📍 La tua Posizione")
