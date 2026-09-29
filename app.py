@@ -288,10 +288,14 @@ st.sidebar.title("🔍 Filtri")
 
 # Filtro Nazione
 nazioni = sorted(df['Nazione_CSV'].unique())
+# Di default seleziona Malesia e Singapore
+default_nazioni = [n for n in nazioni if n in ["Malesia", "Singapore"]]
+if not default_nazioni:
+    default_nazioni = nazioni[:1] if nazioni else []
 selected_nazioni = st.sidebar.multiselect(
     "Seleziona Nazione/i",
     options=nazioni,
-    default=nazioni[:1] if nazioni else [],
+    default=default_nazioni,
     help="Scegli una o più nazioni da visualizzare"
 )
 
