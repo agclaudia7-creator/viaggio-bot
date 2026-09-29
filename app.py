@@ -160,7 +160,7 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     km = 6371 * c
     return km
 
-def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
+def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False, zoom_luogo_nome=None):
     """Crea mappa Folium con i dati filtrati."""
     # Calcola il centro della mappa basato sui dati disponibili
     valid_coords = df_filtered.dropna(subset=['Lat', 'Lon'])
@@ -169,8 +169,24 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
         st.warning("Nessun luogo con coordinate per la visualizzazione sulla mappa.")
         return None
 
+    # Se è stato selezionato un luogo specifico per lo zoom
+    if zoom_luogo_nome:
+        luogo_zoom = df_filtered[df_filtered['Nome'] == zoom_luogo_nome]
+        if len(luogo_zoom) > 0:
+            row = luogo_zoom.iloc[0]
+            center_lat = row['Lat']
+            center_lon = row['Lon']
+            bounds = [
+                [center_lat - 0.02, center_lon - 0.02],
+                [center_lat + 0.02, center_lon + 0.02]
+            ]
+        else:
+            # Fallback se il luogo non esiste
+            center_lat = valid_coords['Lat'].mean()
+            center_lon = valid_coords['Lon'].mean()
+            bounds = None
     # Determina centro e bounds della mappa
-    if user_lat is not None and user_lon is not None:
+    elif user_lat is not None and user_lon is not None:
         # Centra sulla posizione dell'utente
         center_lat = user_lat
         center_lon = user_lon
@@ -178,24 +194,37 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
         # Calcola il bounding box dei luoghi + posizione utente
         all_lats = list(valid_coords['Lat']) + [user_lat]
         all_lons = list(valid_coords['Lon']) + [user_lon]
+
+        min_lat, max_lat = min(all_lats), max(all_lats)
+        min_lon, max_lon = min(all_lons), max(all_lons)
+
+        # Aggiungi padding al bounding box (5%)
+        lat_padding = (max_lat - min_lat) * 0.05
+        lon_padding = (max_lon - min_lon) * 0.05
+
+        bounds = [
+            [min_lat - lat_padding, min_lon - lon_padding],
+            [max_lat + lat_padding, max_lon + lon_padding]
+        ]
     else:
         # Centra sui luoghi
         center_lat = valid_coords['Lat'].mean()
         center_lon = valid_coords['Lon'].mean()
+
         all_lats = list(valid_coords['Lat'])
         all_lons = list(valid_coords['Lon'])
 
-    min_lat, max_lat = min(all_lats), max(all_lats)
-    min_lon, max_lon = min(all_lons), max(all_lons)
+        min_lat, max_lat = min(all_lats), max(all_lats)
+        min_lon, max_lon = min(all_lons), max(all_lons)
 
-    # Aggiungi padding al bounding box (5%)
-    lat_padding = (max_lat - min_lat) * 0.05
-    lon_padding = (max_lon - min_lon) * 0.05
+        # Aggiungi padding al bounding box (5%)
+        lat_padding = (max_lat - min_lat) * 0.05
+        lon_padding = (max_lon - min_lon) * 0.05
 
-    bounds = [
-        [min_lat - lat_padding, min_lon - lon_padding],
-        [max_lat + lat_padding, max_lon + lon_padding]
-    ]
+        bounds = [
+            [min_lat - lat_padding, min_lon - lon_padding],
+            [max_lat + lat_padding, max_lon + lon_padding]
+        ]
 
     # Crea mappa
     m = folium.Map(
@@ -205,7 +234,8 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False):
     )
 
     # Applica fit_bounds per zoommare automaticamente sui contenuti
-    m.fit_bounds(bounds)
+    if bounds:
+        m.fit_bounds(bounds)
 
     # Aggiungi bottone per geolocalizzazione automatica
     folium.plugins.LocateControl().add_to(m)
@@ -351,6 +381,11 @@ if not selected_nazioni:
 
 df_filtered = df[df['Nazione_CSV'].isin(selected_nazioni)]
 
+# Inizializza variabili per lo zoom su luogo specifico
+sort_by_distance = False
+if "zoom_luogo" not in st.session_state:
+    st.session_state.zoom_luogo = None
+
 # Filtro Categoria
 categorie = sorted(df_filtered['Categoria'].unique())
 selected_categorie = st.sidebar.multiselect(
@@ -398,7 +433,7 @@ if show_esclusi and len(df_esclusi) > 0:
             nome = row['Nome']
             is_reincluded = nome in st.session_state.reinclusti
 
-            col1, col2 = st.columns([0.8, 0.2])
+            col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
 
             with col1:
                 if st.checkbox(
@@ -416,6 +451,12 @@ if show_esclusi and len(df_esclusi) > 0:
 
             with col2:
                 if pd.notna(row.get('Lat')) and pd.notna(row.get('Lon')):
+                    if st.button("🔍", key=f"zoom_{nome}_{idx}", help="Zoom su questo luogo"):
+                        st.session_state.zoom_luogo = nome
+                        st.rerun()
+
+            with col3:
+                if pd.notna(row.get('Lat')) and pd.notna(row.get('Lon')):
                     st.link_button(
                         "📍",
                         get_google_maps_url(row['Lat'], row['Lon'], nome),
@@ -432,7 +473,7 @@ with col1:
     st.subheader(f"📌 Mappa - {len(df_filtered)} Luoghi")
 
     if len(df_filtered) > 0:
-        map_obj = create_map(df_filtered, user_lat, user_lon, sort_by_distance)
+        map_obj = create_map(df_filtered, user_lat, user_lon, sort_by_distance, st.session_state.zoom_luogo)
         if map_obj:
             st_folium(map_obj, width=600, height=600)
     else:
@@ -496,13 +537,29 @@ with col2:
                     # Rendi link cliccabili nella descrizione
                     descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
                     st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
-                    if pd.notna(row['Lat']) and pd.notna(row['Lon']):
-                        st.link_button(
-                            "📍 Vedi su Google Maps",
-                            get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
-                        )
+
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                            if st.button(f"🔍 Zoom", key=f"zoom_main_{row['Nome']}_{idx}", use_container_width=True):
+                                st.session_state.zoom_luogo = row['Nome']
+                                st.rerun()
+                    with col2:
+                        if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                            st.link_button(
+                                "📍 Google Maps",
+                                get_google_maps_url(row['Lat'], row['Lon'], row['Nome']),
+                                use_container_width=True
+                            )
         else:
             st.info("Nessun luogo disponibile")
+
+    # Pulsante per resettare zoom
+    if st.session_state.zoom_luogo is not None:
+        st.divider()
+        if st.button("🔄 Reset zoom", use_container_width=True):
+            st.session_state.zoom_luogo = None
+            st.rerun()
 
 
 # ============= FOOTER =============
