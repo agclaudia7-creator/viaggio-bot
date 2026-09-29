@@ -322,23 +322,44 @@ esclusione = st.sidebar.text_input(
     "🚫 Escludi termine",
     value="Borneo",
     placeholder="Es. Borneo",
-    help="Esclude luoghi che contengono questo termine nel nome o nella posizione"
+    help="Esclude luoghi che contengono questo termine nel nome, posizione o descrizione"
 )
+
+# Inizializza session_state per i luoghi reinclusti
+if "reinclusti" not in st.session_state:
+    st.session_state.reinclusti = set()
 
 # Salva i luoghi esclusi prima di filtrarli
 df_esclusi = df_filtered.copy()
 if esclusione:
-    mask_nome = ~df_filtered['Nome'].str.contains(esclusione, case=False, na=False)
-    mask_posizione = ~df_filtered['Posizione'].str.contains(esclusione, case=False, na=False)
-    df_esclusi = df_filtered[~(mask_nome & mask_posizione)]
-    df_filtered = df_filtered[mask_nome & mask_posizione]
+    mask_nome = df_filtered['Nome'].str.contains(esclusione, case=False, na=False)
+    mask_posizione = df_filtered['Posizione'].str.contains(esclusione, case=False, na=False)
+    mask_descrizione = df_filtered['Descrizione'].str.contains(esclusione, case=False, na=False)
+
+    # Esclude se il termine compare in nome, posizione O descrizione
+    mask_esclusione = mask_nome | mask_posizione | mask_descrizione
+    df_esclusi = df_filtered[mask_esclusione].copy()
+
+    # Rimuovi dai filtrati quelli non reinclusti
+    df_esclusi_permanenti = df_esclusi[~df_esclusi['id'].isin(st.session_state.reinclusti)] if 'id' in df_esclusi.columns else df_esclusi
+    df_filtered = df_filtered[~mask_esclusione | df_filtered['id'].isin(st.session_state.reinclusti)] if 'id' in df_filtered.columns else df_filtered[~mask_esclusione]
 
 # Mostra elenco esclusi
 show_esclusi = st.sidebar.checkbox("📋 Mostra esclusi", value=False)
 if show_esclusi and len(df_esclusi) > 0:
     with st.sidebar.expander(f"🚫 Esclusi ({len(df_esclusi)})"):
         for idx, row in df_esclusi.iterrows():
-            st.write(f"• {row['Nome']}")
+            row_id = row.get('id', idx)
+            is_reincluded = row_id in st.session_state.reinclusti
+
+            if st.checkbox(
+                f"✓ {row['Nome']}",
+                value=is_reincluded,
+                key=f"reincl_{row_id}"
+            ):
+                st.session_state.reinclusti.add(row_id)
+            else:
+                st.session_state.reinclusti.discard(row_id)
 
 # ============= TUA POSIZIONE =============
 st.sidebar.divider()
