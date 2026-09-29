@@ -365,21 +365,23 @@ with col1:
 with col2:
     st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
-    if len(df_filtered) > 0:
-        for idx, row in df_filtered.iterrows():
-            with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
-                # Rendi link cliccabili nella descrizione
-                descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
-                st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
-                st.write(f"**Posizione:** {row.get('Posizione', 'N/A')}")
-                if pd.notna(row['Lat']) and pd.notna(row['Lon']):
-                    st.write(f"**Coordinate:** {row['Lat']}, {row['Lon']}")
-                    st.link_button(
-                        "📍 Vedi su Google Maps",
-                        get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
-                    )
-    else:
-        st.info("Nessun luogo disponibile")
+    # Container scrollabile con altezza fissa (come la mappa)
+    with st.container(height=600):
+        if len(df_filtered) > 0:
+            for idx, row in df_filtered.iterrows():
+                with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
+                    # Rendi link cliccabili nella descrizione
+                    descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
+                    st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
+                    st.write(f"**Posizione:** {row.get('Posizione', 'N/A')}")
+                    if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                        st.write(f"**Coordinate:** {row['Lat']}, {row['Lon']}")
+                        st.link_button(
+                            "📍 Vedi su Google Maps",
+                            get_google_maps_url(row['Lat'], row['Lon'], row['Nome'])
+                        )
+        else:
+            st.info("Nessun luogo disponibile")
 
 
 # ============= FOOTER =============
