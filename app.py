@@ -54,7 +54,7 @@ CSV_FILES = {
     "Indonesia": f"{GITHUB_PAGES_URL}/Indonesia.csv",
     "Malesia": f"{GITHUB_PAGES_URL}/Malesia.csv",
     "Singapore": f"{GITHUB_PAGES_URL}/Singapore.csv",
-    "Luang Prabang": f"{GITHUB_PAGES_URL}/Luang Prabang.csv",
+    "Luang Prabang": f"{GITHUB_PAGES_URL}/Luang%20Prabang.csv",
 }
 
 @st.cache_data
