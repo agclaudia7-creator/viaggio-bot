@@ -374,7 +374,7 @@ if user_lat is not None and user_lon is not None:
         df_filtered = df_filtered.sort_values('Distanza_km')
 
 # ============= MAIN CONTENT =============
-col1, col2 = st.columns([1, 1])
+col1, col2 = st.columns([2, 1])
 
 with col1:
     st.subheader(f"📌 Mappa - {len(df_filtered)} Luoghi")
