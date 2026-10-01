@@ -67,6 +67,8 @@ st.title("🗺️ Mappa Interattiva - Viaggio Sud-Est Asiatico")
 
 # URL GitHub Pages per i CSV (branch gh-pages)
 GITHUB_PAGES_URL = "https://raw.githubusercontent.com/agclaudia7-creator/viaggio-bot/gh-pages"
+GITHUB_REPO = "agclaudia7-creator/viaggio-bot"
+GITHUB_API_CONTENTS = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{{path}}?ref=gh-pages"
 CSV_FILES = {
     "Thailandia": f"{GITHUB_PAGES_URL}/Thailandia.csv",
     "Laos": f"{GITHUB_PAGES_URL}/Laos.csv",
@@ -77,64 +79,85 @@ CSV_FILES = {
     "Luang Prabang": f"{GITHUB_PAGES_URL}/Luang%20Prabang.csv",
 }
 
-@st.cache_data
-def load_places_data():
-    """Carica tutti i places.json da tutte le nazioni."""
-    all_places = []
 
-    # Prova locale prima
+@st.cache_data(ttl=3600)
+def _github_list_dir(path: str) -> list:
+    """Elenca i file/cartelle in una cartella del branch gh-pages via GitHub Contents API, senza
+    bisogno di conoscere i nomi in anticipo (a differenza di CSV_FILES sopra, che è già andato fuori
+    sincrono con le nazioni attuali — manca Brunei/Myanmar/Vietnam). Pubblica, senza autenticazione:
+    60 richieste/ora, accettabile per un'app a basso traffico, cache-ata un'ora. [] se la cartella non
+    esiste o in caso di errore (silenzioso: usato solo come fallback cloud quando manca il locale)."""
+    try:
+        r = requests.get(GITHUB_API_CONTENTS.format(path=quote(path)), timeout=10)
+        return r.json() if r.status_code == 200 else []
+    except requests.RequestException:
+        return []
+
+def _bot_output_folders_cloud() -> list:
+    """Nomi delle cartelle <nome>_bot_output pubblicate su gh-pages (es. "Thailandia_bot_output"),
+    scoperti dinamicamente via GitHub API: a differenza di una lista fissa, non va aggiornato a mano
+    quando si aggiunge una nazione (stesso motivo per cui CSV_FILES è andato fuori sincrono)."""
+    return [e["name"] for e in _github_list_dir("BOT_OUTPUT")
+            if e.get("type") == "dir" and e["name"].endswith("_bot_output")]
+
+
+def _load_bot_json_local_or_cloud(filename: str, on_item=None) -> list:
+    """Carica <filename> (places.json/dishes.json/culture_topics.json) da tutte le cartelle
+    <nome>_bot_output: locale se disponibile, altrimenti dal branch gh-pages (per il deployment su
+    Streamlit Cloud, che non ha accesso al G:\\ locale). on_item(item, folder_name) opzionale per
+    arricchire ogni elemento (es. source_nation) prima di aggiungerlo al risultato."""
+    result = []
     BOT_OUTPUT_DIR = Path("G:/Il mio Drive/Viaggi/Aspettativa/BOT_OUTPUT")
     if BOT_OUTPUT_DIR.exists():
         for folder in BOT_OUTPUT_DIR.glob("*_bot_output"):
-            places_file = folder / "places.json"
-            if places_file.exists():
+            data_file = folder / filename
+            if data_file.exists():
                 try:
-                    with open(places_file, 'r', encoding='utf-8') as f:
-                        places = json.load(f)
-                        for place in places:
-                            place['source_nation'] = folder.name.replace('_bot_output', '')
-                        all_places.extend(places)
+                    items = json.loads(data_file.read_text(encoding="utf-8"))
+                    for item in items:
+                        if on_item:
+                            on_item(item, folder.name)
+                    result.extend(items)
                 except Exception as e:
-                    st.warning(f"Errore nel caricamento di {places_file}: {e}")
+                    st.warning(f"Errore nel caricamento di {data_file}: {e}")
+        return result
 
-    return all_places
+    # Niente locale (es. Streamlit Cloud): stessi dati dal branch gh-pages
+    for folder_name in _bot_output_folders_cloud():
+        url = f"{GITHUB_PAGES_URL}/BOT_OUTPUT/{quote(folder_name)}/{filename}"
+        try:
+            r = requests.get(url, timeout=10)
+            if r.status_code != 200:
+                continue
+            items = r.json()
+            for item in items:
+                if on_item:
+                    on_item(item, folder_name)
+            result.extend(items)
+        except Exception as e:
+            st.warning(f"Errore nel caricamento di {url}: {e}")
+    return result
+
+@st.cache_data
+def load_places_data():
+    """Carica tutti i places.json da tutte le nazioni (locale o gh-pages, vedi sopra)."""
+    def tag_source(place, folder_name):
+        place['source_nation'] = folder_name.replace('_bot_output', '')
+    return _load_bot_json_local_or_cloud("places.json", tag_source)
 
 @st.cache_data
 def load_dishes_data():
     """Carica tutti i dishes.json (build_dishes.py --all) da tutte le nazioni: piatti/bevande tipici
     estratti dalle note dei luoghi di categoria "cibo", con i luoghi dove si trovano."""
-    all_dishes = []
-    BOT_OUTPUT_DIR = Path("G:/Il mio Drive/Viaggi/Aspettativa/BOT_OUTPUT")
-    if BOT_OUTPUT_DIR.exists():
-        for folder in BOT_OUTPUT_DIR.glob("*_bot_output"):
-            dishes_file = folder / "dishes.json"
-            if dishes_file.exists():
-                try:
-                    with open(dishes_file, 'r', encoding='utf-8') as f:
-                        dishes = json.load(f)
-                        for d in dishes:
-                            d['_key'] = f"{folder.name}:{d['id']}"  # univoco anche tra bot diversi
-                        all_dishes.extend(dishes)
-                except Exception as e:
-                    st.warning(f"Errore nel caricamento di {dishes_file}: {e}")
-    return all_dishes
+    def tag_key(d, folder_name):
+        d['_key'] = f"{folder_name}:{d['id']}"  # univoco anche tra bot diversi
+    return _load_bot_json_local_or_cloud("dishes.json", tag_key)
 
 @st.cache_data
 def load_culture_data():
     """Carica tutti i culture_topics.json (build_culture.py --all) da tutte le nazioni: consigli e
     criticità culturali raggruppati per argomento invece che per città/luogo."""
-    all_items = []
-    BOT_OUTPUT_DIR = Path("G:/Il mio Drive/Viaggi/Aspettativa/BOT_OUTPUT")
-    if BOT_OUTPUT_DIR.exists():
-        for folder in BOT_OUTPUT_DIR.glob("*_bot_output"):
-            culture_file = folder / "culture_topics.json"
-            if culture_file.exists():
-                try:
-                    with open(culture_file, 'r', encoding='utf-8') as f:
-                        all_items.extend(json.load(f))
-                except Exception as e:
-                    st.warning(f"Errore nel caricamento di {culture_file}: {e}")
-    return all_items
+    return _load_bot_json_local_or_cloud("culture_topics.json")
 
 @st.cache_data
 def load_csv_data():
@@ -178,35 +201,46 @@ NATION_FOLDER_MAPPING = {
 
 @st.cache_data
 def load_fonti_sources(nations: list) -> dict:
-    """Carica tutti i file da FONTI/<Nazione>/ per le nazioni selezionate."""
+    """Carica tutti i file da FONTI/<Nazione>/ per le nazioni selezionate: locale se disponibile,
+    altrimenti dal branch gh-pages (per Streamlit Cloud). Solo .txt/.md hanno contenuto vero: i PDF
+    sono solo elencati (leggerli richiederebbe l'upload a Gemini, non implementato) e per lo stesso
+    motivo non vengono pubblicati su gh-pages (restano privati, solo in locale)."""
     sources = {}
     fonti_dir = Path("G:/Il mio Drive/Viaggi/Aspettativa/FONTI")
-
-    if not fonti_dir.exists():
-        return sources
 
     for nation in nations:
         # Usa il mapping se esiste, altrimenti il nome originale
         folder_name = NATION_FOLDER_MAPPING.get(nation, nation)
         nation_dir = fonti_dir / folder_name
-
-        if not nation_dir.exists():
-            continue
-
         files_content = {}
-        for file_path in sorted(nation_dir.glob("*")):
-            if file_path.is_file():
-                try:
-                    if file_path.suffix in ['.txt', '.md']:
-                        content = file_path.read_text(encoding='utf-8', errors='ignore')
-                        files_content[file_path.name] = content
-                    elif file_path.suffix == '.pdf':
-                        # Per PDF, carica il percorso (Gemini può leggere file)
-                        files_content[file_path.name] = f"[PDF: {file_path.name}]"
-                    elif file_path.suffix in ['.jpg', '.jpeg', '.png', '.gif']:
-                        files_content[file_path.name] = f"[Immagine: {file_path.name}]"
-                except Exception as e:
-                    st.warning(f"Errore lettura {file_path.name}: {e}")
+
+        if nation_dir.exists():
+            for file_path in sorted(nation_dir.glob("*")):
+                if file_path.is_file():
+                    try:
+                        if file_path.suffix in ['.txt', '.md']:
+                            content = file_path.read_text(encoding='utf-8', errors='ignore')
+                            files_content[file_path.name] = content
+                        elif file_path.suffix == '.pdf':
+                            # Per PDF, carica il percorso (Gemini può leggere file)
+                            files_content[file_path.name] = f"[PDF: {file_path.name}]"
+                        elif file_path.suffix in ['.jpg', '.jpeg', '.png', '.gif']:
+                            files_content[file_path.name] = f"[Immagine: {file_path.name}]"
+                    except Exception as e:
+                        st.warning(f"Errore lettura {file_path.name}: {e}")
+        else:
+            # Niente locale: stessi .txt/.md dal branch gh-pages (elencati via GitHub API, così non
+            # serve conoscerne i nomi in anticipo: oltre a <Nazione>.txt/<Nazione>_culture.txt generati
+            # dal bot, in FONTI/ possono esserci anche note manuali o guide da blog importati)
+            for entry in _github_list_dir(f"FONTI/{folder_name}"):
+                name = entry.get("name", "")
+                if entry.get("type") == "file" and name.lower().endswith((".txt", ".md")):
+                    try:
+                        r = requests.get(entry["download_url"], timeout=10)
+                        if r.status_code == 200:
+                            files_content[name] = r.text
+                    except Exception as e:
+                        st.warning(f"Errore lettura {name}: {e}")
 
         if files_content:
             sources[nation] = files_content
