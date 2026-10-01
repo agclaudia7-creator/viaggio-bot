@@ -115,15 +115,12 @@ I CSV vengono generati da `build_maps.py` ogni volta che il bot aggiorna i luogh
 - **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~245)
   
 ### Tile map disponibili (senza API key)
-- **Stamen Toner** (predefinito) - Stile minimalista, simile a Google Maps
-- **Stamen TonerLite** - Versione più chiara di Stamen Toner
+- **OpenStreetMap** (predefinito) - Stile base OSM, completamente gratuito e affidabile
+- **Stamen TonerLite** - Versione minimalista
 - **Stamen Terrain** - Topografia con rilievi
-- **Stamen TopoMap** - Stile topografico completo
-- **OpenStreetMap** - Stile base OSM (usato di default in folium)
-- **Esri WorldStreetMap** - Stile Esri (richiede connessione con Esri)
-- **Esri WorldImagery** - Satellite/immagini aeree (Esri)
+- **Esri WorldStreetMap** - Stile Esri
 
-**Nota**: CartoDB positron/voyager richiedono API key per deploy in produzione. Per locale funzionano, ma è consigliato usare Stamen Toner per evitare problemi.
+**Nota**: CartoDB positron/voyager richiedono API key per deploy in produzione. OpenStreetMap è la scelta più sicura e gratuita.
 
 ## 🔐 Sicurezza
 

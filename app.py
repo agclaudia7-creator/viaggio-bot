@@ -224,11 +224,11 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False, z
             [max_lat + lat_padding, max_lon + lon_padding]
         ]
 
-    # Crea mappa
+    # Crea mappa con OpenStreetMap (niente API key richiesta)
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=8,
-        tiles="Stamen Toner"
+        tiles="OpenStreetMap"
     )
 
     # Applica fit_bounds per zoommare automaticamente sui contenuti
@@ -315,58 +315,70 @@ if df.empty:
 st.sidebar.title("📍 La tua Posizione")
 
 # Inizializza session state per geolocalizzazione
-if "geoloc_lat" not in st.session_state:
-    st.session_state.geoloc_lat = None
-    st.session_state.geoloc_lon = None
+if "user_lat_session" not in st.session_state:
+    st.session_state.user_lat_session = None
+    st.session_state.user_lon_session = None
 
-user_lat = None
-user_lon = None
+user_lat = st.session_state.user_lat_session
+user_lon = st.session_state.user_lon_session
 
 # Bottone per geolocalizzazione automatica
-if st.sidebar.button("📍 Aggiungi posizione", use_container_width=True, help="Usa la geolocalizzazione del browser"):
-    # Attiva geolocalizzazione con JavaScript e salva in session_state
-    html_geoloc = """
-    <script>
+geoloc_html = """
+<button id="geoloc_btn" style="
+    width: 100%;
+    padding: 10px;
+    background-color: #FF2B2B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+">📍 Aggiungi posizione</button>
+
+<script>
+document.getElementById('geoloc_btn').onclick = function() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             position => {
                 const lat = position.coords.latitude.toFixed(6);
                 const lon = position.coords.longitude.toFixed(6);
-                // Salva in localStorage per leggere nel rerun
+                alert('Posizione: ' + lat + ', ' + lon + '\\nSalva manualmente in basso oppure scorri per inserirla');
                 localStorage.setItem('geoloc_lat', lat);
                 localStorage.setItem('geoloc_lon', lon);
-                // Rerun di Streamlit
-                window.parent.location.reload();
             },
-            error => {
-                alert('Errore: ' + error.message);
-            }
+            error => alert('Errore: ' + error.message)
         );
     } else {
         alert('Geolocalizzazione non supportata');
     }
-    </script>
-    """
-    components.html(html_geoloc, height=1)
+};
+</script>
+"""
+components.html(geoloc_html, height=50)
 
-# Leggi geolocalizzazione da localStorage se disponibile
-html_read_geoloc = """
+# Leggi geolocalizzazione da localStorage
+html_read = """
 <script>
 const lat = localStorage.getItem('geoloc_lat');
 const lon = localStorage.getItem('geoloc_lon');
-if (lat && lon) {
-    // Comunica a Streamlit che abbiamo le coordinate
-    window.parent.streamlit.setComponentValue({has_geoloc: true, lat: parseFloat(lat), lon: parseFloat(lon)});
-    localStorage.removeItem('geoloc_lat');
-    localStorage.removeItem('geoloc_lon');
+if (lat && lon && window.parent.streamlit) {
+    window.parent.streamlit.setComponentValue({lat: parseFloat(lat), lon: parseFloat(lon)});
 }
 </script>
 """
-geoloc_data = components.html(html_read_geoloc, height=1)
-if geoloc_data and geoloc_data.get('has_geoloc'):
-    user_lat = geoloc_data['lat']
-    user_lon = geoloc_data['lon']
-    st.sidebar.success(f"✅ Posizione: {user_lat:.4f}, {user_lon:.4f}")
+try:
+    geoloc_result = components.html(html_read, height=1)
+    if geoloc_result and isinstance(geoloc_result, dict) and geoloc_result.get('lat'):
+        st.session_state.user_lat_session = geoloc_result['lat']
+        st.session_state.user_lon_session = geoloc_result['lon']
+        user_lat = geoloc_result['lat']
+        user_lon = geoloc_result['lon']
+        st.sidebar.success(f"✅ Posizione: {user_lat:.4f}, {user_lon:.4f}")
+        localStorage.removeItem('geoloc_lat')
+        localStorage.removeItem('geoloc_lon')
+except:
+    pass
 
 # Opzione 1: Input manuale
 input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
