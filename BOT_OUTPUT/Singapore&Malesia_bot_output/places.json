@@ -97,7 +97,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-10-01"
+    "last_mention_date": "2026-10-01",
+    "_notes_synth": "Il Si Hai Long Wang Temple è un tempio inaspettato situato accanto al fiume Batu Pahat, caratterizzato da statue colorate e divinità cinesi tra cui il Re Drago.",
+    "_tips_synth": "Aggiungilo al tuo itinerario on the road in Malesia."
   },
   {
     "id": "malesia_cameron-highlands",
@@ -224,7 +226,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Centro visite della piantagione BOH dove scoprire la produzione del tè e godersi la vista.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_strawberry-farms",
@@ -291,7 +295,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_genting-highlands",
+    "id": "malesia_genting-highlands_genting-highlands",
     "name": "Genting Highlands",
     "aliases": [
       "GENTING HIGHLANDS"
@@ -426,10 +430,12 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-29"
+    "last_mention_date": "2026-09-29",
+    "_notes_synth": "Suggestivo ed eterogeneo tempio taoista arroccato sulle colline e in alta quota a Genting, che offre un'atmosfera tranquilla e panorami spettacolari sulle alture circostanti.",
+    "_tips_synth": "Orario migliore: 10:00-14:00."
   },
   {
-    "id": "malesia_genting-skyworlds",
+    "id": "malesia_genting-skyworlds_genting-highlands",
     "name": "Genting SkyWorlds",
     "aliases": [],
     "city": "Genting Highlands",
@@ -540,7 +546,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Storica via della città vecchia caratterizzata da architettura coloniale, un'atmosfera nostalgica e vivace, negozietti, negozi di souvenir e bancarelle di cibo.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_perak-cave-temple",
@@ -581,7 +589,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Tempio rupestre situato all'interno di suggestive colline calcaree e scavato nella roccia, arricchito da imponenti statue di Buddha e affreschi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_cave-temples",
@@ -613,7 +623,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Straordinari templi buddisti costruiti all'interno di caverne calcaree naturali nei dintorni di Ipoh.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_ipoh",
@@ -651,7 +663,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-07-27"
+    "last_mention_date": "2026-07-27",
+    "_notes_synth": "Città situata a due ore da Kuala Lumpur, nota per il cibo delizioso, le strade storiche coloniali, i templi nelle grotte e la cultura del caffè bianco.",
+    "_tips_synth": "Prendi il treno da Kuala Lumpur per arrivare comodamente vicino alla città vecchia. Noleggia un'auto per avere più flessibilità nel visitare i templi nelle grotte."
   },
   {
     "id": "malesia_ipoh-mural-art-tour",
@@ -681,7 +695,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Tour alla scoperta dei colorati murales sparsi per le vie della città vecchia di Ipoh.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_ipoh-old-town",
@@ -713,7 +729,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Centro storico tranquillo e sottovalutato di Ipoh, perfetto per vivere un'esperienza più autentica e locale.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kek-lok-tong",
@@ -743,7 +761,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-07-27"
+    "last_mention_date": "2026-07-27",
+    "_notes_synth": "Tempio nelle grotte immerso nelle colline calcaree della zona di Ipoh.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_lost-world-tambun",
@@ -833,7 +853,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-07-27"
+    "last_mention_date": "2026-07-27",
+    "_notes_synth": "Famoso tempio rupestre buddista circondato dalla natura.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_coral-bay",
@@ -1107,7 +1129,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Moschea particolare considerata tra le più belle della Malesia.",
+    "_tips_synth": "Aperto tutti i giorni dalle 4am alle 9pm."
   },
   {
     "id": "malesia_arulmigu-sri-rajakaliamman-glass-temple",
@@ -1137,7 +1161,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-29"
+    "last_mention_date": "2026-09-29",
+    "_notes_synth": "Il primo e unico tempio in vetro al mondo, interamente coperto da quasi 300.000 pezzi di vetro colorato.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kinabatangan-river",
@@ -1203,7 +1229,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Moschea dal design unico che unisce elementi culturali e architettonici differenti.",
+    "_tips_synth": "Aperto tutti i giorni dalle 6am alle 10pm."
   },
   {
     "id": "malesia_kota-kinabalu",
@@ -1307,10 +1335,12 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Una delle moschee più belle della Malesia, caratterizzata da interni stupendi.",
+    "_tips_synth": "Aperto tutti i giorni dalle 5am alle 10pm."
   },
   {
-    "id": "malesia_batu-caves",
+    "id": "malesia_batu-caves_kuala-lumpur",
     "name": "Batu Caves",
     "aliases": [
       "BATU CAVES"
@@ -1342,7 +1372,6 @@
       "Famoso complesso di grotte calcaree con templi induisti e la grande statua dorata di Murugan.",
       "Famoso complesso di grotte sacre indù con scalinata colorata.",
       "Colorato tempio induista situato all'interno di grotte calcaree, famoso per la scalinata arcobaleno e l'enorme statua dorata.",
-      "Famoso complesso di grotte calcaree e tempio induista, celebre per la grande statua dorata e la scalinata colorata.",
       "Famoso complesso di grotte e tempio induista.",
       "Famoso complesso di templi rupestri indù situato su una collina con imponenti scalinate.",
       "Famoso complesso di grotte calcaree con imponenti scale colorate e templi induisti."
@@ -1648,7 +1677,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Famoso e iconico complesso templare induista situato all'interno di grotte e caverne calcaree a Kuala Lumpur, molto turistico ma tappa imperdibile per la sua cultura e modernità. È celebre per la sua gigantesca statua dorata di Lord Murugan, le imponenti statue, le grotte sacre e la grandiosa scalinata di 272 gradini colorati o arcobaleno.",
+    "_tips_synth": "Ignora i venditori di sarong e usa il noleggio ufficiale del tempio a circa RM5. Non seguire chi indica la sinistra per la Ramayana Cave a pagamento, vai dritto. Vestiti modestamente coprendo spalle e ginocchia con abiti adeguati e scarpe con buona aderenza (evita le ciabatte). Fai molta attenzione alle scimmie lungo la scalinata: non dare cibo, non portare borse, cibo o occhiali sulla testa e tieni chiuse le borse. L'ingresso principale è gratuito, la Dark Cave costa 5 Ringgit. Arrivare presto tra le 6:00 e le 9:00 (partendo da KL alle 5:30) per evitare la folla e il caldo, oppure opta per il pomeriggio per un'esperienza più piacevole. Rifiuta con un sorriso le foto non richieste per cui vengono chiesti soldi. Per arrivare, prendi un Grab la mattina presto o il treno KTM al costo di RM 2.5 da KL Sentral. Porta dell'acqua."
   },
   {
     "id": "malesia_petronas-twin-towers",
@@ -1678,9 +1709,7 @@
       "Iconic landmark of Malaysia and among the tallest twin towers in the world.",
       "Iconiche torri gemelle di Kuala Lumpur, imperdibili per ammirare l'architettura moderna e la vista panoramica.",
       "Iconico punto di riferimento della Malesia, imperdibile al tramonto quando si illuminano contro lo skyline di KL.",
-      "Iconiche torri gemelle simbolo di Kuala Lumpur, imperdibili per una foto ricordo e per ammirare l'architettura moderna.",
-      "Iconiche torri gemelle abbaglianti a Kuala Lumpur, imperdibili per una foto ricordo.",
-      "Le iconiche torri gemelle simbolo della città, imperdibili soprattutto illuminate la sera."
+      "Iconiche torri gemelle abbaglianti a Kuala Lumpur, imperdibili per una foto ricordo."
     ],
     "creator_ratings": [
       "9/10"
@@ -1886,7 +1915,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Le iconiche e abbaglianti torri gemelle, tra le più alte al mondo, che rappresentano il simbolo e il principale punto di riferimento di Kuala Lumpur e della Malesia. Sono imperdibili per ammirare l'architettura moderna, godere della vista dallo skybridge, scattare foto ricordo o ammirarle illuminate di sera affiancate dal parco KLCC.",
+    "_tips_synth": "Prenota i biglietti per lo skybridge online in anticipo, preferendo lo slot del tramonto. Visita il KLCC Park situato dietro le torri per assistere allo spettacolo di luci serale. L'orario migliore per la visita è tra le 17:30 e le 20:00."
   },
   {
     "id": "malesia_petaling-street",
@@ -1910,7 +1941,6 @@
       "Vivace mercato nel cuore di Chinatown, pieno di vita e bancarelle.",
       "Vivace quartiere di Kuala Lumpur dove si trova Yosando e altre opzioni gastronomiche.",
       "La vivace Chinatown di KL, nota per lo street food, i mercati, i souvenir e lo shopping d'affari.",
-      "Il vivace mercato di Chinatown, perfetto per lo shopping di imitazioni e cibo di strada.",
       "Celebre via dello shopping e dello street food nel cuore di Chinatown.",
       "La Chinatown di Kuala Lumpur, ricca di bancarelle e vicina al mercato centrale.",
       "Vivace mercato nel quartiere di Chinatown a Kuala Lumpur."
@@ -2255,7 +2285,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Maestoso, coloratissimo e decorato tempio cinese a sei piani e livelli situato su una collina, dedicato alla Dea Mazu. È noto per la sua splendida e intricata architettura, le lanterne rosse e le viste panoramiche sulla città.",
+    "_tips_synth": "Orario migliore: 16:00-18:00."
   },
   {
     "id": "malesia_jalan-alor",
@@ -2864,7 +2896,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-09"
+    "last_mention_date": "2026-09-09",
+    "_notes_synth": "Storica piazza dell'Indipendenza dove la Malesia ha dichiarato la propria indipendenza nel 1957, caratterizzata da una storia coloniale e un'architettura fotogenica circostante.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kl-tower",
@@ -2950,7 +2984,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-27"
+    "last_mention_date": "2026-09-27",
+    "_notes_synth": "Iconica torre panoramica e di telecomunicazioni che offre una vista spettacolare e a 360 gradi sulla città grazie alla sua piattaforma di osservazione, sky terrace, glass skybox e al ristorante rotante Orbit Dining Restaurant.",
+    "_tips_synth": "Il biglietto per salire in cima costa 80 Ringgit. Prenota online anziché in biglietteria per risparmiare e paga separatamente per il glass skybox direttamente sul posto."
   },
   {
     "id": "malesia_mon-chinese-beef-roti",
@@ -3054,8 +3090,7 @@
     ],
     "creator_ratings": [],
     "days": [
-      "3 giorni",
-      "2-3 giorni"
+      "3 giorni"
     ],
     "cons": [
       "Traffico intenso."
@@ -3111,7 +3146,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Vibrante capitale della Malesia situata sulla penisola Malese, ideale da visitare con calma in tre giorni. Merita ben più di una semplice tappa di passaggio grazie alla sua vivace vita cittadina, ottimi quartieri multiculturali, cibo eccellente e uno skyline moderno, da combinare eventualmente con altre tappe come Penang e Langkawi.",
+    "_tips_synth": "Non programmare troppe attività nelle ore centrali a causa del forte caldo. Usa la MRT e la LRT che sono mezzi economici, puliti e veloci per evitare il traffico."
   },
   {
     "id": "malesia_pavilion-kl",
@@ -3288,7 +3325,7 @@
     "last_mention_date": "2026-09-30"
   },
   {
-    "id": "malesia_little-india",
+    "id": "malesia_little-india_kuala-lumpur",
     "name": "Little India",
     "aliases": [],
     "city": "Kuala Lumpur",
@@ -3345,7 +3382,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Vivace quartiere caratterizzato da negozi tradizionali, negozi di stoffe, profumi di spezie e ristoranti tradizionali indiani.",
+    "_tips_synth": "Prova il veg banana leaf a pranzo per gustare cibo fresco. Il venerdì vengono serviti extra e dolci tipici come il payasaam."
   },
   {
     "id": "malesia_perdana-botanical-garden",
@@ -3461,7 +3500,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Ponte pedonale moderno e dal design futuristico, la cui illuminazione si ispira a un tipico arrangiamento di foglie di betel, offrendo una splendida vista panoramica sulle Petronas Towers. È un punto noto per la presenza di borseggiatori.",
+    "_tips_synth": "Tieni sempre la borsa davanti a te."
   },
   {
     "id": "malesia_suria-klcc",
@@ -3472,9 +3513,7 @@
     "category": "shopping",
     "costs": [],
     "notes": [
-      "Grande centro commerciale situato alla base delle Petronas Twin Towers.",
-      "Centro commerciale situato ai piedi delle Petronas Twin Towers.",
-      "Celebre centro commerciale situato ai piedi delle Petronas Twin Towers."
+      "Grande centro commerciale situato alla base delle Petronas Twin Towers."
     ],
     "creator_ratings": [],
     "days": [
@@ -3599,7 +3638,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Celebre e storico palazzo iconico affacciato su Dataran Merdeka che ospita al suo interno il negozio di souvenir Gift Store.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_chinatown",
@@ -3853,7 +3894,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Caffè e vicolo storico e affascinante, riqualificato e riempito con vivaci murales artistici e installazioni fotografabili.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_llaollao",
@@ -3943,7 +3986,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Splendida e iconica moschea federale cittadina nota per la sua magnifica architettura e i suoi interni magnifici da visitare assolutamente.",
+    "_tips_synth": "Orari specifici di visita da verificare a seconda del giorno."
   },
   {
     "id": "malesia_merdeka-118",
@@ -3984,7 +4029,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Imponente attrazione moderna costituita dal grattacielo ultramoderno più alto della Malesia e secondo al mondo.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_national-mosque",
@@ -4029,7 +4076,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "La moschea nazionale malese, un'opera architettonica iconica, moderna e distintiva, imperdibile.",
+    "_tips_synth": "Verificare gli orari di chiusura pomeridiani e del venerdì."
   },
   {
     "id": "malesia_ramayana-cave",
@@ -4081,7 +4130,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Grotta illuminata da luci al neon, situata vicino alla statua verde di Hanuman e considerata come un'attrazione separata rispetto al complesso principale.",
+    "_tips_synth": "Si trova vicino alla statua verde di Hanuman. L'ingresso costa 5 MYR ed è accettato solo contante."
   },
   {
     "id": "malesia_rexkl",
@@ -4165,7 +4216,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Ponte pedonale moderno caratterizzato da un design futuristco e da un'illuminazione scenografica situato vicino alle torri, particolarmente suggestivo durante le ore notturne.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_space-and-time-cube",
@@ -4251,7 +4304,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Antico e coloratissimo tempio induista situato vicino a Chinatown, famoso per essere il più antico della città e per la sua torre d'ingresso ricca di dettagli.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_sultan-abdul-samad-building",
@@ -4292,7 +4347,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-14"
+    "last_mention_date": "2026-08-14",
+    "_notes_synth": "Storico e iconico edificio caratterizzato da un'architettura moresca, situato a Merdeka Square, di grande importanza architettonica e culturale.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_sunway-lagoon",
@@ -5036,7 +5093,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Tour guidato alla scoperta di un villaggio in stile francese situato a Bukit Tinggi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_concubine-kl",
@@ -5367,7 +5426,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_genting-highlands",
+    "id": "malesia_genting-highlands_kuala-lumpur",
     "name": "Genting Highlands",
     "aliases": [],
     "city": "Kuala Lumpur",
@@ -5397,7 +5456,7 @@
     "last_mention_date": "2026-09-21"
   },
   {
-    "id": "malesia_genting-skyworlds",
+    "id": "malesia_genting-skyworlds_kuala-lumpur",
     "name": "Genting SkyWorlds",
     "aliases": [],
     "city": "Kuala Lumpur",
@@ -5490,7 +5549,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Storico tempio taoista cinese dedicato al dio della guerra, caratterizzato da vivaci decorazioni rosse.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_guardians",
@@ -5708,7 +5769,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Museo che ospita una vasta e interessante collezione di arte islamica.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_istana-negara",
@@ -5740,7 +5803,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Il maestoso Palazzo Reale, che funge da residenza ufficiale del Re della Malesia.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_istanbul-bites",
@@ -5834,7 +5899,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Strada caratteristica dove è possibile incontrare volti familiari e bancarelle storiche gestite da locali.",
+    "_tips_synth": "La strada si trova di fronte al KK Mart."
   },
   {
     "id": "malesia_kl-bird-park",
@@ -5896,7 +5963,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Galleria che racconta la storia di Kuala Lumpur attraverso dettagliati modelli in scala.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kl-night-hoho-bus",
@@ -6018,7 +6087,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Tappa imperdibile nel cuore della vecchia Kuala Lumpur dedicata agli amanti dei timbri storici.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kampung-baru",
@@ -6048,7 +6119,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-14"
+    "last_mention_date": "2026-08-14",
+    "_notes_synth": "Storico villaggio tradizionale malese incastonato inusualmente tra i grattacieli moderni della città.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kantik-by-goyo",
@@ -6338,7 +6411,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-07-14"
+    "last_mention_date": "2026-07-14",
+    "_notes_synth": "Stradina pittoresca particolarmente famosa per i suoi murales artistici e gli edifici storici.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_lorong-petaling",
@@ -6368,7 +6443,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-07-14"
+    "last_mention_date": "2026-07-14",
+    "_notes_synth": "Caratteristica via situata nel cuore di Chinatown, impreziosita da edifici storici e da un'atmosfera vibrante.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_lot-10",
@@ -6488,7 +6565,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Una delle moschee più antiche della città, strategicamente situata alla confluenza dei fiumi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_mee-tarik-jalan-sultan",
@@ -6560,7 +6639,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Punto di riferimento storico dove i visitatori possono ritirare gratuitamente le cartoline dedicate al patrimonio.",
+    "_tips_synth": "È possibile ritirare la cartolina gratuita direttamente presso la reception."
   },
   {
     "id": "malesia_mid-valley-megamall",
@@ -6786,7 +6867,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Il museo principale della città, ideale per scoprire approfonditamente la storia e la cultura della Malesia.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_niko-neko-matcha",
@@ -6853,7 +6936,7 @@
     "last_mention_date": "2026-09-28"
   },
   {
-    "id": "malesia_oriental-kopi",
+    "id": "malesia_oriental-kopi_kuala-lumpur",
     "name": "Oriental Kopi",
     "aliases": [],
     "city": "Kuala Lumpur",
@@ -6949,7 +7032,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_putra-mosque",
+    "id": "malesia_putra-mosque_kuala-lumpur",
     "name": "Putra Mosque",
     "aliases": [],
     "city": "Kuala Lumpur",
@@ -6976,7 +7059,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-09"
+    "last_mention_date": "2026-09-09",
+    "_notes_synth": "Conosciuta da tutti come la moschea rosa, è una tappa assolutamente imperdibile da visitare.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_rooftop-infinity-pool-stay",
@@ -7192,7 +7277,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Un grattacielo iconico che spicca in modo rilevante nel panorama urbano di Kuala Lumpur.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_tropika-musang-king",
@@ -7322,7 +7409,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Splendida moschea nota principalmente per la sua magnifica architettura e la cura dei dettagli decorativi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_yosando",
@@ -7454,7 +7543,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Moschea iconica caratterizzata da interni magnifici e da una straordinaria architettura.",
+    "_tips_synth": "Il sito è aperto tutti i giorni dalle 6am alle 10pm."
   },
   {
     "id": "malesia_tengku-tengah-zaharah-mosque",
@@ -7488,7 +7579,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Conosciuta anche come la moschea galleggiante, vanta una struttura e un'architettura davvero stupende.",
+    "_tips_synth": "Il sito è aperto tutti i giorni dalle 5am alle 9.30pm."
   },
   {
     "id": "malesia_lang-tengah",
@@ -7720,7 +7813,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Piazza iconica di Langkawi celebre per la grande statua di un'aquila pronta a prendere il volo, ideale per una piacevole passeggiata con ingresso gratuito.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_langkawi",
@@ -7878,7 +7973,7 @@
     "last_mention_date": "2026-09-21"
   },
   {
-    "id": "malesia_island-hopping",
+    "id": "malesia_island-hopping_langkawi",
     "name": "Island hopping",
     "aliases": [],
     "city": "Langkawi",
@@ -8004,7 +8099,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Torre panoramica moderna situata a Kuah, ideale per ammirare splendide viste dall'alto della città e del mare.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_oriental-village",
@@ -8216,7 +8313,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Museo interattivo di arte tridimensionale, pensato appositamente per scattare foto divertenti.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_atv-ride",
@@ -8682,7 +8781,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Città principale dove è possibile ammirare i colorati murales di street art locale.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_langkawi-beach-fire-shows",
@@ -9206,7 +9307,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Città storica ricca di fascino e caratterizzata da strade suggestive.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_jonker-street",
@@ -9368,7 +9471,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Antica fortezza portoghese che rappresenta uno dei monumenti storici più importanti di Malacca e una delle strutture architettoniche europee più antiche in Asia.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_christ-church",
@@ -9411,7 +9516,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Antica chiesa anglicana del XVIII secolo e di epoca olandese, situata nella piazza principale di Melaka e immediatamente riconoscibile per i suoi caratteristici mattoni rossi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_baba-kaya-restaurant",
@@ -9597,7 +9704,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Moschea che si distingue per un'architettura unica e interni particolarmente splendidi.",
+    "_tips_synth": "Il sito è aperto 24 ore su 24 tutti i giorni."
   },
   {
     "id": "malesia_malacca-old-town",
@@ -9629,7 +9738,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Centro storico colorato e ricco di storia, ideale per essere esplorato a piedi durante un weekend tra architetture coloniali.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_mcqueek-s-satay-celup",
@@ -9689,7 +9800,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Città patrimonio UNESCO situata a circa 1,5-2 ore da Kuala Lumpur, straordinariamente ricca di cultura Peranakan e di ottimo cibo.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_st-paul-s-hill",
@@ -9719,7 +9832,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Collina storica che ospita le suggestive rovine dell'antica chiesa di San Paolo e regala una splendida vista panoramica sulla città.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_stadthuys",
@@ -9749,7 +9864,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Lo Stadthuys è uno storico edificio coloniale olandese caratterizzato dal colore rosso, situato nella piazza principale di Malacca.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_royal-press",
@@ -9783,10 +9900,12 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "The Royal Press è una storica stamperia attiva dal 1938 che offre workshop tradizionali di tipografia con caratteri cinesi e blocchi di metallo per creare ricordi unici.",
+    "_tips_synth": "Aggiungi questo luogo alla lista se visiti Melaka per un'esperienza unica e diversa dal solito."
   },
   {
-    "id": "malesia_genting-highlands",
+    "id": "malesia_genting-highlands_pahang",
     "name": "Genting Highlands",
     "aliases": [],
     "city": "Pahang",
@@ -9914,7 +10033,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Il Kek Lok Si Temple è un'immensa e splendida pagoda buddista, nonché il più grande e spettacolare complesso templare della Malesia e del Sud-est asiatico. Arroccato sulle pendici di Crane Hill, è noto per la sua grande statua di Guanyin, i suoi splendidi giardini, il laghetto delle tartarughe e le viste panoramiche.",
+    "_tips_synth": "Il tempio è ideale da visitare al mattino. È aperto dalle 8:30 alle 17:30 e si trova a circa 25 minuti da Georgetown con Grab. Per salire in cima senza fare troppe scale sono disponibili ascensori inclinati e una funivia."
   },
   {
     "id": "malesia_penang-hill",
@@ -10115,7 +10236,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "Chew Jetty è uno storico villaggio galleggiante fondato nel 1880, costituito da case in legno su palafitte lungo una passerella sul molo abitato dalla comunità cinese, arricchito da murales, scorci caratteristici, un tempio cinese, bancarelle di snack e negozi di souvenir.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_penang",
@@ -10169,7 +10292,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-01"
+    "last_mention_date": "2026-09-01",
+    "_notes_synth": "Penang è un'isola ricca di storia, cultura, caffè e strade storiche percorribili a piedi, considerata una meta imperdibile per il cibo e le sue famose strade ricche di specialità malesi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_tek-sen",
@@ -10275,7 +10400,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Armenian Street è una via storica di Georgetown ricca di edifici storici, opere d'arte urbana, murales, negozi tradizionali, negozi di souvenir e templi.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_auntie-gaik-lean-s",
@@ -10457,7 +10584,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "George Town è il capoluogo storico di Penang, ricco di fascino e famoso per la straordinaria cucina, il cibo di strada, la cultura mista, l'atmosfera coloniale, l'architettura e la street art.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_penang-famous-samosa",
@@ -10594,7 +10723,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-08"
+    "last_mention_date": "2026-09-08",
+    "_notes_synth": "La Street Art consiste in un percorso artistico tra i muri di George Town, da esplorare a piedi alla scoperta di murales iconici e installazioni artistiche e interattive.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_33-best-food-hub",
@@ -10758,7 +10889,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Il Boutique Aquarium è un acquario suggestivo situato a Penang che ospita varie specie marine.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_buckingham-street",
@@ -10790,7 +10923,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Buckingham Street è una via di Georgetown dove è possibile ammirare splendidi edifici storici.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_buono-gelato",
@@ -10850,7 +10985,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Campbell House è un edificio storico da ammirare durante la passeggiata in città.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_cannon-street",
@@ -10882,7 +11019,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Cannon Street è una strada caratteristica da esplorare a piedi lungo l'itinerario del patrimonio cittadino.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_central-fire-station",
@@ -10912,7 +11051,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "La Central Fire Station è una storica stazione dei pompieri inserita tra le tappe del tour a piedi della città.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_char-mee-hoon-seng",
@@ -11016,7 +11157,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Chulia Street è un'importante strada di George Town ideale per l'architettura e la ricerca di murales.",
+    "_tips_synth": "È un'ottima zona da percorrere a piedi."
   },
   {
     "id": "malesia_chulia-street-hawkers",
@@ -11140,7 +11283,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "I George Town Chambers costituiscono un edificio storico caratteristico della zona.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_habitat-penang",
@@ -11298,7 +11443,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-24"
+    "last_mention_date": "2026-09-24",
+    "_notes_synth": "Hin Bus Depot è un centro d'arte e mercato inserito nella stamp hunting challenge.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_hon-kei-food-corner",
@@ -11394,7 +11541,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Jalan Kek Chuan è una strada molto colorata famosa per i bellissimi edifici storici e il suo fascino retrò.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_journal-georgetown",
@@ -11490,7 +11639,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Khoo Kongsi è uno straordinario complesso di clan cinese riccamente decorato.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_kimberley-st-night-market",
@@ -11563,7 +11714,7 @@
     "last_mention_date": "2026-09-18"
   },
   {
-    "id": "malesia_little-india",
+    "id": "malesia_little-india_penang",
     "name": "Little India",
     "aliases": [],
     "city": "Penang",
@@ -11590,7 +11741,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Little India è un quartiere vibrante caratterizzato da negozi di spezie, musica tradizionale e ristoranti.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_loka-made",
@@ -11656,7 +11809,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Love Lane è una strada vivace ricca di edifici storici e opere di street art famose.",
+    "_tips_synth": "Tieni gli occhi aperti per cercare i murales lungo il percorso."
   },
   {
     "id": "malesia_makan-pagi",
@@ -11724,7 +11879,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Menara UAB è un punto di interesse architettonico situato lungo le strade di George Town.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_mimiya",
@@ -11912,7 +12069,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-08-18"
+    "last_mention_date": "2026-08-18",
+    "_notes_synth": "Muntri Street è una via storica perfetta per esplorare edifici tradizionali e dedicarsi alla caccia ai murales.",
+    "_tips_synth": "Esplora la strada a piedi."
   },
   {
     "id": "malesia_nando-s-gurney-plaza",
@@ -12203,7 +12362,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_oriental-kopi",
+    "id": "malesia_oriental-kopi_penang",
     "name": "Oriental Kopi",
     "aliases": [],
     "city": "Penang",
@@ -12390,7 +12549,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "Penang Art Street comprende le strade di George Town celebri per i murales e la street art.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_penang-hill-funicular-train",
@@ -12556,7 +12717,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-21"
+    "last_mention_date": "2026-09-21",
+    "_notes_synth": "La Pinang Peranakan Mansion è una dimora storica che mostra la cultura e le tradizioni Peranakan.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_rainbow-skywalk",
@@ -12762,7 +12925,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-06"
+    "last_mention_date": "2026-08-06",
+    "_notes_synth": "La St. George's Church Penang è la chiesa anglicana più antica del Sud-est asiatico, caratterizzata da un'atmosfera rilassante e da un'estetica totalmente bianca.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_sun-yat-sen-museum",
@@ -12792,7 +12957,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Il Sun Yat Sen Museum è un museo storico dedicato alla figura di Sun Yat Sen.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_super-star-koey-teow",
@@ -12852,7 +13019,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-24"
+    "last_mention_date": "2026-09-24",
+    "_notes_synth": "La Teochew Puppet & Opera House è un teatro tradizionale e una tappa della stamp hunting challenge.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_thai-canteen",
@@ -13170,7 +13339,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Umbrella Alley è un vicolo decorato con ombrelli colorati, ideale per scattare foto.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_yap-kongsi",
@@ -13200,7 +13371,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Yap Kongsi è un tempio di clan storico da visitare.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_royal-belum-state-park",
@@ -13239,7 +13412,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_perhentian-islands",
+    "id": "malesia_perhentian-islands_perhentian",
     "name": "Perhentian Islands",
     "aliases": [],
     "city": "Perhentian",
@@ -13271,7 +13444,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_perhentian-islands",
+    "id": "malesia_perhentian-islands_perhentian-islands",
     "name": "Perhentian Islands",
     "aliases": [],
     "city": "Perhentian Islands",
@@ -13369,7 +13542,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_putra-mosque",
+    "id": "malesia_putra-mosque_putrajaya",
     "name": "Putra Mosque",
     "aliases": [],
     "city": "Putrajaya",
@@ -13469,7 +13642,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "La Putra Mosque è un'iconica moschea situata sulle rive di un lago artificiale nella vicina città di Putrajaya. Famosa per la sua architettura islamica, è realizzata in granito rosa e presenta una grande cupola rosa e interni sorprendenti.",
+    "_tips_synth": "Essendo un luogo di culto attivo, è necessario vestirsi in modo rispettoso; la visita va fatta fuori dagli orari di preghiera e sono disponibili delle tuniche se necessario. È aperta da sabato a giovedì dalle 9:00 alle 18:00. Per ottenere lo scatto completo perfetto, puoi cercare \"Photo Point 2\" su Google Maps oppure attraversare il fiume per ammirare la vista panoramica della moschea dall'altra sponda."
   },
   {
     "id": "malesia_putrajaya",
@@ -13534,7 +13709,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Putrajaya è una cittadina amministrativa federale situata non lontana dall'aeroporto di Kuala Lumpur, ottima tappa per una gita di 30 minuti prima di ripartire. È nota per la sua architettura avveniristica e le sue moschee, tra cui spicca la famosa Moschea Rosa.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_putrajaya-lake",
@@ -13600,7 +13777,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "La Tuanku Mizan Zainal Abidin Mosque è una moschea rinomata per la sua architettura mozzafiato e i suoi interni meravigliosi.",
+    "_tips_synth": "Aperto tutti i giorni dalle 5am alle 10.30pm."
   },
   {
     "id": "malesia_rawa",
@@ -13695,7 +13874,7 @@
     "last_mention_date": ""
   },
   {
-    "id": "malesia_batu-caves",
+    "id": "malesia_batu-caves_selangor",
     "name": "Batu Caves",
     "aliases": [],
     "city": "Selangor",
@@ -13733,7 +13912,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Batu Caves è un iconico e famoso complesso di grotte calcaree che custodisce un tempio induista, caratterizzato da una celebre scalinata dai gradini colorati.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_malawati-hill",
@@ -13763,10 +13944,12 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Malawati Hill è un sito storico ideale per scoprire la storia e le tradizioni dello stato.",
+    "_tips_synth": ""
   },
   {
-    "id": "malesia_island-hopping",
+    "id": "malesia_island-hopping_semporna",
     "name": "Island Hopping",
     "aliases": [],
     "city": "Semporna",
@@ -14085,7 +14268,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "Sri Sendayan Mosque è una meravigliosa moschea caratterizzata da dettagli architettonici unici e interni eleganti.",
+    "_tips_synth": "Aperto tutti i giorni dalle 5.30am alle 10pm."
   },
   {
     "id": "malesia_blue-mosque",
@@ -14115,7 +14300,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Blue Mosque è una spettacolare moschea dal design imponente che funge da simbolo della regione.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_sultan-alam-shah-museum",
@@ -14145,7 +14332,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Sultan Alam Shah Museum è il museo statale ideale per approfondire la storia e le tradizioni locali.",
+    "_tips_synth": ""
   },
   {
     "id": "malesia_sultan-salahuddin-abdul-aziz-shah-mosque",
@@ -14179,7 +14368,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-28"
+    "last_mention_date": "2026-09-28",
+    "_notes_synth": "La Sultan Salahuddin Abdul Aziz Shah Mosque è una splendida moschea caratterizzata da un'architettura iconica e interni sontuosi.",
+    "_tips_synth": "Orari variabili a seconda dei giorni della settimana."
   },
   {
     "id": "malesia_taman-negara",
@@ -14635,7 +14826,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-11"
+    "last_mention_date": "2026-09-11",
+    "_notes_synth": "Chinatown è un vivace, colorato e storico quartiere cinese che offre un'atmosfera unica e completamente diversa dalle altre zone della città. È ideale per soggiornare, esplorare la cultura e le tradizioni locali a piedi e gratuitamente, passeggiando tra strade storiche, templi, negozi e mercati di strada. Tra le specialità locali da provare ci sono il durian, il succo di canna da zucchero e i dolci cinesi, oltre a trovare piatti tradizionali economici.",
+    "_tips_synth": "Fermati al Buddha Tooth Relic Temple."
   },
   {
     "id": "singapore_lau-pa-sat",
@@ -14948,7 +15141,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-11"
+    "last_mention_date": "2026-09-11",
+    "_notes_synth": "Marina Bay è un'iconica, moderna e futuristica zona di Singapore, considerata una tappa imperdibile per iniziare l'itinerario del primo viaggio. Offre viste spettacolari e mozzafiato sullo skyline, landmark famosi ed è ideale per una passeggiata panoramica gratuita lungo la baia, oltre a vivere esperienze serali tra luci, grattacieli, musica live e drink, inclusa la possibilità di praticare vela con Sailing at the Bay.",
+    "_tips_synth": "Richiede la prenotazione tramite DBS Bank."
   },
   {
     "id": "singapore_little-india",
@@ -15083,7 +15278,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-11"
+    "last_mention_date": "2026-09-11",
+    "_notes_synth": "Little India è un quartiere vibrante, colorato e ricco di tradizioni che mostra la cultura, la storia e la cucina indiana di Singapore. La zona è ricca di templi, profumi, murales, edifici storici, negozi di spezie e mercati, offrendo un'esplorazione completamente gratuita e rivelandosi al contempo un'area conveniente e vivace dove alloggiare grazie alla vicinanza con la metropolitana MRT e alla forte presenza di cibo ovunque.",
+    "_tips_synth": "Vieni affamato."
   },
   {
     "id": "singapore_kampong-glam",
@@ -15203,7 +15400,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-11"
+    "last_mention_date": "2026-09-11",
+    "_notes_synth": "Kampong Glam è uno storico, vibrante e colorato quartiere malese-arabo vicino alla Haji Lane, noto per la sua atmosfera ricca di cultura, murales di street art, botteghe tradizionali, negozi trendy e caffè alla moda. L'area, facilmente esplorabile a piedi, riflette la diversità culturale di Singapore e ospita la splendida Sultan Mosque e Arab Street.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_maxwell-food-centre",
@@ -15429,7 +15628,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-21"
+    "last_mention_date": "2026-08-21",
+    "_notes_synth": "Il Merlion è un parco iconico e una tappa imperdibile per i visitatori, che ospita la celebre statua simbolo di Singapore raffigurante una creatura con testa di leone e corpo di pesce. Accessibile gratuitamente, offre un punto panoramico ideale per una passeggiata, scattare foto ricordo e ammirare la vista sulla Marina, rappresentando il punto di partenza perfetto per esplorare la baia.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_chinatown-complex-food-centre",
@@ -15684,7 +15885,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Joo Chiat è un quartiere colorato e ricco di storia, ideale per trovare punti fotografici unici, ammirare l'architettura peranakan con le sue tipiche shophouses e scoprire la street art locale. La zona ospita negozi di souvenir, caffè caratteristici e offre ottime opportunità di ristoro con cibo locale, collegandosi anche al gioco Monopoly: Hidden.",
+    "_tips_synth": "Porta un ventaglio, un cappellino e la crema solare. Prendi la MRT fino a Marine Parade."
   },
   {
     "id": "singapore_marina-bay-sands",
@@ -15769,7 +15972,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-27"
+    "last_mention_date": "2026-08-27",
+    "_notes_synth": "Marina Bay Sands è un iconico complesso alberghiero di lusso e un'attrazione simbolo di Singapore sul lungomare, celebre per la sua architettura inconfondibile che offre viste panoramiche indimenticabili sulla skyline della città e la possibilità di effettuare un giro in sampan.",
+    "_tips_synth": "Iscriviti al membership Sands Lifestyle e richiedi l'upgrade a Sands Rewards Gold al banco dedicato. Porta il passaporto e compila i dettagli personali sull'app."
   },
   {
     "id": "singapore_universal-studios-singapore",
@@ -15916,7 +16121,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-26"
+    "last_mention_date": "2026-08-26",
+    "_notes_synth": "Bugis è un quartiere dinamico e un'area economica, centrale e ben collegata che offre un soggiorno conveniente a Singapore, unendo il vecchio e il nuovo attraverso edifici colorati, street art e la vivace Bugis Street, nota per lo shopping e il cibo economico.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_clarke-quay",
@@ -16113,7 +16320,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Haji Lane è una vivace e caratteristica via alternativa a Orchard Road, nota per la sua atmosfera unica, la street art, i murales colorati, i bar graziosi e la presenza di negozi indipendenti.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_sentosa",
@@ -16300,7 +16509,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "ArtScience Museum è un museo all'avanguardia dall'iconica architettura a forma di fiore di loto che unisce arte, scienza e tecnologia, ospitando mostre interattive come quella di tecnologia digitale Future World.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_east-coast-park",
@@ -16550,8 +16761,7 @@
     ],
     "notes": [
       "Principale via dello shopping di Singapore con grandi centri commerciali.",
-      "Viale dello shopping dove acquistare il tipico gelato in blocchi dai venditori ambulanti di strada.",
-      "La principale via dello shopping di Singapore ricca di grandi centri commerciali."
+      "Viale dello shopping dove acquistare il tipico gelato in blocchi dai venditori ambulanti di strada."
     ],
     "creator_ratings": [],
     "days": [],
@@ -17468,7 +17678,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Arab Street è una caratteristica via che ospita la splendida Sultan Mosque, risultando particolarmente apprezzata dai creator.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_baia",
@@ -17562,7 +17774,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Il Buddha Tooth Relic Temple è un tempio buddhista situato all'interno del quartiere di Chinatown, ideale da visitare durante l'esplorazione della zona.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_bukit-batok-nature-park",
@@ -18240,7 +18454,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Joo Chiat + Katong è un quartiere colorato caratterizzato da case Peranakan, shophouses storiche, bar e proposte di cibo locale.",
+    "_tips_synth": "Non perdere Koon Seng Road. Prova il Katong laksa."
   },
   {
     "id": "singapore_kallang",
@@ -18300,7 +18516,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-08-14"
+    "last_mention_date": "2026-08-14",
+    "_notes_synth": "Katong è un quartiere storico famoso per la cultura Peranakan e le sue tipiche shophouse colorate.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_kinki-rooftop",
@@ -18360,7 +18578,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Koon Seng Road è una strada celebre per le sue iconiche e colorate shophouses di stile Peranakan.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_kopi-khoo",
@@ -18516,7 +18736,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "La Lee Kong Chian Reference Library è una biblioteca nazionale che custodisce un timbro a tema parco giochi del drago nascosto su uno scaffale.",
+    "_tips_synth": "Si trova al livello 7 della National Library, accanto a Bras Basah Complex."
   },
   {
     "id": "singapore_macritchie-nature-trail",
@@ -18832,7 +19054,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Raffles Place è uno dei migliori punti panoramici e fotografici della città, ideale per dedicarsi a sessioni di sightseeing completamente gratuite.",
+    "_tips_synth": "Prendere la MRT e uscire all'exit A."
   },
   {
     "id": "singapore_rail-corridor",
@@ -19136,7 +19360,9 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-30"
+    "last_mention_date": "2026-09-30",
+    "_notes_synth": "Lo SkyPark Observation Deck è un punto panoramico situato al 57° piano del Marina Bay Sands, che offre una vista meravigliosa sulla città accompagnata da un'esposizione sulla sua storia.",
+    "_tips_synth": "Vieni poco prima del tramonto per vedere la città cambiare volto."
   },
   {
     "id": "singapore_southbridge",
@@ -19236,7 +19462,9 @@
         ]
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "La Sultan Mosque è una moschea scenografica situata nel cuore del vivace quartiere di Kampong Glam.",
+    "_tips_synth": "Esplora anche il vicino quartiere di Haji Lane tra street art e localini."
   },
   {
     "id": "singapore_supertree-grove",
@@ -19268,7 +19496,9 @@
         "tips": []
       }
     ],
-    "last_mention_date": ""
+    "last_mention_date": "",
+    "_notes_synth": "Supertree Grove è un'area caratterizzata da famosi alberi tecnologici che fanno da cornice a uno spettacolare show di luci serale.",
+    "_tips_synth": ""
   },
   {
     "id": "singapore_terminal-1-changi-airport",
