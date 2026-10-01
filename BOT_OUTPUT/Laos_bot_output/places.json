@@ -37,10 +37,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_champasak",
@@ -71,9 +68,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Champasak è una località del sud del Laos nota per il suo patrimonio storico e culturale.",
     "_tips_synth": ""
   },
@@ -106,9 +100,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Muang Champassak è un'area da esplorare fuori dai classici circuiti turistici.",
     "_tips_synth": ""
   },
@@ -142,10 +133,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_huay-xai",
@@ -175,10 +163,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_luang-namtha",
@@ -208,10 +193,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_kuang-si",
@@ -275,10 +257,7 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-30",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-09-30"
   },
   {
     "id": "laos_luang-prabang",
@@ -337,9 +316,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Luang Prabang è una città imperdibile e affascinante, meta finale della navigazione sul Mekong e punto di arrivo comune per chi vola o arriva in barca, circondata da montagne. Spesso richiede tempo, tanto che molti visitatori finiscono per prolungare il soggiorno.",
     "_tips_synth": "Prendi un tuk-tuk dal molo per raggiungere il centro città."
   },
@@ -384,10 +360,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_night-market",
@@ -430,10 +403,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_wat-xiengthong",
@@ -477,9 +447,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Xiengthong è un importante e storico tempio da visitare assolutamente, famoso come la Città d'Oro e considerato un capolavoro dell'architettura sacra laotiana.",
     "_tips_synth": ""
   },
@@ -512,9 +479,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "La Almsgiving Ceremony è la tradizionale cerimonia delle elemosine dei monaci.",
     "_tips_synth": ""
   },
@@ -547,9 +511,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Ban Xang Khong è un villaggio artigianale noto per i laboratori di tessuti e carta di gelso.",
     "_tips_synth": ""
   },
@@ -582,9 +543,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Haw Pha Bang è uno splendido tempio da ammirare per la sua bellezza architettonica.",
     "_tips_synth": ""
   },
@@ -617,9 +575,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Heuan Chan Heritage House è una casa storica ideale per scoprire lo stile di vita tradizionale locale.",
     "_tips_synth": ""
   },
@@ -651,10 +606,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_pak-ou",
@@ -684,10 +636,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_palazzo-reale",
@@ -718,9 +667,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "L'antico palazzo reale è oggi convertito in Museo Nazionale e ideale per una passeggiata culturale.",
     "_tips_synth": ""
   },
@@ -756,10 +702,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_phousi-hill",
@@ -789,10 +732,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_royal-palace",
@@ -823,9 +763,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "L'antico palazzo reale è un luogo ideale per una passeggiata culturale e oggi convertito in museo.",
     "_tips_synth": ""
   },
@@ -858,9 +795,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Sisavangvong Road è la via storica principale caratterizzata da un'architettura coloniale francese fusa con lo stile laotiano.",
     "_tips_synth": ""
   },
@@ -892,10 +826,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_uxo-lao-visitor-center",
@@ -926,9 +857,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "L'UXO Lao Visitor Center è un centro visitatori utile per comprendere la storia dei bombardamenti in Laos.",
     "_tips_synth": ""
   },
@@ -961,9 +889,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat May Souvannapoumaram è un tempio caratterizzato da magnifici decori dorati.",
     "_tips_synth": ""
   },
@@ -996,9 +921,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Wisunarat è un antico tempio buddista ricco di storia.",
     "_tips_synth": ""
   },
@@ -1030,10 +952,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_muang-ngoy",
@@ -1063,10 +982,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_nong-khiaw",
@@ -1096,10 +1012,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_muang-ngoi",
@@ -1130,9 +1043,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Muang Ngoi è un'antica città ricca di meraviglie naturali, villaggi, montagne e punti panoramici.",
     "_tips_synth": ""
   },
@@ -1172,10 +1082,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_phanoy-viewpoint",
@@ -1209,10 +1116,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_sopchem",
@@ -1243,9 +1147,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Sopchem è un villaggio della tessitura dove si trova l'homestay per il pernottamento.",
     "_tips_synth": ""
   },
@@ -1281,10 +1182,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_pak-beng",
@@ -1337,10 +1235,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_mekong-river_pakse",
@@ -1383,10 +1278,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_caffeine-pakse",
@@ -1416,10 +1308,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_champa-hom-restaurant",
@@ -1449,10 +1338,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_m-park-night-market",
@@ -1482,10 +1368,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_pakse",
@@ -1515,10 +1398,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_pho-lankham-noodles",
@@ -1548,10 +1428,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_tad-champee-waterfall",
@@ -1581,10 +1458,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_tad-fane-waterfall",
@@ -1614,10 +1488,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_tad-yeung-waterfall",
@@ -1647,10 +1518,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_wat-luang",
@@ -1681,9 +1549,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Luang è un tempio locale da visitare.",
     "_tips_synth": ""
   },
@@ -1716,9 +1581,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Phou è un tempio Khmer che precede Angkor Wat, situato in una zona ricca di fascino nel sud del Laos.",
     "_tips_synth": ""
   },
@@ -1751,9 +1613,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Phousalao è un tempio che offre una splendida vista sul fiume.",
     "_tips_synth": ""
   },
@@ -1785,10 +1644,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_vang-vieng",
@@ -1829,10 +1685,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_blue-lagoon-1",
@@ -1868,10 +1721,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_nam-song",
@@ -1901,10 +1751,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_nam-xay-viewpoint",
@@ -1938,10 +1785,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_pha-ngern-viewpoint",
@@ -1975,10 +1819,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_tham-chang",
@@ -2008,10 +1849,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_tham-nam",
@@ -2041,10 +1879,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_vang-vieng-night-market",
@@ -2074,10 +1909,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_buddha-park",
@@ -2119,9 +1951,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Buddha Park è un giardino di sculture all'aperto, situato a circa 25 km fuori città, bizzarro e pieno di decine di statue giganti in cemento buddiste e induiste.",
     "_tips_synth": ""
   },
@@ -2165,9 +1994,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il COPE Visitor Center è una mostra potente, importante e un museo educativo fondamentale sulle bombe inesplose (UXO) e sull'impatto di quelle lasciate dall'era della guerra del Vietnam, utile per capire la storia recente del Laos.",
     "_tips_synth": ""
   },
@@ -2211,9 +2037,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Patuxai è la versione di Vientiane dell'Arco di Trionfo locale.",
     "_tips_synth": "Sali in cima per una vista panoramica a 360 gradi sulla città."
   },
@@ -2261,9 +2084,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Pha That Luang è un grande stupa dorato, monumento più sacro del Laos e icona dell'intero paese, magnifico da visitare con la luce del tramonto.",
     "_tips_synth": "Arrivate verso sera per ammirarlo con la luce del tramonto."
   },
@@ -2307,9 +2127,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Vientiane è la capitale del Laos, solitamente inclusa e parte del percorso classico nel Paese insieme a Luang Prabang e Vang Vieng.",
     "_tips_synth": ""
   },
@@ -2352,10 +2169,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-09-26"
   },
   {
     "id": "laos_wat-si-saket",
@@ -2397,9 +2211,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Si Saket è il tempio più antico della città e di Vientiane, che ospita migliaia di immagini in miniatura del Buddha ed è imperdibile per iniziare la visita.",
     "_tips_synth": ""
   },
@@ -2432,9 +2243,6 @@
       }
     ],
     "last_mention_date": "2026-09-26",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Lao Art Museum offre uno sguardo affascinante sulla storia e sulla cultura del popolo lao.",
     "_tips_synth": ""
   },
@@ -2467,9 +2275,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Lao People's Army History Museum è un museo dedicato alla storia militare del paese.",
     "_tips_synth": ""
   },
@@ -2502,9 +2307,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Lao Textile Museum è un museo per scoprire l'arte tradizionale della tessitura della seta in Laos.",
     "_tips_synth": ""
   },
@@ -2536,10 +2338,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "laos_wat-ho-phra-keo",
@@ -2570,9 +2369,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Ho Phra Keo è un ex tempio reale oggi trasformato in museo d'arte sacra, situato vicino al Wat Si Saket.",
     "_tips_synth": ""
   },
@@ -2605,9 +2401,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Il Wat Mai è un tempio minore e silenzioso situato in città.",
     "_tips_synth": ""
   },
@@ -2645,9 +2438,6 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   }
 ]

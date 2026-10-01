@@ -27,10 +27,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_sangeh-monkey-forest",
@@ -82,10 +79,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-10-01",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-10-01"
   },
   {
     "id": "indonesia_gunung-kawi",
@@ -127,9 +121,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Gunung Kawi è un antico complesso di templi rupestri e sito archeologico e culturale situato nei dintorni di Tampaksiring.",
     "_tips_synth": ""
   },
@@ -172,10 +163,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-10-01",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-10-01"
   },
   {
     "id": "indonesia_leke-leke-waterfall_bali",
@@ -218,10 +206,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-10-01",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-10-01"
   },
   {
     "id": "indonesia_pura-mengening",
@@ -263,9 +248,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Pura Mengening è un tempio autentico situato nella zona di Tampaksiring, proposto come alternativa meno turistica al vicino Tirta Empul.",
     "_tips_synth": ""
   },
@@ -307,10 +289,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_besakih",
@@ -341,9 +320,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Besakih è il tempio madre di Bali.",
     "_tips_synth": ""
   },
@@ -381,10 +357,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_goa-gajah",
@@ -415,9 +388,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Goa Gajah, nota anche come la grotta dell'elefante, è un importante sito archeologico situato a Bali.",
     "_tips_synth": ""
   },
@@ -450,9 +420,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Pura Lempuyang è un complesso templare di Bali.",
     "_tips_synth": "Esplorare le aree minori del complesso oltre al celebre Gate of Heaven."
   },
@@ -489,9 +456,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Pura Taman Ayun è un tempio balinese circondato da suggestivi giardini acquatici.",
     "_tips_synth": "Visitarlo al mattino presto."
   },
@@ -524,9 +488,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Pura Ulun Danu Bratan è un tempio iconico situato sulle sponde del lago Bratan.",
     "_tips_synth": ""
   },
@@ -570,10 +531,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tirta-empul",
@@ -604,9 +562,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Tirta Empul è un tempio sacro situato nei dintorni di Tampaksiring, ideale da abbinare alla visita delle risaie.",
     "_tips_synth": ""
   },
@@ -639,9 +594,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Tirta Gangga è un palazzo dell'acqua reale caratterizzato da fontane e stagni.",
     "_tips_synth": ""
   },
@@ -675,10 +627,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "2026-10-01",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-10-01"
   },
   {
     "id": "indonesia_uluwatu",
@@ -709,9 +658,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Uluwatu è una località balinese famosa per il suo tempio situato a picco sul mare.",
     "_tips_synth": ""
   },
@@ -747,10 +693,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tibumana-waterfall",
@@ -780,10 +723,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tukad-cepung-waterfall",
@@ -817,10 +757,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_ijen-volcano",
@@ -850,10 +787,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_snooze-hostel-banyuwangi",
@@ -891,10 +825,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_belitung",
@@ -941,10 +872,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_billiton-ecobeach-retreat",
@@ -974,10 +902,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_santika-resort",
@@ -1009,10 +934,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tinggi-beach",
@@ -1042,10 +964,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_bukit-lawang",
@@ -1079,10 +998,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_gunung-leuser-national-park",
@@ -1118,10 +1034,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_sekumpul-and-fiji-waterfall",
@@ -1157,10 +1070,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_canggu",
@@ -1194,10 +1104,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_cascate-tumpak-sewu",
@@ -1227,10 +1134,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_ijen",
@@ -1260,10 +1164,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_monte-bromo",
@@ -1293,10 +1194,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_flores",
@@ -1326,10 +1224,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_komodo-national-park",
@@ -1359,10 +1254,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_padar-island",
@@ -1392,10 +1284,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_pink-beach",
@@ -1425,10 +1314,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_taka-makassar",
@@ -1458,10 +1344,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_kota-tua",
@@ -1494,9 +1377,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Kota Tua è il centro storico di Giacarta e rappresenta una delle principali attrazioni turistiche della città.",
     "_tips_synth": ""
   },
@@ -1531,9 +1411,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "National Monument è il monumento simbolo di Giacarta.",
     "_tips_synth": ""
   },
@@ -1565,10 +1442,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_gili-meno",
@@ -1598,10 +1472,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_java",
@@ -1632,9 +1503,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "L'isola di Giava è ricca di vulcani spettacolari, cascate nascoste e templi iconici come Borobudur e Prambanan.",
     "_tips_synth": ""
   },
@@ -1670,10 +1538,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_de-lekka",
@@ -1703,10 +1568,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_drifters",
@@ -1736,10 +1598,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_drip-guerilla",
@@ -1769,10 +1628,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_family-kue",
@@ -1806,10 +1662,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_lalapan-amanda",
@@ -1839,10 +1692,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_loka",
@@ -1872,10 +1722,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_martabak-near-market",
@@ -1909,10 +1756,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_mixue",
@@ -1942,10 +1786,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_oh-crepes",
@@ -1979,10 +1820,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_resto-seoul",
@@ -2012,10 +1850,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_sate-ayam-and-daging-sapi-madura",
@@ -2045,10 +1880,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tiger-gyoza",
@@ -2078,10 +1910,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_warung-inaq-novi",
@@ -2115,10 +1944,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_warung-sulawesi",
@@ -2150,10 +1976,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_warung-tigal",
@@ -2189,10 +2012,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_xeno-hub",
@@ -2222,10 +2042,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_yallah-habibi",
@@ -2255,10 +2072,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_lombok",
@@ -2288,10 +2102,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_kabut-pelangi-waterfall",
@@ -2321,10 +2132,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_kapas-biru-waterfall",
@@ -2354,10 +2162,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tumpak-sewu-waterfall",
@@ -2387,10 +2192,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_borobudur-temple",
@@ -2421,9 +2223,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Borobudur Temple è il più grande tempio buddista al mondo ed è riconosciuto come patrimonio UNESCO.",
     "_tips_synth": ""
   },
@@ -2455,10 +2254,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_gun-yun-house",
@@ -2496,10 +2292,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_jodipan-rainbow-village",
@@ -2532,9 +2325,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Jodipan Rainbow Village è un caratteristico villaggio colorato arcobaleno situato a Malang.",
     "_tips_synth": ""
   },
@@ -2568,10 +2358,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_cascate-munduk-e-sekumpul",
@@ -2601,10 +2388,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_dayang-rice-terraces",
@@ -2634,10 +2418,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_labuhan-kebo-waterfall",
@@ -2675,10 +2456,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_munduk",
@@ -2708,10 +2486,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_munduk-tentrem-resort",
@@ -2743,10 +2518,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_lake-toba",
@@ -2778,10 +2550,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_nungnung-waterfall",
@@ -2815,10 +2584,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_pemuteran",
@@ -2848,10 +2614,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_bromo-crater",
@@ -2881,10 +2644,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_mount-bromo",
@@ -2922,10 +2682,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_gam",
@@ -2961,10 +2718,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_kri",
@@ -3000,10 +2754,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_mansuar",
@@ -3039,10 +2790,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_rufas",
@@ -3078,10 +2826,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_laster-jony-s",
@@ -3115,10 +2860,7 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-30",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-09-30"
   },
   {
     "id": "indonesia_roy-s-pub",
@@ -3152,10 +2894,7 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-30",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-09-30"
   },
   {
     "id": "indonesia_samosir-island",
@@ -3187,10 +2926,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tataring",
@@ -3224,10 +2960,7 @@
         ]
       }
     ],
-    "last_mention_date": "2026-09-30",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": "2026-09-30"
   },
   {
     "id": "indonesia_seminyak",
@@ -3261,10 +2994,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_sidemen",
@@ -3294,10 +3024,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_isole-banggai",
@@ -3335,10 +3062,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_rantepao",
@@ -3369,9 +3093,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Rantepao è la terra dei Toraja, una meta imperdibile da visitare sull'isola di Sulawesi.",
     "_tips_synth": ""
   },
@@ -3403,10 +3124,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_tetebatu-sama-sama-bungalow",
@@ -3444,10 +3162,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_bisma-cottages-ubud",
@@ -3479,10 +3194,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_campuhan-ridge-walk",
@@ -3516,10 +3228,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_sacred-monkey-forest",
@@ -3549,10 +3258,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_ubud",
@@ -3585,9 +3291,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Ubud è una località molto popolare a Bali, considerata ottima per un'esperienza culturale ma al tempo stesso molto turistica.",
     "_tips_synth": ""
   },
@@ -3623,10 +3326,7 @@
         ]
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_prambanan",
@@ -3681,9 +3381,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Prambanan è un antico e straordinario complesso di templi induisti situato vicino a Yogyakarta, risalente al IX secolo e dichiarato Patrimonio Mondiale UNESCO come il più grande complesso di templi induisti dell'Indonesia.",
     "_tips_synth": ""
   },
@@ -3729,9 +3426,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Borobudur è un tempio buddista storico e antico, considerato un luogo imperdibile per la sua storia e cultura all'interno dell'itinerario nei dintorni di Yogyakarta.",
     "_tips_synth": ""
   },
@@ -3763,10 +3457,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_chicken-church",
@@ -3797,9 +3488,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Chicken Church è un particolare edificio a forma di gallina situato nei dintorni di Yogyakarta.",
     "_tips_synth": ""
   },
@@ -3835,10 +3523,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_jalan-malioboro",
@@ -3868,10 +3553,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_kraton",
@@ -3902,9 +3584,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Kraton è la storica residenza del sultano di Yogyakarta.",
     "_tips_synth": ""
   },
@@ -3938,10 +3617,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_merapi-volcano",
@@ -3971,10 +3647,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_mount-merapi",
@@ -4006,10 +3679,7 @@
         "tips": []
       }
     ],
-    "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": ""
+    "last_mention_date": ""
   },
   {
     "id": "indonesia_taman-sari",
@@ -4040,9 +3710,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Taman Sari è un antico complesso di palazzi, piscine e giardini noto anche come il Giardino del sultano.",
     "_tips_synth": ""
   },
@@ -4077,9 +3744,6 @@
       }
     ],
     "last_mention_date": "",
-    "status": "da_fare",
-    "rating": null,
-    "user_notes": "",
     "_notes_synth": "Yogyakarta è la capitale culturale e artistica di Giava, nonché l'unica città dell'Indonesia ad essere governata da un sultanato.",
     "_tips_synth": ""
   }
