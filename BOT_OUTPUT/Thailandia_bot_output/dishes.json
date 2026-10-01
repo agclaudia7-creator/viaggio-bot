@@ -3,16 +3,11 @@
     "id": "pad-thai",
     "name": "Pad Thai",
     "aliases": [],
-    "description": "Il pad thai più famoso di Bangkok secondo la Guida Michelin, veloce, economico, con la ricetta originale.",
+    "description": "Il pad thai più famoso di Bangkok secondo la Guida Michelin, veloce, economico e con ricetta originale.",
     "places": [
       {
         "id": "thailandia_baan-plern-jitt",
         "name": "Baan Plern Jitt",
-        "city": "Bangkok"
-      },
-      {
-        "id": "thailandia_fai-ta-lu",
-        "name": "Fai Ta Lu",
         "city": "Bangkok"
       },
       {
@@ -36,17 +31,16 @@
       "https://www.instagram.com/p/DWodDDCjCm0/",
       "https://www.instagram.com/p/DXUYw2AjLLo/",
       "https://www.instagram.com/p/Dc4VqVCJOHf/",
-      "https://www.instagram.com/p/Dd607QYT4wl/",
       "https://www.instagram.com/p/DdeALM3juOC/"
     ],
-    "mention_count": 8,
+    "mention_count": 7,
     "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/330px-Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "khao-soi",
     "name": "Khao Soi",
     "aliases": [],
-    "description": "Piatto tipico del nord della Thailandia con noodles in doppia consistenza, brodo di curry di cocco e noodles croccanti.",
+    "description": "Piatto tipico del nord con noodles in doppia consistenza o croccanti, brodo di curry di cocco. Si sceglie tra pollo e ternera.",
     "places": [
       {
         "id": "thailandia_khao-soi-maesai",
@@ -54,7 +48,7 @@
         "city": "Chiang Mai"
       },
       {
-        "id": "thailandia_khao-so-i",
+        "id": "thailandia_khao-so-i_chiang-mai",
         "name": "Khao-Sō-i",
         "city": "Chiang Mai"
       },
@@ -80,7 +74,7 @@
     "id": "mango-sticky-rice",
     "name": "mango sticky rice",
     "aliases": [],
-    "description": "Celebre dolce thailandese con mango, riso glutinoso e latte di cocco.",
+    "description": "Riconosciuto dalla Michelin, ha porzioni abbondanti ma a volte mango aspro, riso e latte di cocco.",
     "places": [
       {
         "id": "thailandia_coffee-ano",
@@ -120,32 +114,10 @@
     "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Mango_sticy_rice_%283859549574%29.jpg/330px-Mango_sticy_rice_%283859549574%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
-    "id": "matcha",
-    "name": "matcha",
-    "aliases": [],
-    "description": "Specialità di tè matcha servita in un locale specializzato.",
-    "places": [
-      {
-        "id": "thailandia_mtch",
-        "name": "MTCH",
-        "city": "Bangkok"
-      }
-    ],
-    "countries": [
-      "Thailandia"
-    ],
-    "reels": [
-      "https://www.instagram.com/p/Dc8d-wRDUht/",
-      "https://www.instagram.com/p/DdY8MvUN0zv/"
-    ],
-    "mention_count": 2,
-    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/330px-Matcha_Scoop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
     "id": "noodles-con-polpette-pesce",
     "name": "noodles con polpette di pesce",
     "aliases": [],
-    "description": "Specialità di un locale storico attivo da oltre 80 anni, consigliato in versione asciutta.",
+    "description": "Noodles con polpette di pesce da un locale attivo da oltre 80 anni, ottimo in versione asciutta.",
     "places": [
       {
         "id": "thailandia_lim-lao-ngow",
@@ -169,31 +141,10 @@
     "thumbnail_url": ""
   },
   {
-    "id": "succo-d-arancia",
-    "name": "succo d'arancia",
-    "aliases": [],
-    "description": "Famosissima specialità di succo d'arancia.",
-    "places": [
-      {
-        "id": "thailandia_thipsamai-padthai-pratu-phi",
-        "name": "Thipsamai Padthai Pratu Phi",
-        "city": "Bangkok"
-      }
-    ],
-    "countries": [
-      "Thailandia"
-    ],
-    "reels": [
-      "https://www.instagram.com/p/DXUYw2AjLLo/"
-    ],
-    "mention_count": 1,
-    "thumbnail_url": ""
-  },
-  {
     "id": "iced-black-coconut",
     "name": "Iced Black Coconut",
     "aliases": [],
-    "description": "Bevanda fredda a base di caffè o tè nero e cocco.",
+    "description": "Bevanda ordinabile nel caffè nascosto Piccolo Vicolo in un cortile artistico.",
     "places": [
       {
         "id": "thailandia_piccolo-vicolo",
@@ -214,7 +165,7 @@
     "id": "bingsu",
     "name": "bingsu",
     "aliases": [],
-    "description": "Delizioso dessert a base di ghiaccio tritato.",
+    "description": "Deliziosi dolci proposti dalla celebre catena thailandese After You.",
     "places": [
       {
         "id": "thailandia_after-you",
@@ -235,7 +186,7 @@
     "id": "spaghetti-pollo-fritti",
     "name": "spaghetti di pollo fritti",
     "aliases": [],
-    "description": "Piatto di street food preparato con spaghetti e pollo fritti.",
+    "description": "Piatto di street food preparato in uno spazio premiato dalla guida Michelin.",
     "places": [
       {
         "id": "thailandia_ann-guay-tiew-kua-gai",
@@ -256,7 +207,7 @@
     "id": "scorpioni-fritti",
     "name": "scorpioni fritti",
     "aliases": [],
-    "description": "Street food insolito trovato nei mercati notturni di Bangkok.",
+    "description": "Street food insolito e tipico dei mercati notturni di Bangkok.",
     "places": [
       {
         "id": "thailandia_bangkok-night-markets",
@@ -277,7 +228,7 @@
     "id": "coccodrillo-alla-griglia",
     "name": "coccodrillo alla griglia",
     "aliases": [],
-    "description": "Street food insolito trovato nei mercati notturni di Bangkok.",
+    "description": "Street food insolito e tipico dei mercati notturni di Bangkok.",
     "places": [
       {
         "id": "thailandia_bangkok-night-markets",
@@ -298,7 +249,7 @@
     "id": "succo-mango",
     "name": "succo di mango",
     "aliases": [],
-    "description": "Bevanda di frutta fresca, consigliata senza ghiaccio per evitare problemi di stomaco.",
+    "description": "Bevanda di frutta fresca tipica dello street food di Bangkok.",
     "places": [
       {
         "id": "thailandia_bangkok-street-food",
@@ -337,10 +288,31 @@
     "thumbnail_url": ""
   },
   {
+    "id": "pad-thai-con-maiale",
+    "name": "pad thai con maiale",
+    "aliases": [],
+    "description": "Piatto di pad thai arricchito con maiale.",
+    "places": [
+      {
+        "id": "thailandia_fai-ta-lu",
+        "name": "Fai Ta Lu",
+        "city": "Bangkok"
+      }
+    ],
+    "countries": [
+      "Thailandia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dd607QYT4wl/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
     "id": "khao-man-gai",
     "name": "khao man gai",
     "aliases": [],
-    "description": "Piatto famoso servito nella sede originale in stile shophouse di Go-Ang Pratunam.",
+    "description": "Piatto famoso servito nella storica sede originale in stile shophouse.",
     "places": [
       {
         "id": "thailandia_go-ang-pratunam",
@@ -361,7 +333,7 @@
     "id": "char-siu-bao",
     "name": "char siu bao",
     "aliases": [],
-    "description": "Panini iconici ordinabili in un negozio con oltre 100 anni di storia.",
+    "description": "Panino iconico ordinabile in un negozio con oltre 100 anni di storia.",
     "places": [
       {
         "id": "thailandia_gu-long-bao",
@@ -382,7 +354,7 @@
     "id": "panini-al-sesamo",
     "name": "panini al sesamo",
     "aliases": [],
-    "description": "Panini iconici ordinabili in un negozio storico di Bangkok.",
+    "description": "Panini iconici ordinabili in un negozio con oltre 100 anni di storia.",
     "places": [
       {
         "id": "thailandia_gu-long-bao",
@@ -403,7 +375,7 @@
     "id": "pesce-alla-griglia",
     "name": "pesce alla griglia",
     "aliases": [],
-    "description": "Pesce molto popolare servito con salsa piccante da un banco dedicato.",
+    "description": "Pesce molto popolare servito con salsa piccante.",
     "places": [
       {
         "id": "thailandia_guy-lao-seafood",
@@ -445,7 +417,7 @@
     "id": "caffe-thailandese",
     "name": "caffè thailandese",
     "aliases": [],
-    "description": "Caffè da gustare in un bistro nascosto con vista diretta sul Buddha d'oro.",
+    "description": "Caffè gustato in un bistro con vista diretta sul Buddha d'oro.",
     "places": [
       {
         "id": "thailandia_hidden-bangkok-bistro",
@@ -466,7 +438,7 @@
     "id": "frittata-granchio",
     "name": "frittata di granchio",
     "aliases": [],
-    "description": "Frittata cotta a carbone, piatto celebre della leggenda dello street food Jay Fai.",
+    "description": "Frittata di granchio cotta a carbone, preparata da una leggenda dello street food.",
     "places": [
       {
         "id": "thailandia_jay-fai",
@@ -487,7 +459,7 @@
     "id": "riso-appiccicoso-al-cocco-racchiusi-nel-bambu",
     "name": "riso appiccicoso al cocco racchiusi nel bambù",
     "aliases": [],
-    "description": "Dessert unico venduto in un banco al mercato di Prannok.",
+    "description": "Dessert unico a base di riso appiccicoso al cocco racchiuso nel bambù.",
     "places": [
       {
         "id": "thailandia_je-kung-khao-lam-prannok-market",
@@ -508,7 +480,7 @@
     "id": "curry",
     "name": "curry",
     "aliases": [],
-    "description": "Curry in stile musical chairs servito a Chinatown.",
+    "description": "Curry in stile musical chairs servito nel Chinatown di Bangkok.",
     "places": [
       {
         "id": "thailandia_jek-pui-and-ouan-pochana",
@@ -571,7 +543,7 @@
     "id": "ravioli-maiale",
     "name": "ravioli di maiale",
     "aliases": [],
-    "description": "Ravioli fatti a mano da una storica attività attiva da oltre 30 anni.",
+    "description": "Ravioli di maiale fatti a mano da una storica attività attiva da oltre 30 anni.",
     "places": [
       {
         "id": "thailandia_khanom-chip-a-liang",
@@ -613,7 +585,7 @@
     "id": "curry-granchio",
     "name": "curry di granchio",
     "aliases": [],
-    "description": "Piatto noto di un ristorante locale e di tradizione.",
+    "description": "Curry di granchio tipico di un ristorante locale e di tradizione.",
     "places": [
       {
         "id": "thailandia_krua-apsorn",
@@ -634,7 +606,7 @@
     "id": "granchio-saltato-con-pepe",
     "name": "granchio saltato con pepe",
     "aliases": [],
-    "description": "Piatto noto di un ristorante locale e di tradizione.",
+    "description": "Granchio saltato con pepe di un ristorante locale e di tradizione.",
     "places": [
       {
         "id": "thailandia_krua-apsorn",
@@ -655,7 +627,7 @@
     "id": "noodle-cinesi",
     "name": "noodle cinesi",
     "aliases": [],
-    "description": "Ottimi noodle cinesi disponibili anche a Chiang Mai e Pattaya.",
+    "description": "Ottimi noodle cinesi trovati a Bangkok, Chiang Mai e Pattaya.",
     "places": [
       {
         "id": "thailandia_lanzhou-noodle",
@@ -676,7 +648,7 @@
     "id": "gamberi-vivi",
     "name": "gamberi vivi",
     "aliases": [],
-    "description": "Esperienza di street food tra le più estreme proposta da un chiosco.",
+    "description": "Gamberi vivi proposti da un chiosco, una delle esperienze di street food più estreme.",
     "places": [
       {
         "id": "thailandia_live-shrimp-stall",
@@ -739,7 +711,7 @@
     "id": "sticky-rice",
     "name": "sticky rice",
     "aliases": [],
-    "description": "Riso appiccicoso tipico provato a K.Panich nel centro storico.",
+    "description": "Riso appiccicoso tipico provato nel centro storico.",
     "places": [
       {
         "id": "thailandia_old-town",
@@ -755,27 +727,6 @@
     ],
     "mention_count": 1,
     "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Chapssal_%28glutinous_rice%29.jpg/330px-Chapssal_%28glutinous_rice%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
-    "id": "frullati",
-    "name": "frullati",
-    "aliases": [],
-    "description": "Frullati preparati da Tikky Smoothie nel centro storico.",
-    "places": [
-      {
-        "id": "thailandia_old-town",
-        "name": "Old Town",
-        "city": "Bangkok"
-      }
-    ],
-    "countries": [
-      "Thailandia"
-    ],
-    "reels": [
-      "https://www.instagram.com/p/DaU6MEYidg_/"
-    ],
-    "mention_count": 1,
-    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Frullania_tamarisci_200108b.jpg/330px-Frullania_tamarisci_200108b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "ciambelle-fritte-cinesi",
@@ -802,7 +753,7 @@
     "id": "tom-yum-goong",
     "name": "tom yum goong",
     "aliases": [],
-    "description": "Zuppa piccante e aromatica tipica thailandese.",
+    "description": "Zuppa piccante e aromatica tipica.",
     "places": [
       {
         "id": "thailandia_pe-aor-tom-yum-goong",
@@ -823,7 +774,7 @@
     "id": "pad-krapow",
     "name": "pad krapow",
     "aliases": [],
-    "description": "Piatto a base di carne saltata molto piccante.",
+    "description": "Piatto molto piccante a base di carne saltata.",
     "places": [
       {
         "id": "thailandia_phed-mark",
@@ -839,27 +790,6 @@
     ],
     "mention_count": 1,
     "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Basil_fried_crispy_pork_with_rice_-_Chiang_Mai_-_2017-07-11_%28002%29.jpg/330px-Basil_fried_crispy_pork_with_rice_-_Chiang_Mai_-_2017-07-11_%28002%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
-    "id": "dirty",
-    "name": "Dirty",
-    "aliases": [],
-    "description": "Bevanda di caffè con espresso e schiuma di latte vellutata.",
-    "places": [
-      {
-        "id": "thailandia_ports-coffee",
-        "name": "Ports Coffee",
-        "city": "Bangkok"
-      }
-    ],
-    "countries": [
-      "Thailandia"
-    ],
-    "reels": [
-      "https://www.instagram.com/p/DdeALM3juOC/"
-    ],
-    "mention_count": 1,
-    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/King%27s_Cross%2C_London%3B_the_Great_Dust-Heap%2C_next_to_Battle_Br_Wellcome_V0013642.jpg/330px-King%27s_Cross%2C_London%3B_the_Great_Dust-Heap%2C_next_to_Battle_Br_Wellcome_V0013642.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "som-tam",
@@ -886,7 +816,7 @@
     "id": "gai-yang",
     "name": "gai yang",
     "aliases": [],
-    "description": "Pollo grigliato tipico.",
+    "description": "Pollo alla griglia tipico.",
     "places": [
       {
         "id": "thailandia_som-tam-jay-so",
@@ -907,7 +837,7 @@
     "id": "banh-mi",
     "name": "banh mi",
     "aliases": [],
-    "description": "Panino imbottito con maiale arrosto su baguette francese.",
+    "description": "Panino con maiale arrosto su baguette francese.",
     "places": [
       {
         "id": "thailandia_song-viet",
@@ -928,7 +858,7 @@
     "id": "kanom-tuay",
     "name": "Kanom Tuay",
     "aliases": [],
-    "description": "Dolce tradizionale con latte di cocco e pandan preparato con ricetta centenaria.",
+    "description": "Dolce tradizionale con latte di cocco e pandan, preparato con ricetta centenaria.",
     "places": [
       {
         "id": "thailandia_sunthon-khosa-road",
@@ -949,7 +879,7 @@
     "id": "boat-noodles",
     "name": "boat noodles",
     "aliases": [],
-    "description": "Tradizionali spaghetti in brodo serviti in piccole ciotole.",
+    "description": "Tradizionali noodles in brodo tipici, da gustare in più ciotole.",
     "places": [
       {
         "id": "thailandia_toy-kuay-teow-ruea",
@@ -991,7 +921,7 @@
     "id": "riso-fritto-al-granchio",
     "name": "riso fritto al granchio",
     "aliases": [],
-    "description": "Leggendario piatto di riso fritto al granchio servito nel mercato notturno di Chinatown.",
+    "description": "Leggendario riso fritto al granchio servito nel mercato notturno di Chinatown.",
     "places": [
       {
         "id": "thailandia_werng",
@@ -1051,10 +981,31 @@
     "thumbnail_url": ""
   },
   {
+    "id": "zuppa-riso-asciutta",
+    "name": "zuppa di riso asciutta",
+    "aliases": [],
+    "description": "Tradizionale colazione locale a base di zuppa di riso asciutta.",
+    "places": [
+      {
+        "id": "thailandia_kaotom-hang-khunnid-chiangmai",
+        "name": "Kaotom hang khunnid Chiangmai",
+        "city": "Chiang Mai"
+      }
+    ],
+    "countries": [
+      "Thailandia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dd6ObHiJLGe/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
     "id": "kombucha-al-frutto-della-passione",
     "name": "kombucha al frutto della passione",
     "aliases": [],
-    "description": "Kombucha aromatizzato al frutto della passione.",
+    "description": "Kombucha al gusto di frutto della passione molto saporito.",
     "places": [
       {
         "id": "thailandia_london-cnx",
@@ -1075,7 +1026,7 @@
     "id": "ravioli",
     "name": "ravioli",
     "aliases": [],
-    "description": "Ravioli gustati tra le bancarelle del mercato locale.",
+    "description": "Ravioli gustati tra le bancarelle del mercato locale di street food.",
     "places": [
       {
         "id": "thailandia_phaploen-market",
@@ -1096,7 +1047,7 @@
     "id": "donut-al-pistacchio-e-lampone",
     "name": "donut al pistacchio e lampone",
     "aliases": [],
-    "description": "Un dolce fresco e molto richiesto, da provare arrivando esattamente all'orario di apertura.",
+    "description": "Un dolce fresco e molto richiesto, disponibile arrivando esattamente all'orario di apertura.",
     "places": [
       {
         "id": "thailandia_baristro-asian-style",
@@ -1112,27 +1063,6 @@
     ],
     "mention_count": 1,
     "thumbnail_url": ""
-  },
-  {
-    "id": "roti",
-    "name": "roti",
-    "aliases": [],
-    "description": "Una specialità locale da gustare a cena.",
-    "places": [
-      {
-        "id": "thailandia_krua-nai-nang",
-        "name": "Krua Nai Nang",
-        "city": "Nakhon Si Thammarat"
-      }
-    ],
-    "countries": [
-      "Thailandia"
-    ],
-    "reels": [
-      "https://www.instagram.com/p/Da0Zft8EkIn/"
-    ],
-    "mention_count": 1,
-    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/2020-05-08_19_34_28_Chapati_being_made_in_a_pan_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/330px-2020-05-08_19_34_28_Chapati_being_made_in_a_pan_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "brodo-curry-al-cocco",
@@ -1153,7 +1083,7 @@
       "https://www.instagram.com/p/DdWPepDvt7D/"
     ],
     "mention_count": 1,
-    "thumbnail_url": ""
+    "thumbnail_url": "https://api.openverse.org/v1/images/af7b58d6-3f7a-4918-99ce-49d4f5a0ca44/thumb/"
   },
   {
     "id": "maiale-satay",
@@ -1195,13 +1125,13 @@
       "https://www.instagram.com/p/DdWPepDvt7D/"
     ],
     "mention_count": 1,
-    "thumbnail_url": ""
+    "thumbnail_url": "https://api.openverse.org/v1/images/c1cfad8e-49da-4186-8c4d-0cc16cdc24ae/thumb/"
   },
   {
     "id": "insalata-foglie-te",
     "name": "insalata di foglie di tè",
     "aliases": [],
-    "description": "Ottima insalata di cucina birmana servita in un posto tranquillo in collina.",
+    "description": "Ottima insalata di foglie di tè della cucina birmana.",
     "places": [
       {
         "id": "thailandia_two-sisters",
