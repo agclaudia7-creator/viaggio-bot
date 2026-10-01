@@ -2,6 +2,14 @@
 
 App Streamlit per visualizzare e esplorare interattivamente i luoghi del viaggio nel Sud-Est asiatico, filtrati per nazione, categoria e critiche, con ordinamento per citazioni e vicinanza.
 
+## ⚡ Uso Rapido
+
+1. **Accedi**: Inserisci la password (`viaggi2026`)
+2. **Filtra**: Seleziona nazione, categoria, intervallo di citazioni
+3. **Localizzati**: Clicca "📍 Aggiungi posizione" per GPS, oppure inserisci manualmente lat/lon o nome città
+4. **Esplora**: Clicca su un luogo per vedere dettagli, bottoni Zoom e Google Maps
+5. **Aggiorna**: Dopo `/aggiorna` nel bot, clicca "🔄 Ricarica dati" per sincronizzare i CSV
+
 ## 🎯 Funzionalità
 
 ### Mappa Interattiva
@@ -9,8 +17,9 @@ App Streamlit per visualizzare e esplorare interattivamente i luoghi del viaggio
 - Zoom automatico sui luoghi selezionati
 - Marker personalizzati per la tua posizione
 - Pop-up con informazioni rapide su ogni luogo
-- Pulsante di geolocalizzazione automatica nel browser
-- Tile map CartoDB (simile a Google Maps)
+- Pulsante di geolocalizzazione automatica nel browser (📍 in alto a sinistra della mappa)
+- Tile map OpenStreetMap (gratuita, niente API key richiesta)
+- Bottone "🔄 Ricarica dati" per aggiornare i CSV dopo `/aggiorna` nel bot
 
 ### Filtri Avanzati
 - **Nazione**: Seleziona una o più nazioni da visualizzare
@@ -27,14 +36,13 @@ App Streamlit per visualizzare e esplorare interattivamente i luoghi del viaggio
 
 ### Elenco Luoghi
 - Ordinamento per:
-  - **Predefinito**: Ordine originale dal CSV
-  - **Citazioni ↓**: Più citati prima
-  - **Citazioni ↑**: Meno citati prima
-  - **Distanza**: Dal più vicino al più lontano (se posizione inserita)
+  - **Citazioni ↓**: Più citati prima (default)
+  - **Distanza**: Dal più vicino al più lontano (visibile solo se posizione inserita)
 - Espandi ogni luogo per vedere descrizione completa
-- Bottoni Zoom e Google Maps prima della descrizione
+- Bottoni **Zoom** e **Google Maps** visibili solo se il luogo ha coordinate
 - Link cliccabili nella descrizione
 - Indicazione della distanza (se posizione inserita)
+- Niente spazi vuoti per luoghi senza coordinate
 
 ### Gestione Luoghi Esclusi
 - Visualizza l'elenco dei luoghi esclusi dal filtro
@@ -111,22 +119,24 @@ I CSV vengono generati da `build_maps.py` ogni volta che il bot aggiorna i luogh
 
 ## 🎨 Personalizzazione
 
-- **Colori categorie**: Modifica il dizionario `category_colors` in `create_map()` (linee ~260-265)
-- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~245)
+- **Colori categorie**: Modifica il dizionario `category_colors` in `create_map()` (linee ~263-269)
+- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~231)
   
 ### Tile map disponibili (senza API key)
 - **OpenStreetMap** (predefinito) - Stile base OSM, completamente gratuito e affidabile
-- **Stamen TonerLite** - Versione minimalista
+- **Stamen TonerLite** - Versione minimalista, stile mappa stradale
 - **Stamen Terrain** - Topografia con rilievi
-- **Esri WorldStreetMap** - Stile Esri
+- **Esri WorldStreetMap** - Stile Esri stradale
 
 **Nota**: CartoDB positron/voyager richiedono API key per deploy in produzione. OpenStreetMap è la scelta più sicura e gratuita.
 
-## 🔐 Sicurezza
+## 🔐 Sicurezza e Privacy
 
-- La password è salva direttamente nel codice (`app.py`, linea ~18). Per cambiare: modifica il valore `PASSWORD = "..."` e redeploy.
-- I CSV contengono solo informazioni pubbliche (reel Instagram pubblici).
-- Non vengono salvate password utente o dati personali.
+- **Password**: Salva direttamente nel codice (`app.py`, linea ~18). Per cambiare: modifica `PASSWORD = "..."` e redeploy.
+- **Dati**: I CSV contengono solo informazioni pubbliche (reel Instagram pubblici).
+- **Geolocalizzazione**: Le coordinate GPS sono elaborate solo nel browser, non inviate a server. Rimangono in `localStorage` fino all'aggiornamento manuale.
+- **Niente account**: Non richiede login, solo password di accesso.
+- **Storage**: Niente salvataggio di password utente o dati personali.
 
 ## 🚀 Deploy
 
@@ -144,9 +154,14 @@ streamlit run app.py
 
 ## 📝 Note
 
-- L'app cache i dati: se aggiorni manualmente i CSV, ricaricare il browser non garantisce l'aggiornamento. Usa `Ctrl+F5` per svuotare la cache o clicca il bottone "🔄 Rerun" in Streamlit.
-- La geolocalizzazione del browser (bottone 📍) funziona solo su HTTPS o localhost.
-- Google Maps links usano il parametro `query=` con il nome del luogo, per compatibilità con il metodo di Telegram.
+- **Cache dati**: L'app cache i dati tramite `@st.cache_data`. Se aggiorni i CSV manualmente, clicca il bottone "🔄 Ricarica dati" per aggiornare, oppure usa `Ctrl+Shift+R` per pulire la cache del browser.
+- **Geolocalizzazione**: Il bottone "📍 Aggiungi posizione" richiede accesso al GPS del browser. Funziona su:
+  - `http://localhost:*` (sviluppo locale)
+  - HTTPS (deploy in produzione)
+  - Non funziona su HTTP non-localhost per motivi di sicurezza
+- **Google Maps**: I link usano il parametro `query=` con il nome del luogo, per compatibilità con il metodo di Telegram.
+- **Filtro Citazioni**: Il filtro slider nella sidebar filtra sia la mappa che l'elenco.
+- **Esclusione termini**: I luoghi esclusi dal filtro "Escludi termine" rimangono ricaricabili dalla checkbox "Mostra esclusi".
 
 ## 📄 Licenza
 
