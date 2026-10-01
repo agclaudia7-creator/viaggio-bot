@@ -237,7 +237,7 @@ streamlit run app.py
 
 ## 📝 Note
 
-- **Cache dati**: L'app cache i dati tramite `@st.cache_data`. Se aggiorni i dati nel bot, clicca "🔄 Ricarica dati" per sincronizzare, oppure usa `Ctrl+Shift+R` per pulire la cache del browser.
+- **Cache dati**: L'app cache i dati tramite `@st.cache_data(ttl=600)` (`DATA_CACHE_TTL` in `app.py`): entro 10 minuti da un `/aggiorna` i dati nuovi arrivano da soli, senza bisogno di toccare nulla — **niente Reboot su Streamlit Cloud**, è lento e inutile per questo. Se non vuoi aspettare, clicca "🔄 Ricarica dati" (pulisce la cache subito) o `Ctrl+Shift+R` per la cache del browser.
 - **Geolocalizzazione**: Il bottone "📍 Rileva automaticamente" richiede accesso al GPS del browser. Funziona su `http://localhost:*` (sviluppo) e HTTPS (produzione); non su HTTP non-localhost per motivi di sicurezza.
 - **Sintesi culturale**: I testi dei templi (descrizioni e consigli) vengono sintetizzati da Gemini in `build_places.py` quando il bot fa `/aggiorna`. Niente elaborazione al runtime in Streamlit.
 - **Deduplicazione**: Testi molto simili (fuzzy match 85%) vengono considerati duplicati e rimossi automaticamente (es. "272 gradini colorati" ripetuto 4 volte diventa 1 volta sola).

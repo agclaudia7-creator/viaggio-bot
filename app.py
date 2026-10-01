@@ -67,6 +67,10 @@ st.title("🗺️ Mappa Interattiva - Viaggio Sud-Est Asiatico")
 
 # URL GitHub Pages per i CSV (branch gh-pages)
 GITHUB_PAGES_URL = "https://raw.githubusercontent.com/agclaudia7-creator/viaggio-bot/gh-pages"
+# Scadenza cache dati: senza, @st.cache_data resta valida finché qualcuno non clicca "Ricarica dati"
+# (o si fa Reboot su Streamlit Cloud, molto più lento). Con un ttl, dopo un /aggiorna da Telegram i
+# dati nuovi arrivano da soli entro questo tempo, senza bisogno di toccare nulla.
+DATA_CACHE_TTL = 600   # 10 minuti
 GITHUB_REPO = "agclaudia7-creator/viaggio-bot"
 GITHUB_API_CONTENTS = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{{path}}?ref=gh-pages"
 CSV_FILES = {
@@ -138,14 +142,14 @@ def _load_bot_json_local_or_cloud(filename: str, on_item=None) -> list:
             st.warning(f"Errore nel caricamento di {url}: {e}")
     return result
 
-@st.cache_data
+@st.cache_data(ttl=DATA_CACHE_TTL)
 def load_places_data():
     """Carica tutti i places.json da tutte le nazioni (locale o gh-pages, vedi sopra)."""
     def tag_source(place, folder_name):
         place['source_nation'] = folder_name.replace('_bot_output', '')
     return _load_bot_json_local_or_cloud("places.json", tag_source)
 
-@st.cache_data
+@st.cache_data(ttl=DATA_CACHE_TTL)
 def load_dishes_data():
     """Carica tutti i dishes.json (build_dishes.py --all) da tutte le nazioni: piatti/bevande tipici
     estratti dalle note dei luoghi di categoria "cibo", con i luoghi dove si trovano."""
@@ -153,13 +157,13 @@ def load_dishes_data():
         d['_key'] = f"{folder_name}:{d['id']}"  # univoco anche tra bot diversi
     return _load_bot_json_local_or_cloud("dishes.json", tag_key)
 
-@st.cache_data
+@st.cache_data(ttl=DATA_CACHE_TTL)
 def load_culture_data():
     """Carica tutti i culture_topics.json (build_culture.py --all) da tutte le nazioni: consigli e
     criticità culturali raggruppati per argomento invece che per città/luogo."""
     return _load_bot_json_local_or_cloud("culture_topics.json")
 
-@st.cache_data
+@st.cache_data(ttl=DATA_CACHE_TTL)
 def load_csv_data():
     """Carica i dati dai CSV di MyMaps (locale o GitHub Pages)."""
     all_data = []
@@ -199,7 +203,7 @@ NATION_FOLDER_MAPPING = {
     "Singapore": "Singapore&Malesia",
 }
 
-@st.cache_data
+@st.cache_data(ttl=DATA_CACHE_TTL)
 def load_fonti_sources(nations: list) -> dict:
     """Carica tutti i file da FONTI/<Nazione>/ per le nazioni selezionate: locale se disponibile,
     altrimenti dal branch gh-pages (per Streamlit Cloud). Solo .txt/.md hanno contenuto vero: i PDF
