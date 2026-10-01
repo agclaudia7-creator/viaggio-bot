@@ -115,12 +115,9 @@ def load_csv_data():
     return pd.DataFrame()
 
 def get_google_maps_url(lat, lon, name):
-    """Crea URL Google Maps per aprire il luogo (senza indicazioni)."""
-    if pd.notna(lat) and pd.notna(lon):
-        return f"https://www.google.com/maps/search/?api=1&query={lat},{lon}"
-    else:
-        # Fallback con nome del luogo
-        return f"https://www.google.com/maps/search/{quote(name)}"
+    """Crea URL Google Maps per aprire il luogo (metodo query come Telegram)."""
+    # Usa il metodo query (nome del luogo) che funziona anche offline
+    return f"https://www.google.com/maps/search/{quote(name)}"
 
 def make_links_clickable(text):
     """Rende i link nella descrizione cliccabili in HTML."""
@@ -230,7 +227,7 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False, z
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=8,
-        tiles="OpenStreetMap"
+        tiles="CartoDB positron"
     )
 
     # Applica fit_bounds per zoommare automaticamente sui contenuti
@@ -319,6 +316,10 @@ st.sidebar.title("📍 La tua Posizione")
 user_lat = None
 user_lon = None
 
+# Bottone per geolocalizzazione automatica
+if st.sidebar.button("📍 Aggiungi posizione", use_container_width=True, help="Usa la geolocalizzazione del browser (il bottone 📍 della mappa)"):
+    st.sidebar.info("Clicca il bottone 📍 in alto a sinistra della mappa per attivare la geolocalizzazione automatica")
+
 # Opzione 1: Input manuale
 input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
 
@@ -398,6 +399,19 @@ selected_categorie = st.sidebar.multiselect(
 if selected_categorie:
     df_filtered = df_filtered[df_filtered['Categoria'].isin(selected_categorie)]
 
+# Filtro Citazioni (PRIMA della mappa, non dopo!)
+if len(df_filtered) > 0:
+    citazioni_min, citazioni_max = st.sidebar.slider(
+        "Citazioni",
+        min_value=int(df_filtered['Citazioni'].min()),
+        max_value=int(df_filtered['Citazioni'].max()),
+        value=(int(df_filtered['Citazioni'].min()), int(df_filtered['Citazioni'].max()))
+    )
+    df_filtered = df_filtered[
+        (df_filtered['Citazioni'] >= citazioni_min) &
+        (df_filtered['Citazioni'] <= citazioni_max)
+    ]
+
 # Filtro Esclusione
 esclusione = st.sidebar.text_input(
     "🚫 Escludi termine",
@@ -467,6 +481,11 @@ if show_esclusi and len(df_esclusi) > 0:
             st.rerun()
 
 # ============= MAIN CONTENT =============
+# Bottone per ricaricare i dati (rifresca la cache di Streamlit)
+if st.button("🔄 Ricarica dati", help="Aggiorna i dati dai CSV. Usa questo dopo /aggiorna nel bot."):
+    st.cache_data.clear()
+    st.rerun()
+
 col1, col2 = st.columns([2, 1])
 
 with col1:
@@ -480,19 +499,6 @@ with col1:
         st.warning("Nessun luogo corrisponde ai filtri selezionati.")
 
 with col2:
-    # Filtro Citazioni
-    if len(df_filtered) > 0:
-        citazioni_min, citazioni_max = st.slider(
-            "Citazioni",
-            min_value=int(df_filtered['Citazioni'].min()),
-            max_value=int(df_filtered['Citazioni'].max()),
-            value=(int(df_filtered['Citazioni'].min()), int(df_filtered['Citazioni'].max()))
-        )
-        df_filtered = df_filtered[
-            (df_filtered['Citazioni'] >= citazioni_min) &
-            (df_filtered['Citazioni'] <= citazioni_max)
-        ]
-
     # Filtro Nome (ricerca testuale)
     nome_ricerca = st.text_input(
         "🔍 Cerca",
@@ -534,10 +540,7 @@ with col2:
         if len(df_filtered) > 0:
             for idx, row in df_filtered.iterrows():
                 with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
-                    # Rendi link cliccabili nella descrizione
-                    descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
-                    st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
-
+                    # Bottoni Zoom e Google Maps PRIMA della descrizione
                     col1, col2 = st.columns(2)
                     with col1:
                         if pd.notna(row['Lat']) and pd.notna(row['Lon']):
@@ -551,6 +554,12 @@ with col2:
                                 get_google_maps_url(row['Lat'], row['Lon'], row['Nome']),
                                 use_container_width=True
                             )
+
+                    st.divider()
+
+                    # Descrizione DOPO i bottoni
+                    descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
+                    st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
         else:
             st.info("Nessun luogo disponibile")
 
