@@ -214,20 +214,14 @@ class QuotaExhausted(Exception):
     pass
 
 
-def call_gemini_json(client, types, system_prompt: str, user_payload: str, model: str = MODEL) -> dict:
-    """Chiamata Gemini generica con risposta JSON e retry su limite al minuto (come extract_with_llm,
-    ma senza i campi specifici dell'estrazione luoghi): usata anche da build_dishes.py/build_culture.py."""
-    config = types.GenerateContentConfig(system_instruction=system_prompt, response_mime_type="application/json",
-                                         temperature=0)
+def _call_gemini_with_retry(client, model: str, config, user_payload: str):
+    """Chiamata Gemini con retry/backoff sul limite al minuto (429 senza "PerDay" nel messaggio) e
+    QuotaExhausted sul limite giornaliero. Ritorna la response grezza; usata da call_gemini_json e
+    call_gemini_text, così entrambe le modalità (JSON e testo libero) condividono lo stesso retry."""
     last_err = None
     for attempt in range(4):
         try:
-            resp = client.models.generate_content(model=model, contents=user_payload, config=config)
-            raw = resp.text or ""
-            m = re.search(r"\{.*\}", raw, re.S)
-            if not m:
-                raise ValueError(f"Risposta non JSON: {raw[:200]}")
-            return json.loads(m.group(0))
+            return client.models.generate_content(model=model, contents=user_payload, config=config)
         except Exception as e:
             last_err = e
             msg = str(e)
@@ -240,6 +234,27 @@ def call_gemini_json(client, types, system_prompt: str, user_payload: str, model
             else:
                 time.sleep(2)
     raise last_err
+
+
+def call_gemini_json(client, types, system_prompt: str, user_payload: str, model: str = MODEL) -> dict:
+    """Chiamata Gemini generica con risposta JSON (come extract_with_llm, ma senza i campi specifici
+    dell'estrazione luoghi): usata anche da build_dishes.py/build_culture.py."""
+    config = types.GenerateContentConfig(system_instruction=system_prompt, response_mime_type="application/json",
+                                         temperature=0)
+    resp = _call_gemini_with_retry(client, model, config, user_payload)
+    raw = resp.text or ""
+    m = re.search(r"\{.*\}", raw, re.S)
+    if not m:
+        raise ValueError(f"Risposta non JSON: {raw[:200]}")
+    return json.loads(m.group(0))
+
+
+def call_gemini_text(client, types, system_prompt: str, user_payload: str, model: str = MODEL) -> str:
+    """Chiamata Gemini con risposta testo libero (non JSON): usata per la chat di app.py, dove la
+    risposta è discorsiva e non ha uno schema fisso."""
+    config = types.GenerateContentConfig(system_instruction=system_prompt, temperature=0.3)
+    resp = _call_gemini_with_retry(client, model, config, user_payload)
+    return resp.text or ""
 
 
 def extract_with_llm(client, types, caption: str, country_hint: str,
@@ -470,6 +485,17 @@ def group_places(reels, cache, aliases):
             "user_notes": "",
         }
         places.append(place_data)
+
+    # Due gruppi con stesso nome+nazione ma città diverse/incompatibili (es. "Batu Caves" a Kuala
+    # Lumpur vs Selangor: stesso posto reale, ma group_places li tiene separati perché le città non
+    # sono compatibili) finiscono con lo STESSO id (country+name, senza città) -> collisione: uno
+    # sovrascrive l'altro in preserve_state/description_cache. Bug visto e corretto: disambigua con la
+    # città SOLO i gruppi in collisione (gli altri mantengono l'id storico, non si perdono stato/cache).
+    by_id = Counter(p["id"] for p in places)
+    for p in places:
+        if by_id[p["id"]] > 1:
+            p["id"] = f"{p['id']}_{slug(p['city'])}".strip("_")
+
     places.sort(key=lambda p: (p["country"], p["city"], -p["mention_count"], p["name"]))
     return places, sorted(suggestions)
 
@@ -1057,70 +1083,83 @@ def process_tips_file(src: Path, out_dir: Path, reels: list, use_llm: bool, summ
     return summary
 
 
-CULTURE_SYNTH_PROMPT_VERSION = "culture-synth-1"
+CULTURE_PLACE_SYNTH_PROMPT = """Ti do testi su luoghi culturali (descrizioni e consigli pratici scritti
+da creator diversi sullo stesso luogo, spesso ripetitivi). Per ciascun luogo scrivi:
+- "descrizione": un paragrafo discorsivo unico e naturale che riassume le note, SENZA ripetere più volte
+  lo stesso concetto con parole diverse, ma senza perdere informazioni presenti in una sola fonte.
+- "consigli": un paragrafo discorsivo unico con tutti i consigli pratici importanti, stesso criterio.
+Non inventare nulla che non sia già scritto nelle fonti. Rispondi SOLO con JSON:
+{"results": [{"id": 1, "descrizione": "...", "consigli": "..."}, ...]} con tutti gli id."""
 
-def synthesize_cultural_place_text(places: list, use_llm: bool = True) -> None:
-    """Sintetizza descrizioni e consigli dei luoghi culturali in paragrafi discorsivi.
-    Aggiunge i campi _notes_synth e _tips_synth a places di categoria "cultura"."""
-    if not use_llm:
+CULTURE_PLACE_SYNTH_BATCH = 30   # luoghi per chiamata: prompt più pesante di dishes/culture_topics
+
+
+def _culture_place_hash(p: dict) -> str:
+    payload = json.dumps([p.get("notes") or [], p.get("tips") or []], ensure_ascii=False)
+    return hashlib.sha1(payload.encode("utf-8")).hexdigest()
+
+
+def synthesize_cultural_place_text(places: list, out_dir: Path, use_llm: bool = True) -> None:
+    """Sintetizza descrizioni e consigli dei luoghi culturali in paragrafi discorsivi (_notes_synth/
+    _tips_synth), a lotti con Gemini (stesso schema di build_maps.synthesize_descriptions/
+    build_dishes.py/build_culture.py: call_gemini_json, cache per place id in
+    culture_place_synth_cache.json). Prima versione usava google.generativeai (deprecata) con una
+    chiamata PER LUOGO: su questa rete quella libreria falliva la verifica SSL in modo massiccio,
+    bloccando l'intero /aggiorna per minuti prima ancora di salvare places.json (bug visto e
+    corretto — vedi feedback utente su Batu Caves: la sintesi non arrivava mai a destinazione e la
+    tab mostrava il ripiego, tutte le note concatenate pari pari)."""
+    if not use_llm or not os.environ.get("GEMINI_API_KEY"):
         return
 
-    try:
-        import google.generativeai as genai
-        if not os.getenv("GEMINI_API_KEY"):
-            print("  ❌ GEMINI_API_KEY non impostato, skipping sintesi")
-            return
-    except ImportError:
-        print("  ❌ google.generativeai non installato, skipping sintesi")
-        return
-
-    cultural_places = [p for p in places if p.get("category") == "cultura" and p.get("notes")]
+    cultural_places = [p for p in places if p.get("category") == "cultura" and (p.get("notes") or p.get("tips"))]
     if not cultural_places:
         return
 
-    print(f"Sintetizzando {len(cultural_places)} luoghi culturali...")
+    cache_path = out_dir / "culture_place_synth_cache.json"
+    cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
 
+    todo = []
     for p in cultural_places:
-        # Se già sintetizzato e non è cambiato, salta
-        if p.get("_notes_synth") and p.get("_notes_synth_version") == CULTURE_SYNTH_PROMPT_VERSION:
-            continue
+        h = _culture_place_hash(p)
+        hit = cache.get(p["id"])
+        if hit and hit.get("_h") == h:
+            p["_notes_synth"] = hit.get("descrizione", "")
+            p["_tips_synth"] = hit.get("consigli", "")
+        else:
+            todo.append((p, h))
 
+    if not todo:
+        return
+    print(f"Sintetizzando {len(todo)} luoghi culturali ({(len(todo) - 1) // CULTURE_PLACE_SYNTH_BATCH + 1} lotti)...")
+
+    from google import genai
+    from google.genai import types
+    client = genai.Client()
+
+    for start in range(0, len(todo), CULTURE_PLACE_SYNTH_BATCH):
+        batch = todo[start:start + CULTURE_PLACE_SYNTH_BATCH]
+        payload = json.dumps([{"id": i, "nome": p["name"], "note": p.get("notes") or [],
+                               "consigli": p.get("tips") or []}
+                              for i, (p, _) in enumerate(batch, 1)], ensure_ascii=False)
         try:
-            model = genai.GenerativeModel(MODEL)
-
-            # Sintetizza descrizioni
-            if p.get("notes"):
-                notes_text = "\n".join(f"- {n}" for n in p["notes"])
-                prompt_desc = f"""Sintetizza questi testi su un luogo culturale in UN unico paragrafo discorsivo coerente:
-{notes_text}
-
-Scrivi come un paragrafo continuo, naturale e senza ripetizioni, mantenendo tutte le informazioni importanti."""
-
-                resp_desc = model.generate_content(prompt_desc)
-                p["_notes_synth"] = resp_desc.text if resp_desc else " ".join(p["notes"])
-
-            # Sintetizza consigli
-            if p.get("tips"):
-                tips_text = "\n".join(f"- {t}" for t in p["tips"])
-                prompt_tips = f"""Sintetizza questi consigli pratici in UN unico paragrafo discorsivo coerente:
-{tips_text}
-
-Scrivi come un paragrafo unico e naturale, mantenendo tutti i consigli importanti."""
-
-                resp_tips = model.generate_content(prompt_tips)
-                p["_tips_synth"] = resp_tips.text if resp_tips else " ".join(p["tips"])
-
-            p["_notes_synth_version"] = CULTURE_SYNTH_PROMPT_VERSION
-            time.sleep(PAUSE_SECONDS)
-
+            data = call_gemini_json(client, types, CULTURE_PLACE_SYNTH_PROMPT, payload)
+        except QuotaExhausted:
+            cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+            raise
         except Exception as e:
-            msg = str(e)
-            if "429" in msg or "RESOURCE_EXHAUSTED" in msg or "quota" in msg.lower():
-                print(f"  Quota Gemini esaurita, mi fermo qui")
-                return
-            else:
-                print(f"  Errore per {p.get('name', '?')}: {e}, continuo...")
+            print(f"  ⚠️ Sintesi luoghi culturali non riuscita per questo lotto: {str(e)[:200]}")
+            continue
+        answers = {int(r["id"]): r for r in data.get("results", []) if isinstance(r, dict) and "id" in r}
+        for i, (p, h) in enumerate(batch, 1):
+            r = answers.get(i)
+            if not r:
                 continue
+            p["_notes_synth"] = r.get("descrizione") or ""
+            p["_tips_synth"] = r.get("consigli") or ""
+            cache[p["id"]] = {"_h": h, "descrizione": p["_notes_synth"], "consigli": p["_tips_synth"]}
+        time.sleep(PAUSE_SECONDS)
+
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def process_file(src: Path, out_dir=None, use_llm: bool = True, tips_only: bool = False) -> dict:
@@ -1151,7 +1190,7 @@ def process_file(src: Path, out_dir=None, use_llm: bool = True, tips_only: bool 
 
     # Sintetizza i luoghi culturali con Gemini
     try:
-        synthesize_cultural_place_text(places, use_llm and not quota_hit)
+        synthesize_cultural_place_text(places, out_dir, use_llm and not quota_hit)
     except QuotaExhausted:
         quota_hit = True
 

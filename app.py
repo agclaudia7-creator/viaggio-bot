@@ -13,15 +13,20 @@ import requests
 from streamlit_js_eval import get_geolocation
 
 from build_culture import CULTURE_TOPICS
+from build_places import QuotaExhausted, call_gemini_text
 
-# Carica Gemini
-try:
-    import google.generativeai as genai
-    GEMINI_AVAILABLE = True
-    if os.getenv("GEMINI_API_KEY"):
-        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-except ImportError:
-    GEMINI_AVAILABLE = False
+# Chat Gemini (tab sotto): usa google.genai (SDK nuovo, via REST), NON google.generativeai (deprecato).
+# Quella libreria vecchia, su questa rete, falliva la verifica del certificato SSL in modo massiccio e
+# bloccava la chat all'infinito (stesso bug visto e corretto in build_places.synthesize_cultural_place_text,
+# vedi CLAUDE.md). GEMINI_AVAILABLE qui controlla solo che la chiave sia impostata: il client vero e
+# proprio si crea al primo uso (get_gemini_client), così l'app non si rompe se google-genai non è installato.
+GEMINI_AVAILABLE = bool(os.getenv("GEMINI_API_KEY"))
+
+
+@st.cache_resource
+def get_gemini_client():
+    from google import genai
+    return genai.Client()  # legge GEMINI_API_KEY dall'ambiente
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -165,6 +170,12 @@ def load_csv_data():
         return pd.concat(all_data, ignore_index=True)
     return pd.DataFrame()
 
+# Mapping tra nazioni CSV e cartelle FONTI (per gestire nomi diversi)
+NATION_FOLDER_MAPPING = {
+    "Malesia": "Singapore&Malesia",
+    "Singapore": "Singapore&Malesia",
+}
+
 @st.cache_data
 def load_fonti_sources(nations: list) -> dict:
     """Carica tutti i file da FONTI/<Nazione>/ per le nazioni selezionate."""
@@ -175,7 +186,10 @@ def load_fonti_sources(nations: list) -> dict:
         return sources
 
     for nation in nations:
-        nation_dir = fonti_dir / nation
+        # Usa il mapping se esiste, altrimenti il nome originale
+        folder_name = NATION_FOLDER_MAPPING.get(nation, nation)
+        nation_dir = fonti_dir / folder_name
+
         if not nation_dir.exists():
             continue
 
@@ -903,23 +917,19 @@ with tab_chat:
                             content = content[:10000] + "\n... [contenuto troncato]"
                         context += f"\n### {filename}\n{content}\n"
 
-                # Chiama Gemini con le fonti come context
+                # Chiama Gemini con le fonti come context (google.genai, non google.generativeai:
+                # vedi nota in testa al file)
                 try:
                     with st.chat_message("assistant"):
                         with st.spinner("Sto pensando..."):
-                            model = genai.GenerativeModel("gemini-3.5-flash-lite")
-                            response = model.generate_content(
-                                f"""Sei un assistente di viaggio esperto. Usa SOLO le informazioni dalle fonti fornite per rispondere.
-
-FONTI:
-{context}
-
-DOMANDA DELL'UTENTE: {user_input}
-
-Se l'informazione non è nelle fonti, dillo chiaramente."""
-                            )
-
-                            assistant_response = response.text
+                            from google.genai import types
+                            client = get_gemini_client()
+                            system_prompt = ("Sei un assistente di viaggio esperto. Usa SOLO le "
+                                            "informazioni dalle fonti fornite per rispondere. Se "
+                                            "l'informazione non è nelle fonti, dillo chiaramente.")
+                            assistant_response = call_gemini_text(
+                                client, types, system_prompt,
+                                f"FONTI:\n{context}\n\nDOMANDA DELL'UTENTE: {user_input}")
                             st.markdown(assistant_response)
 
                             # Aggiungi risposta alla history
@@ -928,6 +938,8 @@ Se l'informazione non è nelle fonti, dillo chiaramente."""
                                 "content": assistant_response
                             })
 
+                except QuotaExhausted:
+                    st.error("⛔ Quota giornaliera Gemini esaurita. Riprova domani.")
                 except Exception as e:
                     st.error(f"❌ Errore Gemini: {e}")
 

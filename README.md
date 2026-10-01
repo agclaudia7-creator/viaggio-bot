@@ -102,7 +102,7 @@ L'app ha quattro tab: **🗺️ Mappa** (luoghi), **🍜 Cibo** (piatti/bevande 
   pandas>=1.5.0
   geopy>=2.3.0
   requests>=2.31.0
-  google-generativeai>=0.3.0
+  google-genai>=0.3.0
   ```
 - **Per la Chat Gemini**: Variabile d'ambiente `GEMINI_API_KEY` (generata da https://aistudio.google.com/apikey)
 
