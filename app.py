@@ -10,6 +10,7 @@ import io
 from math import radians, cos, sin, asin, sqrt
 import re
 import requests
+import streamlit.components.v1 as components
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -227,7 +228,7 @@ def create_map(df_filtered, user_lat=None, user_lon=None, show_distance=False, z
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=8,
-        tiles="CartoDB positron"
+        tiles="Stamen Toner"
     )
 
     # Applica fit_bounds per zoommare automaticamente sui contenuti
@@ -313,12 +314,59 @@ if df.empty:
 # ============= SIDEBAR - TUA POSIZIONE =============
 st.sidebar.title("📍 La tua Posizione")
 
+# Inizializza session state per geolocalizzazione
+if "geoloc_lat" not in st.session_state:
+    st.session_state.geoloc_lat = None
+    st.session_state.geoloc_lon = None
+
 user_lat = None
 user_lon = None
 
 # Bottone per geolocalizzazione automatica
-if st.sidebar.button("📍 Aggiungi posizione", use_container_width=True, help="Usa la geolocalizzazione del browser (il bottone 📍 della mappa)"):
-    st.sidebar.info("Clicca il bottone 📍 in alto a sinistra della mappa per attivare la geolocalizzazione automatica")
+if st.sidebar.button("📍 Aggiungi posizione", use_container_width=True, help="Usa la geolocalizzazione del browser"):
+    # Attiva geolocalizzazione con JavaScript e salva in session_state
+    html_geoloc = """
+    <script>
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            position => {
+                const lat = position.coords.latitude.toFixed(6);
+                const lon = position.coords.longitude.toFixed(6);
+                // Salva in localStorage per leggere nel rerun
+                localStorage.setItem('geoloc_lat', lat);
+                localStorage.setItem('geoloc_lon', lon);
+                // Rerun di Streamlit
+                window.parent.location.reload();
+            },
+            error => {
+                alert('Errore: ' + error.message);
+            }
+        );
+    } else {
+        alert('Geolocalizzazione non supportata');
+    }
+    </script>
+    """
+    components.html(html_geoloc, height=1)
+
+# Leggi geolocalizzazione da localStorage se disponibile
+html_read_geoloc = """
+<script>
+const lat = localStorage.getItem('geoloc_lat');
+const lon = localStorage.getItem('geoloc_lon');
+if (lat && lon) {
+    // Comunica a Streamlit che abbiamo le coordinate
+    window.parent.streamlit.setComponentValue({has_geoloc: true, lat: parseFloat(lat), lon: parseFloat(lon)});
+    localStorage.removeItem('geoloc_lat');
+    localStorage.removeItem('geoloc_lon');
+}
+</script>
+"""
+geoloc_data = components.html(html_read_geoloc, height=1)
+if geoloc_data and geoloc_data.get('has_geoloc'):
+    user_lat = geoloc_data['lat']
+    user_lon = geoloc_data['lon']
+    st.sidebar.success(f"✅ Posizione: {user_lat:.4f}, {user_lon:.4f}")
 
 # Opzione 1: Input manuale
 input_type = st.sidebar.radio("Come inserire la posizione?", ["Nessuna", "Manuale (Lat/Lon)", "Nome/Link Maps"])
@@ -511,7 +559,7 @@ with col2:
         df_filtered = df_filtered[mask_nome | mask_descrizione]
 
     # Modalità di ordinamento
-    ordinamento_options = ["Predefinito", "Citazioni ↓", "Citazioni ↑"]
+    ordinamento_options = ["Citazioni ↓"]
     if user_lat is not None and user_lon is not None:
         ordinamento_options.append("Distanza")
 
@@ -528,10 +576,9 @@ with col2:
             axis=1
         )
         df_filtered = df_filtered.sort_values('Distanza_km')
-    elif ordinamento == "Citazioni ↓":
+    else:
+        # Default: ordina per Citazioni dal più alto al più basso
         df_filtered = df_filtered.sort_values('Citazioni', ascending=False)
-    elif ordinamento == "Citazioni ↑":
-        df_filtered = df_filtered.sort_values('Citazioni', ascending=True)
 
     st.subheader(f"📋 Elenco ({len(df_filtered)})")
 
@@ -540,24 +587,22 @@ with col2:
         if len(df_filtered) > 0:
             for idx, row in df_filtered.iterrows():
                 with st.expander(f"📍 {row['Nome']} ({row['Categoria']})"):
-                    # Bottoni Zoom e Google Maps PRIMA della descrizione
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                    # Bottoni Zoom e Google Maps solo se ci sono coordinate
+                    if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                        col1, col2 = st.columns(2)
+                        with col1:
                             if st.button(f"🔍 Zoom", key=f"zoom_main_{row['Nome']}_{idx}", use_container_width=True):
                                 st.session_state.zoom_luogo = row['Nome']
                                 st.rerun()
-                    with col2:
-                        if pd.notna(row['Lat']) and pd.notna(row['Lon']):
+                        with col2:
                             st.link_button(
                                 "📍 Google Maps",
                                 get_google_maps_url(row['Lat'], row['Lon'], row['Nome']),
                                 use_container_width=True
                             )
+                        st.divider()
 
-                    st.divider()
-
-                    # Descrizione DOPO i bottoni
+                    # Descrizione
                     descrizione = make_links_clickable(row.get('Descrizione', 'N/A'))
                     st.markdown(f"**Descrizione:**\n{descrizione}", unsafe_allow_html=True)
         else:

@@ -20,10 +20,10 @@ App Streamlit per visualizzare e esplorare interattivamente i luoghi del viaggio
 - **Ricerca testuale**: Cerca nel nome e descrizione dei luoghi
 
 ### Posizione Utente
+- **Bottone "📍 Aggiungi posizione"**: Attiva la geolocalizzazione del browser (GPS). La posizione viene salvata e la mappa si centra su di essa
 - **Nessuna**: Non inserire posizione
 - **Manuale (Lat/Lon)**: Inserisci latitudine e longitudine direttamente
 - **Nome/Link Maps**: Scrivi il nome di una città o incolla un link Google Maps (anche short link)
-- **Bottone "Aggiungi posizione"**: Accedi alla geolocalizzazione del browser
 
 ### Elenco Luoghi
 - Ordinamento per:
@@ -111,9 +111,19 @@ I CSV vengono generati da `build_maps.py` ogni volta che il bot aggiorna i luogh
 
 ## 🎨 Personalizzazione
 
-- **Colori categorie**: Modifica il dizionario `category_colors` in `create_map()` (linee ~253-260)
-- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~233)
-- **Tile disponibili**: "OpenStreetMap", "CartoDB positron", "CartoDB voyager", "Stamen Terrain", etc.
+- **Colori categorie**: Modifica il dizionario `category_colors` in `create_map()` (linee ~260-265)
+- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~245)
+  
+### Tile map disponibili (senza API key)
+- **Stamen Toner** (predefinito) - Stile minimalista, simile a Google Maps
+- **Stamen TonerLite** - Versione più chiara di Stamen Toner
+- **Stamen Terrain** - Topografia con rilievi
+- **Stamen TopoMap** - Stile topografico completo
+- **OpenStreetMap** - Stile base OSM (usato di default in folium)
+- **Esri WorldStreetMap** - Stile Esri (richiede connessione con Esri)
+- **Esri WorldImagery** - Satellite/immagini aeree (Esri)
+
+**Nota**: CartoDB positron/voyager richiedono API key per deploy in produzione. Per locale funzionano, ma è consigliato usare Stamen Toner per evitare problemi.
 
 ## 🔐 Sicurezza
 
