@@ -1065,6 +1065,15 @@ def synthesize_cultural_place_text(places: list, use_llm: bool = True) -> None:
     if not use_llm:
         return
 
+    try:
+        import google.generativeai as genai
+        if not os.getenv("GEMINI_API_KEY"):
+            print("  ❌ GEMINI_API_KEY non impostato, skipping sintesi")
+            return
+    except ImportError:
+        print("  ❌ google.generativeai non installato, skipping sintesi")
+        return
+
     cultural_places = [p for p in places if p.get("category") == "cultura" and p.get("notes")]
     if not cultural_places:
         return
@@ -1077,6 +1086,8 @@ def synthesize_cultural_place_text(places: list, use_llm: bool = True) -> None:
             continue
 
         try:
+            model = genai.GenerativeModel(MODEL)
+
             # Sintetizza descrizioni
             if p.get("notes"):
                 notes_text = "\n".join(f"- {n}" for n in p["notes"])
@@ -1085,12 +1096,8 @@ def synthesize_cultural_place_text(places: list, use_llm: bool = True) -> None:
 
 Scrivi come un paragrafo continuo, naturale e senza ripetizioni, mantenendo tutte le informazioni importanti."""
 
-                resp_desc = call_gemini_json(None, None, prompt_desc, "")
-                if isinstance(resp_desc, str):
-                    p["_notes_synth"] = resp_desc
-                else:
-                    # Fallback
-                    p["_notes_synth"] = " ".join(p["notes"])
+                resp_desc = model.generate_content(prompt_desc)
+                p["_notes_synth"] = resp_desc.text if resp_desc else " ".join(p["notes"])
 
             # Sintetizza consigli
             if p.get("tips"):
@@ -1100,21 +1107,20 @@ Scrivi come un paragrafo continuo, naturale e senza ripetizioni, mantenendo tutt
 
 Scrivi come un paragrafo unico e naturale, mantenendo tutti i consigli importanti."""
 
-                resp_tips = call_gemini_json(None, None, prompt_tips, "")
-                if isinstance(resp_tips, str):
-                    p["_tips_synth"] = resp_tips
-                else:
-                    p["_tips_synth"] = " ".join(p["tips"])
+                resp_tips = model.generate_content(prompt_tips)
+                p["_tips_synth"] = resp_tips.text if resp_tips else " ".join(p["tips"])
 
             p["_notes_synth_version"] = CULTURE_SYNTH_PROMPT_VERSION
             time.sleep(PAUSE_SECONDS)
 
-        except QuotaExhausted:
-            print("  Quota Gemini esaurita, mi fermo qui")
-            return
         except Exception as e:
-            print(f"  Errore per {p['name']}: {e}, continuo...")
-            continue
+            msg = str(e)
+            if "429" in msg or "RESOURCE_EXHAUSTED" in msg or "quota" in msg.lower():
+                print(f"  Quota Gemini esaurita, mi fermo qui")
+                return
+            else:
+                print(f"  Errore per {p.get('name', '?')}: {e}, continuo...")
+                continue
 
 
 def process_file(src: Path, out_dir=None, use_llm: bool = True, tips_only: bool = False) -> dict:
