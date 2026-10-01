@@ -1,0 +1,23 @@
+[
+  {
+    "id": "granchio-fresco-al-pepe-kampot",
+    "name": "granchio fresco al pepe di Kampot",
+    "aliases": [],
+    "description": "Granchio fresco condito con il famoso pepe di Kampot, da gustare nel celebre mercato all'aperto.",
+    "places": [
+      {
+        "id": "cambogia_crab-market",
+        "name": "Crab Market",
+        "city": "Kep"
+      }
+    ],
+    "countries": [
+      "Cambogia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcibsLSgPMk/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  }
+]

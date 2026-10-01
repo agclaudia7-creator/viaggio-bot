@@ -1,0 +1,191 @@
+[
+  {
+    "id": "matcha",
+    "name": "matcha",
+    "aliases": [],
+    "description": "Delizioso tè matcha servito al locale De Lekka.",
+    "places": [
+      {
+        "id": "indonesia_de-lekka",
+        "name": "De Lekka",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/330px-Matcha_Scoop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "hamburger",
+    "name": "hamburger",
+    "aliases": [],
+    "description": "Ottimo hamburger servito da Drifters.",
+    "places": [
+      {
+        "id": "indonesia_drifters",
+        "name": "Drifters",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/330px-RedDot_Burger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "martabak",
+    "name": "Martabak",
+    "aliases": [],
+    "description": "Famoso dessert locale, da provare nella versione con cioccolato, latte condensato, formaggio e arachidi.",
+    "places": [
+      {
+        "id": "indonesia_martabak-near-market",
+        "name": "Martabak near the market",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Murtabak.jpg/330px-Murtabak.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gelato",
+    "name": "gelato",
+    "aliases": [],
+    "description": "Gelato della catena Mixue.",
+    "places": [
+      {
+        "id": "indonesia_mixue",
+        "name": "Mixue",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Delicious_Gelato_on_display.jpg/330px-Delicious_Gelato_on_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "bubble-tea",
+    "name": "bubble tea",
+    "aliases": [],
+    "description": "Bubble tea della catena Mixue.",
+    "places": [
+      {
+        "id": "indonesia_mixue",
+        "name": "Mixue",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Bubble_Tea.png/330px-Bubble_Tea.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "crepes",
+    "name": "crepes",
+    "aliases": [],
+    "description": "Crepes della storica creperia, consigliata con Nutella, Biscoff, banana e cannella.",
+    "places": [
+      {
+        "id": "indonesia_oh-crepes",
+        "name": "Oh Crepes",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "satay",
+    "name": "satay",
+    "aliases": [],
+    "description": "Autentico street food indonesiano a base di satay di pollo e manzo.",
+    "places": [
+      {
+        "id": "indonesia_sate-ayam-and-daging-sapi-madura",
+        "name": "Sate Ayam & Daging Sapi Madura",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sate_Udang.JPG/330px-Sate_Udang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gyoza",
+    "name": "gyoza",
+    "aliases": [],
+    "description": "Ottimi gyoza serviti al Bazar.",
+    "places": [
+      {
+        "id": "indonesia_tiger-gyoza",
+        "name": "Tiger Gyoza",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pho",
+    "name": "pho",
+    "aliases": [],
+    "description": "Ottimo pho servito al Bazar.",
+    "places": [
+      {
+        "id": "indonesia_tiger-gyoza",
+        "name": "Tiger Gyoza",
+        "city": "Kuta Lombok"
+      }
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdZsCjsAGu_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bowl_of_Meatball_pho.jpg/330px-Bowl_of_Meatball_pho.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+]

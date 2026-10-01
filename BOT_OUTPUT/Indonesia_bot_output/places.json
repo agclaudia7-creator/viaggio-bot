@@ -1,0 +1,4086 @@
+[
+  {
+    "id": "indonesia_amed",
+    "name": "Amed",
+    "aliases": [],
+    "city": "Amed",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Località di mare con vulcani e autentica atmosfera locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Località di mare con vulcani e autentica atmosfera locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_sangeh-monkey-forest",
+    "name": "Sangeh Monkey Forest",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Riserva naturale con scimmie, molto più tranquilla rispetto a quella di Ubud.",
+      "Foresta delle scimmie a Bali.",
+      "Bellissima foresta più tranquilla con scimmie più rilassate e meno folla."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Riserva naturale con scimmie, molto più tranquilla rispetto a quella di Ubud.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Foresta delle scimmie a Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd8Ha53PKrV/",
+        "date": "2026-10-01",
+        "note": "Bellissima foresta più tranquilla con scimmie più rilassate e meno folla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-10-01",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_gunung-kawi",
+    "name": "Gunung Kawi",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Sito archeologico e culturale nei dintorni di Tampaksiring.",
+      "Antico complesso di templi rupestri a Bali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dcs3taoA4mZ/",
+        "date": "",
+        "note": "Sito archeologico e culturale nei dintorni di Tampaksiring.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Antico complesso di templi rupestri a Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Gunung Kawi è un antico complesso di templi rupestri e sito archeologico e culturale situato nei dintorni di Tampaksiring.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_jatiluwih",
+    "name": "Jatiluwih",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Famosi terrazzamenti di riso a Bali.",
+      "Terrace di riso spettacolari, ottime da combinare per un'escursione di un giorno."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Famosi terrazzamenti di riso a Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd8Ha53PKrV/",
+        "date": "2026-10-01",
+        "note": "Terrace di riso spettacolari, ottime da combinare per un'escursione di un giorno.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-10-01",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_leke-leke-waterfall_bali",
+    "name": "Leke Leke Waterfall",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata nascosta nella natura di Bali.",
+      "Cascata suggestiva perfetta per un'escursione giornaliera nel centro di Bali."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "1 giorno"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Cascata nascosta nella natura di Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd8Ha53PKrV/",
+        "date": "2026-10-01",
+        "note": "Cascata suggestiva perfetta per un'escursione giornaliera nel centro di Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "1 giorno",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-10-01",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_pura-mengening",
+    "name": "Pura Mengening",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio autentico proposto come alternativa meno turistica a Tirta Empul.",
+      "Luogo di interesse situato nella zona di Tampaksiring."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Tempio autentico proposto come alternativa meno turistica a Tirta Empul.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dcs3taoA4mZ/",
+        "date": "",
+        "note": "Luogo di interesse situato nella zona di Tampaksiring.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Pura Mengening è un tempio autentico situato nella zona di Tampaksiring, proposto come alternativa meno turistica al vicino Tirta Empul.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_banjar-mancingan-rice-fields",
+    "name": "Banjar Mancingan Rice Fields",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [
+      "gratis"
+    ],
+    "notes": [
+      "Risaie poco conosciute e autentiche a Tampaksiring, ideali per vivere un lato di Bali più tranquillo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Cerca su Google Maps Banjar Mancingan Rice Trekking",
+      "Lascia un'offerta libera nella donation box all'inizio del percorso",
+      "Rispetta il silenzio e non entrare nelle coltivazioni"
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dcs3taoA4mZ/",
+        "date": "",
+        "note": "Risaie poco conosciute e autentiche a Tampaksiring, ideali per vivere un lato di Bali più tranquillo.",
+        "cost": "gratis",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Cerca su Google Maps Banjar Mancingan Rice Trekking",
+          "Lascia un'offerta libera nella donation box all'inizio del percorso",
+          "Rispetta il silenzio e non entrare nelle coltivazioni"
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_besakih",
+    "name": "Besakih",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Il tempio madre di Bali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Il tempio madre di Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Besakih è il tempio madre di Bali.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_coco-dewata-sunset-gallery",
+    "name": "Coco Dewata Sunset Gallery",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Negozio situato all'interno del Discovery Mall Bali che offre souvenir, regali e prodotti locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Si trova al piano terra del Discovery Mall Bali.",
+      "Dista circa 10 minuti dall'aeroporto."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQOmYAy0_0/",
+        "date": "",
+        "note": "Negozio situato all'interno del Discovery Mall Bali che offre souvenir, regali e prodotti locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Si trova al piano terra del Discovery Mall Bali.",
+          "Dista circa 10 minuti dall'aeroporto."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_goa-gajah",
+    "name": "Goa Gajah",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Grotta dell'elefante, sito archeologico a Bali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Grotta dell'elefante, sito archeologico a Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Goa Gajah, nota anche come la grotta dell'elefante, è un importante sito archeologico situato a Bali.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_pura-lempuyang",
+    "name": "Pura Lempuyang",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Complesso templare, da visitare esplorando le aree minori oltre al Gate of Heaven."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Complesso templare, da visitare esplorando le aree minori oltre al Gate of Heaven.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Pura Lempuyang è un complesso templare di Bali.",
+    "_tips_synth": "Esplorare le aree minori del complesso oltre al celebre Gate of Heaven."
+  },
+  {
+    "id": "indonesia_pura-taman-ayun",
+    "name": "Pura Taman Ayun",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio circondato da giardini acquatici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Visitarlo al mattino presto."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Tempio circondato da giardini acquatici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Visitarlo al mattino presto."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Pura Taman Ayun è un tempio balinese circondato da suggestivi giardini acquatici.",
+    "_tips_synth": "Visitarlo al mattino presto."
+  },
+  {
+    "id": "indonesia_pura-ulun-danu-bratan",
+    "name": "Pura Ulun Danu Bratan",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio iconico sulle sponde del lago Bratan."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Tempio iconico sulle sponde del lago Bratan.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Pura Ulun Danu Bratan è un tempio iconico situato sulle sponde del lago Bratan.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_tegallalang-rice-terrace",
+    "name": "Tegallalang Rice Terrace",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Famose risaie a terrazzamento, molto turistiche ma divertenti da esplorare a piedi e fare l'altalena."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Molto turistico"
+    ],
+    "tips": [
+      "Arriva tra le 8:30 e le 9:00 di mattina.",
+      "Non prendere abiti a noleggio per evitare file.",
+      "Fai subito l'altalena e poi gira a piedi.",
+      "Compra il biglietto direttamente in biglietteria per il prezzo più basso."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/C_1AvQWsu50/",
+        "date": "",
+        "note": "Famose risaie a terrazzamento, molto turistiche ma divertenti da esplorare a piedi e fare l'altalena.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Molto turistico",
+        "tips": [
+          "Arriva tra le 8:30 e le 9:00 di mattina.",
+          "Non prendere abiti a noleggio per evitare file.",
+          "Fai subito l'altalena e poi gira a piedi.",
+          "Compra il biglietto direttamente in biglietteria per il prezzo più basso."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tirta-empul",
+    "name": "Tirta Empul",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio sacro nei dintorni di Tampaksiring da abbinare alla visita delle risaie."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dcs3taoA4mZ/",
+        "date": "",
+        "note": "Tempio sacro nei dintorni di Tampaksiring da abbinare alla visita delle risaie.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Tirta Empul è un tempio sacro situato nei dintorni di Tampaksiring, ideale da abbinare alla visita delle risaie.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_tirta-gangga",
+    "name": "Tirta Gangga",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Palazzo dell'acqua reale con fontane e stagni."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Palazzo dell'acqua reale con fontane e stagni.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Tirta Gangga è un palazzo dell'acqua reale caratterizzato da fontane e stagni.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_ubud-monkey-forest",
+    "name": "Ubud Monkey Forest",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Foresta con scimmie a Ubud, molto affollata rispetto ad altre opzioni."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Molta folla"
+    ],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd8Ha53PKrV/",
+        "date": "2026-10-01",
+        "note": "Foresta con scimmie a Ubud, molto affollata rispetto ad altre opzioni.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Molta folla",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-10-01",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_uluwatu",
+    "name": "Uluwatu",
+    "aliases": [],
+    "city": "Bali",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Località famosa per il tempio a picco sul mare a Bali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Località famosa per il tempio a picco sul mare a Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Uluwatu è una località balinese famosa per il suo tempio situato a picco sul mare.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_leke-leke-waterfall_bali-centrale",
+    "name": "Leke Leke Waterfall",
+    "aliases": [],
+    "city": "Bali centrale",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Molto carina con un percorso di 15-20 minuti nella vegetazione, tra sentieri e ponticelli."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Percorso non troppo impegnativo."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Molto carina con un percorso di 15-20 minuti nella vegetazione, tra sentieri e ponticelli.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Percorso non troppo impegnativo."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tibumana-waterfall",
+    "name": "Tibumana Waterfall",
+    "aliases": [],
+    "city": "Bangli",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Un unico getto che precipita in una piscina naturale con un bellissimo percorso tra risaie e ponticelli."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Un unico getto che precipita in una piscina naturale con un bellissimo percorso tra risaie e ponticelli.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tukad-cepung-waterfall",
+    "name": "Tukad Cepung Waterfall",
+    "aliases": [],
+    "city": "Bangli",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Particolare cascata nascosta in un canyon a Bali orientale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Nell'ultimo tratto si cammina nell'acqua tra le rocce: porta le scarpette da scoglio."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Particolare cascata nascosta in un canyon a Bali orientale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Nell'ultimo tratto si cammina nell'acqua tra le rocce: porta le scarpette da scoglio."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_ijen-volcano",
+    "name": "Ijen Volcano",
+    "aliases": [],
+    "city": "Banyuwangi",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Famoso vulcano noto per il suo cratere acido e il fenomeno del fuoco blu."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Famoso vulcano noto per il suo cratere acido e il fenomeno del fuoco blu.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_snooze-hostel-banyuwangi",
+    "name": "Snooze Hostel Banyuwangi",
+    "aliases": [],
+    "city": "Banyuwangi",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "da 7.47€"
+    ],
+    "notes": [
+      "Base ideale per visitare il fuoco blu dell'Ijen, vicinissimo a tutto."
+    ],
+    "creator_ratings": [
+      "9.8/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Ottima base per il trekking all'Ijen per vedere il fuoco blu."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdozKMemzBs/",
+        "date": "",
+        "note": "Base ideale per visitare il fuoco blu dell'Ijen, vicinissimo a tutto.",
+        "cost": "da 7.47€",
+        "rating": "9.8/10",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Ottima base per il trekking all'Ijen per vedere il fuoco blu."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_belitung",
+    "name": "Belitung",
+    "aliases": [],
+    "city": "Belitung",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola poco conosciuta con spiagge bianchissime, rocce granitiche spettacolari e acque cristalline, ideale per relax.",
+      "Isola autentica con mare turchese, rocce granitiche e spiagge poco affollate al largo di Sumatra."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Voli giornalieri da Giacarta in meno di un'ora.",
+      "Noleggia un motorino per esplorare l'isola in libertà."
+    ],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Isola poco conosciuta con spiagge bianchissime, rocce granitiche spettacolari e acque cristalline, ideale per relax.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DRwJM9XDA1-/",
+        "date": "",
+        "note": "Isola autentica con mare turchese, rocce granitiche e spiagge poco affollate al largo di Sumatra.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Voli giornalieri da Giacarta in meno di un'ora.",
+          "Noleggia un motorino per esplorare l'isola in libertà."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_billiton-ecobeach-retreat",
+    "name": "Billiton Ecobeach Retreat",
+    "aliases": [],
+    "city": "Belitung",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Struttura più isolata con pochi bungalow e una spiaggia privata da sogno."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRwJM9XDA1-/",
+        "date": "",
+        "note": "Struttura più isolata con pochi bungalow e una spiaggia privata da sogno.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_santika-resort",
+    "name": "Santika Resort",
+    "aliases": [],
+    "city": "Belitung",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "50 € a notte"
+    ],
+    "notes": [
+      "Hotel comodo con camere belle ed economiche, vicino a Tinggi Beach."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRwJM9XDA1-/",
+        "date": "",
+        "note": "Hotel comodo con camere belle ed economiche, vicino a Tinggi Beach.",
+        "cost": "50 € a notte",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tinggi-beach",
+    "name": "Tinggi Beach",
+    "aliases": [],
+    "city": "Belitung",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Considerata la spiaggia più bella dell'isola, un vero angolo di paradiso."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRwJM9XDA1-/",
+        "date": "",
+        "note": "Considerata la spiaggia più bella dell'isola, un vero angolo di paradiso.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_bukit-lawang",
+    "name": "Bukit Lawang",
+    "aliases": [],
+    "city": "Bukit Lawang",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Villaggio oasi a Sumatra, punto di partenza per i trekking nella giungla."
+    ],
+    "creator_ratings": [
+      "9/10"
+    ],
+    "days": [],
+    "cons": [
+      "Servizi e strutture limitati"
+    ],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Villaggio oasi a Sumatra, punto di partenza per i trekking nella giungla.",
+        "cost": "",
+        "rating": "9/10",
+        "days": "",
+        "cons": "Servizi e strutture limitati",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_gunung-leuser-national-park",
+    "name": "Gunung Leuser National Park",
+    "aliases": [],
+    "city": "Bukit Lawang",
+    "country": "Indonesia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Parco nazionale a Sumatra ideale per il trekking alla scoperta degli oranghi."
+    ],
+    "creator_ratings": [
+      "10/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Partecipare al trekking per vedere gli oranghi"
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Parco nazionale a Sumatra ideale per il trekking alla scoperta degli oranghi.",
+        "cost": "",
+        "rating": "10/10",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Partecipare al trekking per vedere gli oranghi"
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_sekumpul-and-fiji-waterfall",
+    "name": "Sekumpul and Fiji Waterfall",
+    "aliases": [],
+    "city": "Buleleng",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Tra le cascate più spettacolari e imponenti del nord di Bali, visitabili con lo stesso trekking."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Piuttosto turistiche"
+    ],
+    "tips": [
+      "Porta le scarpette da scoglio."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Tra le cascate più spettacolari e imponenti del nord di Bali, visitabili con lo stesso trekking.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Piuttosto turistiche",
+        "tips": [
+          "Porta le scarpette da scoglio."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_canggu",
+    "name": "Canggu",
+    "aliases": [],
+    "city": "Canggu",
+    "country": "Indonesia",
+    "category": "altro",
+    "costs": [],
+    "notes": [
+      "Zona molto turistica di Bali, consigliata da saltare se si ha poco tempo."
+    ],
+    "creator_ratings": [
+      "5/10"
+    ],
+    "days": [],
+    "cons": [
+      "Troppo turistico"
+    ],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Zona molto turistica di Bali, consigliata da saltare se si ha poco tempo.",
+        "cost": "",
+        "rating": "5/10",
+        "days": "",
+        "cons": "Troppo turistico",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_cascate-tumpak-sewu",
+    "name": "Cascate Tumpak Sewu",
+    "aliases": [],
+    "city": "East Java",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Spettacolari cascate a East Java."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Spettacolari cascate a East Java.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_ijen",
+    "name": "Ijen",
+    "aliases": [],
+    "city": "East Java",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Vulcano famoso per i suoi paesaggi a East Java."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Vulcano famoso per i suoi paesaggi a East Java.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_monte-bromo",
+    "name": "Monte Bromo",
+    "aliases": [],
+    "city": "East Java",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Vulcano attivo iconico di East Java."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Vulcano attivo iconico di East Java.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_flores",
+    "name": "Flores",
+    "aliases": [],
+    "city": "Flores",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Porta d'accesso al Parco Nazionale di Komodo, con colline verdi, spiagge rosa e villaggi locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Porta d'accesso al Parco Nazionale di Komodo, con colline verdi, spiagge rosa e villaggi locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_komodo-national-park",
+    "name": "Komodo National Park",
+    "aliases": [],
+    "city": "Flores",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Parco nazionale celebre per i draghi di Komodo e le isole."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Parco nazionale celebre per i draghi di Komodo e le isole.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_padar-island",
+    "name": "Padar Island",
+    "aliases": [],
+    "city": "Flores",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola famosa per i suoi punti panoramici spettacolari e trekking."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Isola famosa per i suoi punti panoramici spettacolari e trekking.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_pink-beach",
+    "name": "Pink Beach",
+    "aliases": [],
+    "city": "Flores",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Spiaggia dalla sabbia rosa nel Parco Nazionale di Komodo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Spiaggia dalla sabbia rosa nel Parco Nazionale di Komodo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_taka-makassar",
+    "name": "Taka Makassar",
+    "aliases": [],
+    "city": "Flores",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Banco di sabbia paradisiaco nel Parco Nazionale di Komodo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Banco di sabbia paradisiaco nel Parco Nazionale di Komodo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_kota-tua",
+    "name": "Kota Tua",
+    "aliases": [],
+    "city": "Giacarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Centro storico di Giacarta, parte delle attrazioni turistiche della città."
+    ],
+    "creator_ratings": [
+      "7/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Centro storico di Giacarta, parte delle attrazioni turistiche della città.",
+        "cost": "",
+        "rating": "7/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Kota Tua è il centro storico di Giacarta e rappresenta una delle principali attrazioni turistiche della città.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_national-monument",
+    "name": "National Monument",
+    "aliases": [],
+    "city": "Giacarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Monumento simbolo di Giacarta."
+    ],
+    "creator_ratings": [
+      "7/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Monumento simbolo di Giacarta.",
+        "cost": "",
+        "rating": "7/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "National Monument è il monumento simbolo di Giacarta.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_gili-air",
+    "name": "Gili Air",
+    "aliases": [],
+    "city": "Gili Air",
+    "country": "Indonesia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Meta vivace ma rilassata, ideale per snorkeling, tramonti e spostamenti a piedi o in bici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Meta vivace ma rilassata, ideale per snorkeling, tramonti e spostamenti a piedi o in bici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_gili-meno",
+    "name": "Gili Meno",
+    "aliases": [],
+    "city": "Gili Meno",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "La più tranquilla delle isole Gili, romantica, silenziosa e circondata da acque turchesi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "La più tranquilla delle isole Gili, romantica, silenziosa e circondata da acque turchesi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_java",
+    "name": "Java",
+    "aliases": [],
+    "city": "Java",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Ricca di vulcani spettacolari, cascate nascoste e templi iconici come Borobudur e Prambanan."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Ricca di vulcani spettacolari, cascate nascoste e templi iconici come Borobudur e Prambanan.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "L'isola di Giava è ricca di vulcani spettacolari, cascate nascoste e templi iconici come Borobudur e Prambanan.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_avokuta",
+    "name": "AvoKuta",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale situato appena prima del ponte sulla via principale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Aperto solo fino alle 12:00."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Locale situato appena prima del ponte sulla via principale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Aperto solo fino alle 12:00."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_de-lekka",
+    "name": "De Lekka",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Per delizioso caffè, matcha, snack olandesi e frullati proteici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Per delizioso caffè, matcha, snack olandesi e frullati proteici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_drifters",
+    "name": "Drifters",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ottimo posto per mangiare un hamburger."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Ottimo posto per mangiare un hamburger.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_drip-guerilla",
+    "name": "Drip Guerilla",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Autentico cibo indonesiano."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Autentico cibo indonesiano.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_family-kue",
+    "name": "Family Kue",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "I migliori snack locali fatti in casa."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Dall'altro lato della strada, a 20 metri di distanza, ce n'è un altro simile."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "I migliori snack locali fatti in casa.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Dall'altro lato della strada, a 20 metri di distanza, ce n'è un altro simile."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_lalapan-amanda",
+    "name": "Lalapan Amanda",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Local, simple and delicious food, freshly made with a lot of smiles."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Local, simple and delicious food, freshly made with a lot of smiles.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_loka",
+    "name": "Loka",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Cibo sano e offerte giornaliere."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Cibo sano e offerte giornaliere.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_martabak-near-market",
+    "name": "Martabak near the market",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Famoso dessert locale vicino al mercato."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Prova la versione con cioccolato, latte condensato, formaggio e arachidi."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Famoso dessert locale vicino al mercato.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Prova la versione con cioccolato, latte condensato, formaggio e arachidi."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_mixue",
+    "name": "Mixue",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Catena famosa per gelato e bubble tea."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Catena famosa per gelato e bubble tea.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_oh-crepes",
+    "name": "Oh Crepes",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Storica creperia della zona."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Prendi quella con Nutella, Biscoff, banana e cannella."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Storica creperia della zona.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Prendi quella con Nutella, Biscoff, banana e cannella."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_resto-seoul",
+    "name": "Resto Seoul",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Autentico cibo coreano gestito da una coppia coreana."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Autentico cibo coreano gestito da una coppia coreana.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_sate-ayam-and-daging-sapi-madura",
+    "name": "Sate Ayam & Daging Sapi Madura",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Autentico street food indonesiano a base di satay."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Autentico street food indonesiano a base di satay.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tiger-gyoza",
+    "name": "Tiger Gyoza",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ottimi gyoza e pho al Bazar."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Ottimi gyoza e pho al Bazar.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_warung-inaq-novi",
+    "name": "Warung Inaq Novi",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Posto autentico e locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Su Google Maps è posizionato erroneamente dall'altro lato della strada rispetto a dove si trova realmente. Disponibile solo a pranzo."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Posto autentico e locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Su Google Maps è posizionato erroneamente dall'altro lato della strada rispetto a dove si trova realmente. Disponibile solo a pranzo."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_warung-sulawesi",
+    "name": "Warung Sulawesi",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Cibo autentico indonesiano dove puoi scegliere quello che ti piace."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Attenzione ai piatti con il sambal molto piccante."
+    ],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Cibo autentico indonesiano dove puoi scegliere quello che ti piace.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Attenzione ai piatti con il sambal molto piccante.",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_warung-tigal",
+    "name": "Warung Tigal",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [
+      "rp25.000"
+    ],
+    "notes": [
+      "Cucina veramente locale al kampong."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Disponibile solo a pranzo."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Cucina veramente locale al kampong.",
+        "cost": "rp25.000",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Disponibile solo a pranzo."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_xeno-hub",
+    "name": "Xeno Hub",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Ottimo spazio per lavorare e mangiare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Ottimo spazio per lavorare e mangiare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_yallah-habibi",
+    "name": "Yallah Habibi",
+    "aliases": [],
+    "city": "Kuta Lombok",
+    "country": "Indonesia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante di cucina mediorientale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdZsCjsAGu_/",
+        "date": "",
+        "note": "Ristorante di cucina mediorientale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_lombok",
+    "name": "Lombok",
+    "aliases": [],
+    "city": "Lombok",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Meno turistica di Bali, con spiagge dorate e trekking sul Monte Rinjani in un'atmosfera rilassata."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Meno turistica di Bali, con spiagge dorate e trekking sul Monte Rinjani in un'atmosfera rilassata.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_kabut-pelangi-waterfall",
+    "name": "Kabut Pelangi Waterfall",
+    "aliases": [],
+    "city": "Lumajang",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Splendida cascata nascosta nella natura incontaminata di Giava."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Splendida cascata nascosta nella natura incontaminata di Giava.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_kapas-biru-waterfall",
+    "name": "Kapas Biru Waterfall",
+    "aliases": [],
+    "city": "Lumajang",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata scenografica incastonata tra imponenti pareti rocciose."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Cascata scenografica incastonata tra imponenti pareti rocciose.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tumpak-sewu-waterfall",
+    "name": "Tumpak Sewu Waterfall",
+    "aliases": [],
+    "city": "Lumajang",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Maestosa cascata a semicerchio circondata da una vegetazione lussureggiante."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Maestosa cascata a semicerchio circondata da una vegetazione lussureggiante.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_borobudur-temple",
+    "name": "Borobudur Temple",
+    "aliases": [],
+    "city": "Magelang",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Il più grande tempio buddista al mondo, patrimonio UNESCO."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Il più grande tempio buddista al mondo, patrimonio UNESCO.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Borobudur Temple è il più grande tempio buddista al mondo ed è riconosciuto come patrimonio UNESCO.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_bromo-tengger-semeru-national-park",
+    "name": "Bromo-Tengger-Semeru National Park",
+    "aliases": [],
+    "city": "Malang",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Parco nazionale spettacolare caratterizzato da paesaggi vulcanici unici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Parco nazionale spettacolare caratterizzato da paesaggi vulcanici unici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_gun-yun-house",
+    "name": "Gun Yun House",
+    "aliases": [],
+    "city": "Malang",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "da 4.43€"
+    ],
+    "notes": [
+      "Rooftop pool hostel con escursioni per l'alba al Bromo e atmosfera tranquilla per soli adulti."
+    ],
+    "creator_ratings": [
+      "9.5/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Include escursioni organizzate per l'alba al monte Bromo."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdozKMemzBs/",
+        "date": "",
+        "note": "Rooftop pool hostel con escursioni per l'alba al Bromo e atmosfera tranquilla per soli adulti.",
+        "cost": "da 4.43€",
+        "rating": "9.5/10",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Include escursioni organizzate per l'alba al monte Bromo."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_jodipan-rainbow-village",
+    "name": "Jodipan Rainbow Village",
+    "aliases": [],
+    "city": "Malang",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Caratteristico villaggio colorato arcobaleno a Malang."
+    ],
+    "creator_ratings": [
+      "7/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Caratteristico villaggio colorato arcobaleno a Malang.",
+        "cost": "",
+        "rating": "7/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Jodipan Rainbow Village è un caratteristico villaggio colorato arcobaleno situato a Malang.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_malang-city",
+    "name": "Malang City",
+    "aliases": [],
+    "city": "Malang",
+    "country": "Indonesia",
+    "category": "altro",
+    "costs": [],
+    "notes": [
+      "Città utile come base per esplorare la zona di Giava Orientale e Bromo."
+    ],
+    "creator_ratings": [
+      "6/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Città utile come base per esplorare la zona di Giava Orientale e Bromo.",
+        "cost": "",
+        "rating": "6/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_cascate-munduk-e-sekumpul",
+    "name": "Cascate di Munduk e Sekumpul",
+    "aliases": [],
+    "city": "Munduk",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Spettacolari cascate immerse nella natura della zona settentrionale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Spettacolari cascate immerse nella natura della zona settentrionale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_dayang-rice-terraces",
+    "name": "Dayang Rice Terraces",
+    "aliases": [],
+    "city": "Munduk",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Terrazzamenti di riso panoramici a Munduk."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Terrazzamenti di riso panoramici a Munduk.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_labuhan-kebo-waterfall",
+    "name": "Labuhan Kebo Waterfall",
+    "aliases": [],
+    "city": "Munduk",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Stupenda e poco affollata, parte del trekking delle 5 cascate di Munduk."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "Mezza giornata"
+    ],
+    "cons": [
+      "Tanta fatica e gradini"
+    ],
+    "tips": [
+      "Dedica almeno mezza giornata a tutto il percorso."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Stupenda e poco affollata, parte del trekking delle 5 cascate di Munduk.",
+        "cost": "",
+        "rating": "",
+        "days": "Mezza giornata",
+        "cons": "Tanta fatica e gradini",
+        "tips": [
+          "Dedica almeno mezza giornata a tutto il percorso."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_munduk",
+    "name": "Munduk",
+    "aliases": [],
+    "city": "Munduk",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Zona di montagna fresca con natura e cascate, ideale per dormire lontano dal caos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Zona di montagna fresca con natura e cascate, ideale per dormire lontano dal caos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_munduk-tentrem-resort",
+    "name": "Munduk Tentrem Resort",
+    "aliases": [],
+    "city": "Munduk",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Resort con panorami mozzafiato e relax totale."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "2 notti"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Resort con panorami mozzafiato e relax totale.",
+        "cost": "",
+        "rating": "",
+        "days": "2 notti",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_lake-toba",
+    "name": "Lake Toba",
+    "aliases": [],
+    "city": "Parapat",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Enorme caldera vulcanica sottovalutata a Sumatra con geografia mozzafiato."
+    ],
+    "creator_ratings": [
+      "9/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Enorme caldera vulcanica sottovalutata a Sumatra con geografia mozzafiato.",
+        "cost": "",
+        "rating": "9/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_nungnung-waterfall",
+    "name": "Nungnung Waterfall",
+    "aliases": [],
+    "city": "Pelaga",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata bellissima e molto potente, situata tra Ubud e Bedugul."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Circa 500 gradini per raggiungerla e risalire, fattibile con un minimo di allenamento."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Cascata bellissima e molto potente, situata tra Ubud e Bedugul.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Circa 500 gradini per raggiungerla e risalire, fattibile con un minimo di allenamento."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_pemuteran",
+    "name": "Pemuteran",
+    "aliases": [],
+    "city": "Pemuteran",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Zona rilassante perfetta per lo snorkeling e ritmi di vita lenti."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Zona rilassante perfetta per lo snorkeling e ritmi di vita lenti.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_bromo-crater",
+    "name": "Bromo Crater",
+    "aliases": [],
+    "city": "Probolinggo",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cratere vulcanico attivo che offre paesaggi mozzafiato e surreali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Cratere vulcanico attivo che offre paesaggi mozzafiato e surreali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_mount-bromo",
+    "name": "Mount Bromo",
+    "aliases": [],
+    "city": "Probolinggo",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Paesaggio vulcanico spettacolare e alba indimenticabile a Giava."
+    ],
+    "creator_ratings": [
+      "10/10"
+    ],
+    "days": [],
+    "cons": [
+      "Molti fuoristrada e folla ai punti panoramici"
+    ],
+    "tips": [
+      "Arrivare presto la mattina per l'alba"
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Paesaggio vulcanico spettacolare e alba indimenticabile a Giava.",
+        "cost": "",
+        "rating": "10/10",
+        "days": "",
+        "cons": "Molti fuoristrada e folla ai punti panoramici",
+        "tips": [
+          "Arrivare presto la mattina per l'alba"
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_gam",
+    "name": "Gam",
+    "aliases": [],
+    "city": "Raja Ampat",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "€30/notte"
+    ],
+    "notes": [
+      "Isola dove soggiornare in un homestay locale per vivere l'esperienza risparmiando."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dct2B7kIfLe/",
+        "date": "",
+        "note": "Isola dove soggiornare in un homestay locale per vivere l'esperienza risparmiando.",
+        "cost": "€30/notte",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_kri",
+    "name": "Kri",
+    "aliases": [],
+    "city": "Raja Ampat",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "€30/notte"
+    ],
+    "notes": [
+      "Isola ideale per trovare homestay economici ed esperienze autentiche."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dct2B7kIfLe/",
+        "date": "",
+        "note": "Isola ideale per trovare homestay economici ed esperienze autentiche.",
+        "cost": "€30/notte",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_mansuar",
+    "name": "Mansuar",
+    "aliases": [],
+    "city": "Raja Ampat",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "€30/notte"
+    ],
+    "notes": [
+      "Isola dove alloggiare in capanne tradizionali sull'acqua."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dct2B7kIfLe/",
+        "date": "",
+        "note": "Isola dove alloggiare in capanne tradizionali sull'acqua.",
+        "cost": "€30/notte",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_rufas",
+    "name": "Rufas",
+    "aliases": [],
+    "city": "Raja Ampat",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "€30/notte"
+    ],
+    "notes": [
+      "Isola perfetta per un soggiorno locale economico che include i pasti."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dct2B7kIfLe/",
+        "date": "",
+        "note": "Isola perfetta per un soggiorno locale economico che include i pasti.",
+        "cost": "€30/notte",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Cerca gli homestay su stayrajaampat.com o prenota via WhatsApp."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_laster-jony-s",
+    "name": "Laster Jony's",
+    "aliases": [],
+    "city": "Samosir",
+    "country": "Indonesia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Pub per ascoltare musica dal vivo la sera."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Musica dal vivo venerdì alle 20:00."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd6ZRDkz4X7/",
+        "date": "2026-09-30",
+        "note": "Pub per ascoltare musica dal vivo la sera.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Musica dal vivo venerdì alle 20:00."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-30",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_roy-s-pub",
+    "name": "Roy's Pub",
+    "aliases": [],
+    "city": "Samosir",
+    "country": "Indonesia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Pub con intrattenimento musicale serale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Musica dal vivo venerdì e sabato alle 20:30."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd6ZRDkz4X7/",
+        "date": "2026-09-30",
+        "note": "Pub con intrattenimento musicale serale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Musica dal vivo venerdì e sabato alle 20:30."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-30",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_samosir-island",
+    "name": "Samosir Island",
+    "aliases": [],
+    "city": "Samosir",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola situata all'interno del Lago Toba, ricca di cultura Batak."
+    ],
+    "creator_ratings": [
+      "10/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Isola situata all'interno del Lago Toba, ricca di cultura Batak.",
+        "cost": "",
+        "rating": "10/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tataring",
+    "name": "Tataring",
+    "aliases": [],
+    "city": "Samosir",
+    "country": "Indonesia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Locale con musica dal vivo sul lago Toba."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Musica dal vivo giovedì e sabato alle 20:00."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd6ZRDkz4X7/",
+        "date": "2026-09-30",
+        "note": "Locale con musica dal vivo sul lago Toba.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Musica dal vivo giovedì e sabato alle 20:00."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-30",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_seminyak",
+    "name": "Seminyak",
+    "aliases": [],
+    "city": "Seminyak",
+    "country": "Indonesia",
+    "category": "altro",
+    "costs": [],
+    "notes": [
+      "Località balneare e turistica a Bali, sconsigliata se si ha poco tempo."
+    ],
+    "creator_ratings": [
+      "5/10"
+    ],
+    "days": [],
+    "cons": [
+      "Troppo turistico"
+    ],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Località balneare e turistica a Bali, sconsigliata se si ha poco tempo.",
+        "cost": "",
+        "rating": "5/10",
+        "days": "",
+        "cons": "Troppo turistico",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_sidemen",
+    "name": "Sidemen",
+    "aliases": [],
+    "city": "Sidemen",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Area rurale caratterizzata da risaie, silenzio e una forte atmosfera spirituale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DUSzqSmDLFI/",
+        "date": "",
+        "note": "Area rurale caratterizzata da risaie, silenzio e una forte atmosfera spirituale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_isole-banggai",
+    "name": "Isole Banggai",
+    "aliases": [],
+    "city": "Sulawesi",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Arcipelago lontano dal turismo di massa con spiagge deserte, laghi trasparentissimi, villaggi sospesi sull'acqua e barriere coralline."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "10 giorni"
+    ],
+    "cons": [
+      "Richiede rinuncia a qualche comodità e le agenzie sono poche."
+    ],
+    "tips": [
+      "Per raggiungere isole o spiagge spesso basta accordarsi direttamente con un pescatore."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdWqnmbuEuh/",
+        "date": "",
+        "note": "Arcipelago lontano dal turismo di massa con spiagge deserte, laghi trasparentissimi, villaggi sospesi sull'acqua e barriere coralline.",
+        "cost": "",
+        "rating": "",
+        "days": "10 giorni",
+        "cons": "Richiede rinuncia a qualche comodità e le agenzie sono poche.",
+        "tips": [
+          "Per raggiungere isole o spiagge spesso basta accordarsi direttamente con un pescatore."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_rantepao",
+    "name": "Rantepao",
+    "aliases": [],
+    "city": "Sulawesi",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "La terra dei Toraja, meta da visitare a Sulawesi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdWqnmbuEuh/",
+        "date": "",
+        "note": "La terra dei Toraja, meta da visitare a Sulawesi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Rantepao è la terra dei Toraja, una meta imperdibile da visitare sull'isola di Sulawesi.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_sumatra",
+    "name": "Sumatra",
+    "aliases": [],
+    "city": "Sumatra",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Offre natura selvaggia, giungle incontaminate, villaggi tradizionali e la possibilità di vedere gli oranghi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWBfBBNjKg_/",
+        "date": "",
+        "note": "Offre natura selvaggia, giungle incontaminate, villaggi tradizionali e la possibilità di vedere gli oranghi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_tetebatu-sama-sama-bungalow",
+    "name": "Tetebatu Sama Sama Bungalow",
+    "aliases": [],
+    "city": "Tetebatu",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "da 7.06€"
+    ],
+    "notes": [
+      "Homestay a conduzione familiare sotto il Monte Rinjani, vicino alla foresta delle scimmie."
+    ],
+    "creator_ratings": [
+      "9.5/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Partecipa alle cene del sabato sera e alle camminate nella foresta delle scimmie."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdozKMemzBs/",
+        "date": "",
+        "note": "Homestay a conduzione familiare sotto il Monte Rinjani, vicino alla foresta delle scimmie.",
+        "cost": "da 7.06€",
+        "rating": "9.5/10",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Partecipa alle cene del sabato sera e alle camminate nella foresta delle scimmie."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_bisma-cottages-ubud",
+    "name": "Bisma Cottages Ubud",
+    "aliases": [],
+    "city": "Ubud",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Hotel carino, centrale, economico ma fuori dal caos di Ubud."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "3 notti"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Hotel carino, centrale, economico ma fuori dal caos di Ubud.",
+        "cost": "",
+        "rating": "",
+        "days": "3 notti",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_campuhan-ridge-walk",
+    "name": "Campuhan Ridge Walk",
+    "aliases": [],
+    "city": "Ubud",
+    "country": "Indonesia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Sentiero panoramico immerso nella natura di Ubud."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Visitalo all'alba o al tramonto."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Sentiero panoramico immerso nella natura di Ubud.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Visitalo all'alba o al tramonto."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_sacred-monkey-forest",
+    "name": "Sacred Monkey Forest",
+    "aliases": [],
+    "city": "Ubud",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Santuario della foresta delle scimmie a Ubud."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Santuario della foresta delle scimmie a Ubud.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_ubud",
+    "name": "Ubud",
+    "aliases": [],
+    "city": "Ubud",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Località popolare a Bali, ottima per un'esperienza culturale ma molto turistica."
+    ],
+    "creator_ratings": [
+      "8/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Località popolare a Bali, ottima per un'esperienza culturale ma molto turistica.",
+        "cost": "",
+        "rating": "8/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Ubud è una località molto popolare a Bali, considerata ottima per un'esperienza culturale ma al tempo stesso molto turistica.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_banyumala-twin-waterfalls",
+    "name": "Banyumala Twin Waterfalls",
+    "aliases": [],
+    "city": "Wanagiri",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata a pioggia immersa nella giungla, la preferita del creator nel nord di Bali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Percorso più impegnativo soprattutto al ritorno, porta scarpe adatte e tanta acqua."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdQ4vQIgInl/",
+        "date": "",
+        "note": "Cascata a pioggia immersa nella giungla, la preferita del creator nel nord di Bali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Percorso più impegnativo soprattutto al ritorno, porta scarpe adatte e tanta acqua."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_prambanan",
+    "name": "Prambanan",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Complesso di templi induisti a Yogyakarta.",
+      "Straordinario complesso di templi antichi vicino a Yogyakarta.",
+      "Patrimonio Mondiale UNESCO, è il più grande complesso di templi induisti dell'Indonesia risalente al IX secolo."
+    ],
+    "creator_ratings": [
+      "10/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Complesso di templi induisti a Yogyakarta.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Straordinario complesso di templi antichi vicino a Yogyakarta.",
+        "cost": "",
+        "rating": "10/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "Patrimonio Mondiale UNESCO, è il più grande complesso di templi induisti dell'Indonesia risalente al IX secolo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Prambanan è un antico e straordinario complesso di templi induisti situato vicino a Yogyakarta, risalente al IX secolo e dichiarato Patrimonio Mondiale UNESCO come il più grande complesso di templi induisti dell'Indonesia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_borobudur",
+    "name": "Borobudur",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio buddista storico, imperdibile nell'itinerario a Yogyakarta.",
+      "Tempio antico imperdibile per storia e cultura vicino a Yogyakarta."
+    ],
+    "creator_ratings": [
+      "10/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Tempio buddista storico, imperdibile nell'itinerario a Yogyakarta.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Tempio antico imperdibile per storia e cultura vicino a Yogyakarta.",
+        "cost": "",
+        "rating": "10/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Borobudur è un tempio buddista storico e antico, considerato un luogo imperdibile per la sua storia e cultura all'interno dell'itinerario nei dintorni di Yogyakarta.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_alun-alun-kidul",
+    "name": "Alun Alun Kidul",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Principale piazza della città, particolarmente vivace e frequentata dai locali la sera."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "Principale piazza della città, particolarmente vivace e frequentata dai locali la sera.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_chicken-church",
+    "name": "Chicken Church",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Edificio a forma di gallina vicino a Yogyakarta."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DYjrr_-gHgJ/",
+        "date": "",
+        "note": "Edificio a forma di gallina vicino a Yogyakarta.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Chicken Church è un particolare edificio a forma di gallina situato nei dintorni di Yogyakarta.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_huma-yogyakarta-hostel",
+    "name": "Huma Yogyakarta Hostel",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "alloggio",
+    "costs": [
+      "da 8.62€"
+    ],
+    "notes": [
+      "Ostello con pouf e letti solo inferiori, situato vicino a numerosi eventi."
+    ],
+    "creator_ratings": [
+      "9.7/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdozKMemzBs/",
+        "date": "",
+        "note": "Ostello con pouf e letti solo inferiori, situato vicino a numerosi eventi.",
+        "cost": "da 8.62€",
+        "rating": "9.7/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_jalan-malioboro",
+    "name": "Jalan Malioboro",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "La via più famosa della città, animata da bancarelle, negozi, artisti di strada e ottima per lo street food."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "La via più famosa della città, animata da bancarelle, negozi, artisti di strada e ottima per lo street food.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_kraton",
+    "name": "Kraton",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "La storica residenza del sultano di Yogyakarta."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "La storica residenza del sultano di Yogyakarta.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Kraton è la storica residenza del sultano di Yogyakarta.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_malioboro-street",
+    "name": "Malioboro Street",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Famosa via dello shopping e del commercio a Yogyakarta."
+    ],
+    "creator_ratings": [
+      "6/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Famosa via dello shopping e del commercio a Yogyakarta.",
+        "cost": "",
+        "rating": "6/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_merapi-volcano",
+    "name": "Merapi Volcano",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Uno dei vulcani più attivi e affascinanti dell'isola di Giava."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dctjc6rjtOh/",
+        "date": "",
+        "note": "Uno dei vulcani più attivi e affascinanti dell'isola di Giava.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_mount-merapi",
+    "name": "Mount Merapi",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Vulcano attivo visitabile durante il viaggio a Yogyakarta."
+    ],
+    "creator_ratings": [
+      "9/10"
+    ],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcrpCcBjDWD/",
+        "date": "",
+        "note": "Vulcano attivo visitabile durante il viaggio a Yogyakarta.",
+        "cost": "",
+        "rating": "9/10",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "indonesia_taman-sari",
+    "name": "Taman Sari",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antico complesso di palazzi, piscine e giardini noto come il Giardino del sultano."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "Antico complesso di palazzi, piscine e giardini noto come il Giardino del sultano.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Taman Sari è un antico complesso di palazzi, piscine e giardini noto anche come il Giardino del sultano.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "indonesia_yogyakarta",
+    "name": "Yogyakarta",
+    "aliases": [],
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Capitale culturale e artistica di Giava, l'unica città dell'Indonesia governata da un sultanato."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "1 giorno"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd068K7jFz3/",
+        "date": "",
+        "note": "Capitale culturale e artistica di Giava, l'unica città dell'Indonesia governata da un sultanato.",
+        "cost": "",
+        "rating": "",
+        "days": "1 giorno",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Yogyakarta è la capitale culturale e artistica di Giava, nonché l'unica città dell'Indonesia ad essere governata da un sultanato.",
+    "_tips_synth": ""
+  }
+]

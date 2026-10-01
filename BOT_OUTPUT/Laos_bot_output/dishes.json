@@ -1,0 +1,65 @@
+[
+  {
+    "id": "congee",
+    "name": "congee",
+    "aliases": [],
+    "description": "Tradizionale zuppa di riso servita per colazione al mercato mattutino.",
+    "places": [
+      {
+        "id": "laos_luang-prabang-morning-market",
+        "name": "Luang Prabang Morning Market",
+        "city": "Luang Prabang"
+      }
+    ],
+    "countries": [
+      "Laos"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Db5m1iwmMjh/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Chinese_rice_congee.jpg/330px-Chinese_rice_congee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "caffe-del-laos",
+    "name": "caffè del Laos",
+    "aliases": [],
+    "description": "Ottimo caffè locale da gustare in un locale.",
+    "places": [
+      {
+        "id": "laos_caffeine-pakse",
+        "name": "Caffeine Pakse",
+        "city": "Pakse"
+      }
+    ],
+    "countries": [
+      "Laos"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Db8HP3xmAyM/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/26_Lungarno_Antonio_Pacinotti.jpg/330px-26_Lungarno_Antonio_Pacinotti.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "pho",
+    "name": "Pho",
+    "aliases": [],
+    "description": "Zuppa di noodle tradizionale.",
+    "places": [
+      {
+        "id": "laos_pho-lankham-noodles",
+        "name": "Pho Lankham Noodles",
+        "city": "Pakse"
+      }
+    ],
+    "countries": [
+      "Laos"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Db8HP3xmAyM/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bowl_of_Meatball_pho.jpg/330px-Bowl_of_Meatball_pho.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+]

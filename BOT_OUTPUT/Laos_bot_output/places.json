@@ -1,0 +1,2653 @@
+[
+  {
+    "id": "laos_mekong-slow-boat",
+    "name": "Mekong slow boat",
+    "aliases": [],
+    "city": "",
+    "country": "Laos",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Un viaggio di due giorni alla deriva sul fiume Mekong ammirando la giungla e la vita locale senza segnale telefonico."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "2 giorni"
+    ],
+    "cons": [
+      "Si riempie molto, i bagni sono spartani"
+    ],
+    "tips": [
+      "Porta i tuoi snack personali",
+      "Evita la stagione delle piogge se preferisci un'esperienza più comoda"
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DbvvySQyhUW/",
+        "date": "",
+        "note": "Un viaggio di due giorni alla deriva sul fiume Mekong ammirando la giungla e la vita locale senza segnale telefonico.",
+        "cost": "",
+        "rating": "",
+        "days": "2 giorni",
+        "cons": "Si riempie molto, i bagni sono spartani",
+        "tips": [
+          "Porta i tuoi snack personali",
+          "Evita la stagione delle piogge se preferisci un'esperienza più comoda"
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_champasak",
+    "name": "Champasak",
+    "aliases": [],
+    "city": "Champasak",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Località del sud del Laos nota per il suo patrimonio storico e culturale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Località del sud del Laos nota per il suo patrimonio storico e culturale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Champasak è una località del sud del Laos nota per il suo patrimonio storico e culturale.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_muang-champassak",
+    "name": "Muang Champassak",
+    "aliases": [],
+    "city": "Champassak",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Area da esplorare fuori dai classici circuiti turistici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Area da esplorare fuori dai classici circuiti turistici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Muang Champassak è un'area da esplorare fuori dai classici circuiti turistici.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_don-det",
+    "name": "Don Det",
+    "aliases": [],
+    "city": "Don Det",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola ideale per un pernottamento fuori Pakse."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "1"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Isola ideale per un pernottamento fuori Pakse.",
+        "cost": "",
+        "rating": "",
+        "days": "1",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_huay-xai",
+    "name": "Huay Xai",
+    "aliases": [],
+    "city": "Huay Xai",
+    "country": "Laos",
+    "category": "trasporti",
+    "costs": [],
+    "notes": [
+      "Città di confine in Laos da cui ci si imbarca per la slow boat sul Mekong."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRrn6ajjyH0/",
+        "date": "",
+        "note": "Città di confine in Laos da cui ci si imbarca per la slow boat sul Mekong.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_luang-namtha",
+    "name": "Luang Namtha",
+    "aliases": [],
+    "city": "Luang Namtha",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Gemmas nascosta ideale per gli amanti del trekking e della giungla."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZUxhGYzeT-/",
+        "date": "",
+        "note": "Gemmas nascosta ideale per gli amanti del trekking e della giungla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_kuang-si",
+    "name": "Kuang Si",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [
+      "60k kip"
+    ],
+    "notes": [
+      "Spettacolare cascata dove trascorrere una giornata immersi nella natura.",
+      "Meravigliose cascate con piscine naturali terrazzate di acqua turchese.",
+      "Spettacolari cascate su più livelli con acqua turchese nella stagione secca. All'interno c'è anche un santuario per orsi salvati."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Molto affollato"
+    ],
+    "tips": [
+      "Arriva presto, verso le 9 del mattino, per evitare la folla.",
+      "Vai prima alla cascata principale in cima e poi scendi lungo le altre.",
+      "Noleggia uno scooter o prendi un songthaew da Luang Prabang."
+    ],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Spettacolare cascata dove trascorrere una giornata immersi nella natura.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Meravigliose cascate con piscine naturali terrazzate di acqua turchese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd6pW8FIs3v/",
+        "date": "2026-09-30",
+        "note": "Spettacolari cascate su più livelli con acqua turchese nella stagione secca. All'interno c'è anche un santuario per orsi salvati.",
+        "cost": "60k kip",
+        "rating": "",
+        "days": "",
+        "cons": "Molto affollato",
+        "tips": [
+          "Arriva presto, verso le 9 del mattino, per evitare la folla.",
+          "Vai prima alla cascata principale in cima e poi scendi lungo le altre.",
+          "Noleggia uno scooter o prendi un songthaew da Luang Prabang."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-30",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_luang-prabang",
+    "name": "Luang Prabang",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Città affascinante che richiede tempo, molti visitatori finiscono per prolungare il soggiorno.",
+      "Meta finale della navigazione sul Mekong, città caratteristica circondata da montagne.",
+      "Città imperdibile del Laos, punto di arrivo comune per chi vola o arriva in barca."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Il molo di arrivo è lontano dal centro."
+    ],
+    "tips": [
+      "Prendi un tuk-tuk dal molo per raggiungere il centro città."
+    ],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZUxhGYzeT-/",
+        "date": "",
+        "note": "Città affascinante che richiede tempo, molti visitatori finiscono per prolungare il soggiorno.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DRrn6ajjyH0/",
+        "date": "",
+        "note": "Meta finale della navigazione sul Mekong, città caratteristica circondata da montagne.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Il molo di arrivo è lontano dal centro.",
+        "tips": [
+          "Prendi un tuk-tuk dal molo per raggiungere il centro città."
+        ]
+      },
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Città imperdibile del Laos, punto di arrivo comune per chi vola o arriva in barca.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Luang Prabang è una città imperdibile e affascinante, meta finale della navigazione sul Mekong e punto di arrivo comune per chi vola o arriva in barca, circondata da montagne. Spesso richiede tempo, tanto che molti visitatori finiscono per prolungare il soggiorno.",
+    "_tips_synth": "Prendi un tuk-tuk dal molo per raggiungere il centro città."
+  },
+  {
+    "id": "laos_luang-prabang-morning-market",
+    "name": "Luang Prabang Morning Market",
+    "aliases": [
+      "Morning Market"
+    ],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Mercato mattutino dove fare colazione con il tradizionale congee.",
+      "Mercato mattutino nascosto nei vicoli dietro il Palazzo Reale, ideale per scoprire ingredienti esotici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Mercato mattutino dove fare colazione con il tradizionale congee.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Mercato mattutino nascosto nei vicoli dietro il Palazzo Reale, ideale per scoprire ingredienti esotici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_night-market",
+    "name": "Night Market",
+    "aliases": [
+      "Luang Prabang Night Market"
+    ],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Vivace mercato notturno perfetto per una passeggiata serale.",
+      "Famoso mercato notturno perfetto per shopping di artigianato e street food."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Vivace mercato notturno perfetto per una passeggiata serale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Famoso mercato notturno perfetto per shopping di artigianato e street food.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_wat-xiengthong",
+    "name": "Wat Xiengthong",
+    "aliases": [
+      "Wat Xieng Thong"
+    ],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Importante e storico tempio da visitare assolutamente.",
+      "Famoso tempio della Città d'Oro, capolavoro dell'architettura sacra laotiana."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Importante e storico tempio da visitare assolutamente.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Famoso tempio della Città d'Oro, capolavoro dell'architettura sacra laotiana.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Xiengthong è un importante e storico tempio da visitare assolutamente, famoso come la Città d'Oro e considerato un capolavoro dell'architettura sacra laotiana.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_almsgiving-ceremony",
+    "name": "Almsgiving Ceremony",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tradizionale cerimonia delle elemosine dei monaci."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Tradizionale cerimonia delle elemosine dei monaci.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "La Almsgiving Ceremony è la tradizionale cerimonia delle elemosine dei monaci.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_ban-xang-khong",
+    "name": "Ban Xang Khong",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Villaggio artigianale noto per i laboratori di tessuti e carta di gelso."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Villaggio artigianale noto per i laboratori di tessuti e carta di gelso.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Ban Xang Khong è un villaggio artigianale noto per i laboratori di tessuti e carta di gelso.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_haw-pha-bang",
+    "name": "Haw Pha Bang",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Splendido tempio da ammirare per la sua bellezza architettonica."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Splendido tempio da ammirare per la sua bellezza architettonica.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Haw Pha Bang è uno splendido tempio da ammirare per la sua bellezza architettonica.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_heuan-chan-heritage-house",
+    "name": "Heuan Chan Heritage House",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Casa storica per scoprire lo stile di vita tradizionale locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Casa storica per scoprire lo stile di vita tradizionale locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Heuan Chan Heritage House è una casa storica ideale per scoprire lo stile di vita tradizionale locale.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_banneton-cafe-french-bakery",
+    "name": "Le Banneton Café French Bakery",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ottima panetteria francese per gustare dolci e pasticcini."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Ottima panetteria francese per gustare dolci e pasticcini.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_pak-ou",
+    "name": "Pak Ou",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Grotte sacre raggiungibili con una gita in barca sul fiume Mekong."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Grotte sacre raggiungibili con una gita in barca sul fiume Mekong.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_palazzo-reale",
+    "name": "Palazzo Reale",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antico palazzo reale oggi convertito in Museo Nazionale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Antico palazzo reale oggi convertito in Museo Nazionale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "L'antico palazzo reale è oggi convertito in Museo Nazionale e ideale per una passeggiata culturale.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_phou-si",
+    "name": "Phou Si",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Collina sacra con 300 gradini, perfetta per ammirare il tramonto sul fiume Mekong."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Bisogna salire 300 gradini per raggiungere la cima."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Collina sacra con 300 gradini, perfetta per ammirare il tramonto sul fiume Mekong.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Bisogna salire 300 gradini per raggiungere la cima."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_phousi-hill",
+    "name": "Phousi Hill",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Collina ideale per fare trekking e godersi il tramonto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Collina ideale per fare trekking e godersi il tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_royal-palace",
+    "name": "Royal Palace",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antico palazzo reale ideale per una passeggiata culturale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Antico palazzo reale ideale per una passeggiata culturale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "L'antico palazzo reale è un luogo ideale per una passeggiata culturale e oggi convertito in museo.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_sisavangvong-road",
+    "name": "Sisavangvong Road",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Via storica principale caratterizzata da un'architettura coloniale francese fusa con lo stile laotiano."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Via storica principale caratterizzata da un'architettura coloniale francese fusa con lo stile laotiano.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Sisavangvong Road è la via storica principale caratterizzata da un'architettura coloniale francese fusa con lo stile laotiano.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_tat-kuang-si-bear-rescue-centre",
+    "name": "Tat Kuang Si Bear Rescue Centre",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Centro di recupero situato all'interno del parco delle cascate che protegge orsi del sole e orsi neri asiatici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Centro di recupero situato all'interno del parco delle cascate che protegge orsi del sole e orsi neri asiatici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_uxo-lao-visitor-center",
+    "name": "UXO Lao Visitor Center",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Centro visitatori per comprendere la storia dei bombardamenti in Laos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Centro visitatori per comprendere la storia dei bombardamenti in Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "L'UXO Lao Visitor Center è un centro visitatori utile per comprendere la storia dei bombardamenti in Laos.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_wat-may-souvannapoumaram",
+    "name": "Wat May Souvannapoumaram",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio caratterizzato da magnifici decori dorati."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Tempio caratterizzato da magnifici decori dorati.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat May Souvannapoumaram è un tempio caratterizzato da magnifici decori dorati.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_wat-wisunarat",
+    "name": "Wat Wisunarat",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antico tempio buddista ricco di storia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Antico tempio buddista ricco di storia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Wisunarat è un antico tempio buddista ricco di storia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_yuni-yupoun",
+    "name": "Yuni Yupoun",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Locale accogliente dove rilassarsi la sera."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db5m1iwmMjh/",
+        "date": "",
+        "note": "Locale accogliente dove rilassarsi la sera.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_muang-ngoy",
+    "name": "Muang Ngoy",
+    "aliases": [],
+    "city": "Muang Ngoy",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Villaggio ideale per un'estensione nel nord del Laos alla scoperta di paesaggi autentici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Villaggio ideale per un'estensione nel nord del Laos alla scoperta di paesaggi autentici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_nong-khiaw",
+    "name": "Nong Khiaw",
+    "aliases": [],
+    "city": "Nong Khiaw",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Località nel nord del Laos perfetta per gli amanti della natura e dei trekking."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Località nel nord del Laos perfetta per gli amanti della natura e dei trekking.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_muang-ngoi",
+    "name": "Muang Ngoi",
+    "aliases": [],
+    "city": "Nongkhiaw",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antica città ricca di meraviglie naturali, villaggi, montagne e punti panoramici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZT_ySNAUag/",
+        "date": "",
+        "note": "Antica città ricca di meraviglie naturali, villaggi, montagne e punti panoramici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Muang Ngoi è un'antica città ricca di meraviglie naturali, villaggi, montagne e punti panoramici.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_nongkhiaw",
+    "name": "Nongkhiaw",
+    "aliases": [],
+    "city": "Nongkhiaw",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Attività di trekking, escursionismo e campeggio di 3 giorni e 2 notti tra montagne, natura e villaggi."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "3 giorni"
+    ],
+    "cons": [
+      "Richiede molta energia, pazienza e una buona forma fisica."
+    ],
+    "tips": [
+      "Preparati a camminare molto e a impiegare tempo ed energie."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZT_ySNAUag/",
+        "date": "",
+        "note": "Attività di trekking, escursionismo e campeggio di 3 giorni e 2 notti tra montagne, natura e villaggi.",
+        "cost": "",
+        "rating": "",
+        "days": "3 giorni",
+        "cons": "Richiede molta energia, pazienza e una buona forma fisica.",
+        "tips": [
+          "Preparati a camminare molto e a impiegare tempo ed energie."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_phanoy-viewpoint",
+    "name": "Phanoy Viewpoint",
+    "aliases": [],
+    "city": "Nongkhiaw",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Punto panoramico a 800-900 metri con vista a 360 gradi sulle montagne sopra le nuvole, perfetto per tramonto e alba in tenda."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Richiede 30-40 minuti di cammino attraverso la giungla da Muang Ngoi."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZT_ySNAUag/",
+        "date": "",
+        "note": "Punto panoramico a 800-900 metri con vista a 360 gradi sulle montagne sopra le nuvole, perfetto per tramonto e alba in tenda.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Richiede 30-40 minuti di cammino attraverso la giungla da Muang Ngoi."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_sopchem",
+    "name": "Sopchem",
+    "aliases": [],
+    "city": "Nongkhiaw",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Villaggio della tessitura dove si trova l'homestay per il pernottamento."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZT_ySNAUag/",
+        "date": "",
+        "note": "Villaggio della tessitura dove si trova l'homestay per il pernottamento.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Sopchem è un villaggio della tessitura dove si trova l'homestay per il pernottamento.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_sopkong-village",
+    "name": "Sopkong village",
+    "aliases": [],
+    "city": "Nongkhiaw",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Villaggio raggiungibile in barca in circa 40 minuti, ideale per una pausa rilassante prima di pranzo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Raggiungibile in barca in circa 40 minuti."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZT_ySNAUag/",
+        "date": "",
+        "note": "Villaggio raggiungibile in barca in circa 40 minuti, ideale per una pausa rilassante prima di pranzo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Raggiungibile in barca in circa 40 minuti."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_pak-beng",
+    "name": "Pak Beng",
+    "aliases": [],
+    "city": "Pak Beng",
+    "country": "Laos",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Piccolissimo villaggio sul fiume Mekong dove si pernotta durante la navigazione di due giorni.",
+      "Cittadina dove fermarsi a dormire la notte tra i due giorni di viaggio in barca."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "1 giorno",
+      "1 notte"
+    ],
+    "cons": [
+      "Alloggi molto semplici."
+    ],
+    "tips": [
+      "Prenota l'alloggio in anticipo e pagalo in loco.",
+      "Prenota l'alloggio per la notte in anticipo poiché non è incluso nel tour."
+    ],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRrn6ajjyH0/",
+        "date": "",
+        "note": "Piccolissimo villaggio sul fiume Mekong dove si pernotta durante la navigazione di due giorni.",
+        "cost": "",
+        "rating": "",
+        "days": "1 giorno",
+        "cons": "Alloggi molto semplici.",
+        "tips": [
+          "Prenota l'alloggio in anticipo e pagalo in loco."
+        ]
+      },
+      {
+        "reel": "https://www.instagram.com/p/DczlSAhBbcd/",
+        "date": "",
+        "note": "Cittadina dove fermarsi a dormire la notte tra i due giorni di viaggio in barca.",
+        "cost": "",
+        "rating": "",
+        "days": "1 notte",
+        "cons": "",
+        "tips": [
+          "Prenota l'alloggio per la notte in anticipo poiché non è incluso nel tour."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_mekong-river_pakse",
+    "name": "Mekong River",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Fiume ideale per una passeggiata rilassante lungo le sue sponde.",
+      "Fiume navigato durante il viaggio in barca lenta da Chiang Mai a Luang Prabang."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "2 giorni"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Fiume ideale per una passeggiata rilassante lungo le sue sponde.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DczlSAhBbcd/",
+        "date": "",
+        "note": "Fiume navigato durante il viaggio in barca lenta da Chiang Mai a Luang Prabang.",
+        "cost": "",
+        "rating": "",
+        "days": "2 giorni",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_caffeine-pakse",
+    "name": "Caffeine Pakse",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale dove gustare l'ottimo caffè del Laos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Locale dove gustare l'ottimo caffè del Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_champa-hom-restaurant",
+    "name": "Champa Hom Restaurant",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante dove bere e mangiare piatti locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Ristorante dove bere e mangiare piatti locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_m-park-night-market",
+    "name": "M Park Night Market",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato notturno perfetto per trascorrere la serata."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Mercato notturno perfetto per trascorrere la serata.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_pakse",
+    "name": "Pakse",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Principale centro del Laos meridionale, base per esplorare la regione circostante."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Principale centro del Laos meridionale, base per esplorare la regione circostante.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_pho-lankham-noodles",
+    "name": "Pho Lankham Noodles",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante dove mangiare il Pho tradizionale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Ristorante dove mangiare il Pho tradizionale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_tad-champee-waterfall",
+    "name": "Tad Champee Waterfall",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata dove è possibile nuotare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Cascata dove è possibile nuotare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_tad-fane-waterfall",
+    "name": "Tad Fane Waterfall",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata mozzafiato dove è possibile fare zipline."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Cascata mozzafiato dove è possibile fare zipline.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_tad-yeung-waterfall",
+    "name": "Tad Yeung Waterfall",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Cascata ideale per fare escursioni nei dintorni."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Cascata ideale per fare escursioni nei dintorni.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_wat-luang",
+    "name": "Wat Luang",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio locale da visitare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Tempio locale da visitare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Luang è un tempio locale da visitare.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_wat-phou",
+    "name": "Wat Phou",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio Khmer che precede Angkor Wat, situato in una zona ricca di fascino nel sud del Laos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Tempio Khmer che precede Angkor Wat, situato in una zona ricca di fascino nel sud del Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Phou è un tempio Khmer che precede Angkor Wat, situato in una zona ricca di fascino nel sud del Laos.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_wat-phousalao",
+    "name": "Wat Phousalao",
+    "aliases": [],
+    "city": "Pakse",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio che offre una splendida vista sul fiume."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Db8HP3xmAyM/",
+        "date": "",
+        "note": "Tempio che offre una splendida vista sul fiume.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Phousalao è un tempio che offre una splendida vista sul fiume.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_phongsaly",
+    "name": "Phongsaly",
+    "aliases": [],
+    "city": "Phongsaly",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Località remota, fredda e completamente fuori dal circuito dei backpacker."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZUxhGYzeT-/",
+        "date": "",
+        "note": "Località remota, fredda e completamente fuori dal circuito dei backpacker.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_vang-vieng",
+    "name": "Vang Vieng",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Località che gli amanti del trekking possono saltare per rifugiarsi nella giungla.",
+      "Località famosa per i paesaggi naturali straordinari, tappa fondamentale tra Luang Prabang e Vientiane."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZUxhGYzeT-/",
+        "date": "",
+        "note": "Località che gli amanti del trekking possono saltare per rifugiarsi nella giungla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Località famosa per i paesaggi naturali straordinari, tappa fondamentale tra Luang Prabang e Vientiane.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_blue-lagoon-1",
+    "name": "Blue Lagoon 1",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "La più famosa e vicina tra le lagune, ideale per nuotare nelle acque turchesi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Si riempie molto di gente dopo le 11."
+    ],
+    "tips": [
+      "Andateci presto la mattina per evitare la folla."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "La più famosa e vicina tra le lagune, ideale per nuotare nelle acque turchesi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Si riempie molto di gente dopo le 11.",
+        "tips": [
+          "Andateci presto la mattina per evitare la folla."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_nam-song",
+    "name": "Nam Song",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Fiume ideale per escursioni in kayak ed esplorare le grotte fluviali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Fiume ideale per escursioni in kayak ed esplorare le grotte fluviali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_nam-xay-viewpoint",
+    "name": "Nam Xay Viewpoint",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Punto panoramico famoso per la ripida salita e la celebre foto sulla moto in cima."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Richiede una ripida salita di circa 30 minuti."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Punto panoramico famoso per la ripida salita e la celebre foto sulla moto in cima.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Richiede una ripida salita di circa 30 minuti."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_pha-ngern-viewpoint",
+    "name": "Pha Ngern Viewpoint",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Conosciuto anche come Silver Cliff, offre un sentiero più lungo e impegnativo ma con una vista spettacolare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Sentiero impegnativo di circa 2 ore tra andata e ritorno."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Conosciuto anche come Silver Cliff, offre un sentiero più lungo e impegnativo ma con una vista spettacolare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Sentiero impegnativo di circa 2 ore tra andata e ritorno."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_tham-chang",
+    "name": "Tham Chang",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Grotta storicamente utilizzata come bunker dai locali durante le invasioni."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Grotta storicamente utilizzata come bunker dai locali durante le invasioni.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_tham-nam",
+    "name": "Tham Nam",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Grotta fluviale da esplorare durante un tour in kayak."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Grotta fluviale da esplorare durante un tour in kayak.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_vang-vieng-night-market",
+    "name": "Vang Vieng Night Market",
+    "aliases": [],
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato notturno dove fermarsi a cena per gustare piatti tipici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Mercato notturno dove fermarsi a cena per gustare piatti tipici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_buddha-park",
+    "name": "Buddha Park",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Parco bizzarro situato a circa 25 km fuori città, pieno di sculture giganti in cemento buddiste e induiste.",
+      "Un giardino di sculture all'aperto pieno di decine di statue buddiste e induiste."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Parco bizzarro situato a circa 25 km fuori città, pieno di sculture giganti in cemento buddiste e induiste.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Un giardino di sculture all'aperto pieno di decine di statue buddiste e induiste.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Buddha Park è un giardino di sculture all'aperto, situato a circa 25 km fuori città, bizzarro e pieno di decine di statue giganti in cemento buddiste e induiste.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_cope-visitor-center",
+    "name": "COPE Visitor Center",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Museo educativo fondamentale sulle bombe inesplose (UXO) per capire la storia recente del Laos.",
+      "Una mostra potente e importante sull'impatto delle bombe inesplose lasciate dall'era della guerra del Vietnam."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Museo educativo fondamentale sulle bombe inesplose (UXO) per capire la storia recente del Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Una mostra potente e importante sull'impatto delle bombe inesplose lasciate dall'era della guerra del Vietnam.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il COPE Visitor Center è una mostra potente, importante e un museo educativo fondamentale sulle bombe inesplose (UXO) e sull'impatto di quelle lasciate dall'era della guerra del Vietnam, utile per capire la storia recente del Laos.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_patuxai",
+    "name": "Patuxai",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Arco di trionfo locale, sali in cima per una vista panoramica a 360 gradi sulla città.",
+      "La versione di Vientiane dell'Arco di Trionfo, con viste panoramiche dalla cima."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Arco di trionfo locale, sali in cima per una vista panoramica a 360 gradi sulla città.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "La versione di Vientiane dell'Arco di Trionfo, con viste panoramiche dalla cima.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Patuxai è la versione di Vientiane dell'Arco di Trionfo locale.",
+    "_tips_synth": "Sali in cima per una vista panoramica a 360 gradi sulla città."
+  },
+  {
+    "id": "laos_pha-that-luang",
+    "name": "Pha That Luang",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Grande stupa dorato simbolo del Laos, magnifico da visitare con la luce del tramonto.",
+      "Il monumento più sacro del Laos e un'icona dell'intero paese."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [
+      "Arrivate verso sera per ammirarlo con la luce del tramonto."
+    ],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Grande stupa dorato simbolo del Laos, magnifico da visitare con la luce del tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Arrivate verso sera per ammirarlo con la luce del tramonto."
+        ]
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Il monumento più sacro del Laos e un'icona dell'intero paese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Pha That Luang è un grande stupa dorato, monumento più sacro del Laos e icona dell'intero paese, magnifico da visitare con la luce del tramonto.",
+    "_tips_synth": "Arrivate verso sera per ammirarlo con la luce del tramonto."
+  },
+  {
+    "id": "laos_vientiane",
+    "name": "Vientiane",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Parte del percorso classico in Laos insieme a Luang Prabang e Vang Vieng.",
+      "Capitale del Laos, solitamente inclusa negli itinerari classici del Paese."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DZUxhGYzeT-/",
+        "date": "",
+        "note": "Parte del percorso classico in Laos insieme a Luang Prabang e Vang Vieng.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DSHTE_RDNvw/",
+        "date": "",
+        "note": "Capitale del Laos, solitamente inclusa negli itinerari classici del Paese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Vientiane è la capitale del Laos, solitamente inclusa e parte del percorso classico nel Paese insieme a Luang Prabang e Vang Vieng.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_vientiane-night-market",
+    "name": "Vientiane Night Market",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato notturno perfetto per cenare tra le bancarelle.",
+      "Il posto perfetto lungo il fiume Mekong per provare cibo locale e guardare il tramonto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Mercato notturno perfetto per cenare tra le bancarelle.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Il posto perfetto lungo il fiume Mekong per provare cibo locale e guardare il tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_wat-si-saket",
+    "name": "Wat Si Saket",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Il tempio più antico della città, imperdibile per iniziare la visita di Vientiane.",
+      "Il tempio più antico di Vientiane, che ospita migliaia di immagini in miniatura del Buddha."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Il tempio più antico della città, imperdibile per iniziare la visita di Vientiane.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Il tempio più antico di Vientiane, che ospita migliaia di immagini in miniatura del Buddha.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Si Saket è il tempio più antico della città e di Vientiane, che ospita migliaia di immagini in miniatura del Buddha ed è imperdibile per iniziare la visita.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_lao-art-museum",
+    "name": "Lao Art Museum",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Offre uno sguardo affascinante sulla storia e sulla cultura del popolo lao."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdwaihePTFr/",
+        "date": "2026-09-26",
+        "note": "Offre uno sguardo affascinante sulla storia e sulla cultura del popolo lao.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-26",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Lao Art Museum offre uno sguardo affascinante sulla storia e sulla cultura del popolo lao.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_lao-people-s-army-history-museum",
+    "name": "Lao People's Army History Museum",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Museo dedicato alla storia militare del paese."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Museo dedicato alla storia militare del paese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Lao People's Army History Museum è un museo dedicato alla storia militare del paese.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_lao-textile-museum",
+    "name": "Lao Textile Museum",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Museo per scoprire l'arte tradizionale della tessitura della seta in Laos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Museo per scoprire l'arte tradizionale della tessitura della seta in Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Lao Textile Museum è un museo per scoprire l'arte tradizionale della tessitura della seta in Laos.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "laos_mekong-river_vientiane",
+    "name": "Mekong River",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Lungofiume ideale per passeggiate al tramonto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Lungofiume ideale per passeggiate al tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "laos_wat-ho-phra-keo",
+    "name": "Wat Ho Phra Keo",
+    "aliases": [],
+    "city": "Vientiane",
+    "country": "Laos",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Ex tempio reale oggi trasformato in museo d'arte sacra, situato vicino al Wat Si Saket."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Ex tempio reale oggi trasformato in museo d'arte sacra, situato vicino al Wat Si Saket.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Ho Phra Keo è un ex tempio reale oggi trasformato in museo d'arte sacra, situato vicino al Wat Si Saket.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "luang-prabang_wat-mai",
+    "name": "Wat Mai",
+    "aliases": [],
+    "city": "Luang Prabang",
+    "country": "Luang Prabang",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio minore e silenzioso situato in città."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcBTSgMDdXN/",
+        "date": "",
+        "note": "Tempio minore e silenzioso situato in città.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Wat Mai è un tempio minore e silenzioso situato in città.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "thailandia_chiang-khong",
+    "name": "Chiang Khong",
+    "aliases": [],
+    "city": "Chiang Rai",
+    "country": "Thailandia",
+    "category": "trasporti",
+    "costs": [],
+    "notes": [
+      "Città di confine per attraversare la frontiera tra Thailandia e Laos."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [
+      "Procedure di immigrazione molto lente."
+    ],
+    "tips": [
+      "Porta pazienza per le lunghe procedure di immigrazione."
+    ],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DRrn6ajjyH0/",
+        "date": "",
+        "note": "Città di confine per attraversare la frontiera tra Thailandia e Laos.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Procedure di immigrazione molto lente.",
+        "tips": [
+          "Porta pazienza per le lunghe procedure di immigrazione."
+        ]
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  }
+]

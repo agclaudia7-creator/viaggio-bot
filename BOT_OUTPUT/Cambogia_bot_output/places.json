@@ -1,0 +1,3762 @@
+[
+  {
+    "id": "cambogia_bamboo-train",
+    "name": "Bamboo Train",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Caratteristico treno in bamboo locale.",
+      "Antico mezzo di trasporto artigianale su rotaia tra le risaie."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Caratteristico treno in bamboo locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Antico mezzo di trasporto artigianale su rotaia tra le risaie.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_central-market_battambang",
+    "name": "Central Market",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato centrale per acquisti e passeggiate."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Mercato centrale per acquisti e passeggiate.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_jaan-bai",
+    "name": "Jaan Bai",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante di cucina asiatica contemporanea con fini benefici."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante di cucina asiatica contemporanea con fini benefici.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_killing-and-bat-caves",
+    "name": "Killing and Bat Caves",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Grotte storiche e naturali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Grotte storiche e naturali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_kinyei-cafe",
+    "name": "Kinyei Cafe",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffetteria pioniera del caffè di qualità e progetto sociale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Caffetteria pioniera del caffè di qualità e progetto sociale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_villa",
+    "name": "La Villa",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Hotel storico in un edificio in stile coloniale francese."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Hotel storico in un edificio in stile coloniale francese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_maisons-wat-kor",
+    "name": "Maisons Wat Kor",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Villaggio tradizionale con antiche case in legno khmer."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Villaggio tradizionale con antiche case in legno khmer.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Maisons Wat Kor è un villaggio tradizionale caratterizzato da antiche case in legno khmer.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_mrs-bun-roeung-s-ancient-house",
+    "name": "Mrs. Bun Roeung's Ancient House",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Autentica casa tradizionale aperta ai visitatori per scoprire la storia locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Autentica casa tradizionale aperta ai visitatori per scoprire la storia locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Mrs. Bun Roeung's Ancient House è un'autentica casa tradizionale aperta ai visitatori per scoprire la storia locale.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_phnom-sampeau",
+    "name": "Phnom Sampeau",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Collina con templi, grotte storiche e milioni di pipistrelli al tramonto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Collina con templi, grotte storiche e milioni di pipistrelli al tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_romcheik-5-artspace-and-cafe",
+    "name": "Romcheik 5 Artspace & Café",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Galleria d'arte contemporanea e caffè gestito da artisti locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Galleria d'arte contemporanea e caffè gestito da artisti locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Romcheik 5 Artspace & Café è una galleria d'arte contemporanea e un caffè gestito da artisti locali.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_sangkae-village",
+    "name": "Sangkae Village",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Villaggio locale da visitare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Villaggio locale da visitare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Sangkae Village è un villaggio locale consigliato da visitare.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_fringe-cafe-and-yoga-studio",
+    "name": "The Fringe Café & Yoga Studio",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Studio di yoga e caffè rilassato frequentato da viaggiatori."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Studio di yoga e caffè rilassato frequentato da viaggiatori.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_vintage-wine-bar-mezze",
+    "name": "Vintage Wine Bar Mezze",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Locale accogliente per vini e stuzzichini."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale accogliente per vini e stuzzichini.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_wat-banan",
+    "name": "Wat Banan",
+    "aliases": [],
+    "city": "Battambang",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio angkoriano del XI secolo situato in cima a una collina."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Tempio angkoriano del XI secolo situato in cima a una collina.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Wat Banan è un tempio angkoriano dell'XI secolo situato in cima a una collina.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_canvas-and-orchids-retreat",
+    "name": "Canvas & Orchids Retreat",
+    "aliases": [],
+    "city": "Cardamom Mountains",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Eco-lodge galleggiante di lusso immerso nella giungla."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Eco-lodge galleggiante di lusso immerso nella giungla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_chi-phat",
+    "name": "Chi Phat",
+    "aliases": [],
+    "city": "Cardamom Mountains",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Villaggio ecoturistico nel cuore della foresta pluviale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Villaggio ecoturistico nel cuore della foresta pluviale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_tatai-river",
+    "name": "Tatai River",
+    "aliases": [],
+    "city": "Cardamom Mountains",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Fiume incontaminato perfetto per gite in barca e kayak."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Fiume incontaminato perfetto per gite in barca e kayak.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_aroma-house",
+    "name": "Aroma House",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale accogliente per pasti e bevande sul fiume."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale accogliente per pasti e bevande sul fiume.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_bokor-national-park",
+    "name": "Bokor national park",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Parco nazionale montuoso con edifici coloniali abbandonati e cascate."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Parco nazionale montuoso con edifici coloniali abbandonati e cascate.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_ciao-restaurant",
+    "name": "Ciao Restaurant",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante popolare nella zona centrale di Kampot."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante popolare nella zona centrale di Kampot.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_kampot-dolphin-ecotours",
+    "name": "Kampot Dolphin Ecotours",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Tour ecologici in barca sul fiume alla ricerca della fauna locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Tour ecologici in barca sul fiume alla ricerca della fauna locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_phnom-kbal-romeas",
+    "name": "Phnom Kbal Romeas",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Sito naturale roccioso e panoramico nella campagna di Kampot."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Sito naturale roccioso e panoramico nella campagna di Kampot.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_sabay-beach-restaurant-and-cocktail-bar",
+    "name": "Sabay Beach Restaurant & Cocktail Bar",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante e beach bar sul fiume con ottima atmosfera."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante e beach bar sul fiume con ottima atmosfera.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_salt-fields",
+    "name": "Salt fields",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Tradizionali saline costiere dove si produce il sale marino."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Tradizionali saline costiere dove si produce il sale marino.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_green-cathedral",
+    "name": "The Green Cathedral",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Area fluviale verdeggiante ideale per kayak e gite in barca."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Area fluviale verdeggiante ideale per kayak e gite in barca.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_veha-coffee-mountain-view",
+    "name": "VEHA Coffee Mountain View",
+    "aliases": [],
+    "city": "Kampot",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffè panoramico con vista sulle montagne circostanti."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Caffè panoramico con vista sulle montagne circostanti.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_arts-cafe",
+    "name": "Arts Café",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffè dall'atmosfera artistica e rilassata."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Caffè dall'atmosfera artistica e rilassata.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_chankiri-restaurant",
+    "name": "Chankiri Restaurant",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante con specialità locali e frutti di mare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante con specialità locali e frutti di mare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_crab-market",
+    "name": "Crab Market",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Celebre mercato all'aperto dove gustare granchio fresco al pepe di Kampot."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Celebre mercato all'aperto dove gustare granchio fresco al pepe di Kampot.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_deli-s-kep",
+    "name": "Deli's Kep",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Pasticceria e caffè per spuntini e dolci."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Pasticceria e caffè per spuntini e dolci.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_kep-national-park",
+    "name": "Kep National Park",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Parco nazionale con sentieri escursionistici immersi nella giungla."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Parco nazionale con sentieri escursionistici immersi nella giungla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_parenthese",
+    "name": "La Parenthèse",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante accogliente immerso nel verde di Kep."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante accogliente immerso nel verde di Kep.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_rabbit-island",
+    "name": "Rabbit Island",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isoletta tropicale rustica al largo di Kep, perfetta per una gita."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Isoletta tropicale rustica al largo di Kep, perfetta per una gita.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_wave",
+    "name": "The Wave",
+    "aliases": [],
+    "city": "Kep",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale fronte mare ideale per ammirare il tramonto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale fronte mare ideale per ammirare il tramonto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_casamia-koh-rong",
+    "name": "Casamia Koh Rong",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Struttura ricettiva e ristorante direttamente sulla spiaggia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Struttura ricettiva e ristorante direttamente sulla spiaggia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_koh-rong",
+    "name": "Koh Rong",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola paradisiaca per relax."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "4 giorni"
+    ],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Isola paradisiaca per relax.",
+        "cost": "",
+        "rating": "",
+        "days": "4 giorni",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_long-set-beach",
+    "name": "Long Set Beach",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Lunga spiaggia di sabbia bianca e mare cristallino."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Lunga spiaggia di sabbia bianca e mare cristallino.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_pagoda-beach",
+    "name": "Pagoda Beach",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Splendida spiaggia tranquilla ideale per nuotare e rilassarsi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Splendida spiaggia tranquilla ideale per nuotare e rilassarsi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_sky-bar-koh-rong",
+    "name": "Sky Bar Koh Rong",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Locale notturno panoramico per drink sulla spiaggia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale notturno panoramico per drink sulla spiaggia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_sok-san-beach",
+    "name": "Sok San Beach",
+    "aliases": [],
+    "city": "Koh Rong",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Famosa spiaggia tropicale con resort e atmosfere rilassate."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Famosa spiaggia tropicale con resort e atmosfere rilassate.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_lazy-beach",
+    "name": "Lazy Beach",
+    "aliases": [],
+    "city": "Koh Rong Samloem",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [
+      "gratis"
+    ],
+    "notes": [
+      "Una spiaggia più selvaggia e autentica, ideale per immergersi nella natura incontaminata dell'isola."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWtJyGxDHTq/",
+        "date": "",
+        "note": "Una spiaggia più selvaggia e autentica, ideale per immergersi nella natura incontaminata dell'isola.",
+        "cost": "gratis",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_saracen-bay",
+    "name": "Saracen Bay",
+    "aliases": [],
+    "city": "Koh Rong Samloem",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [
+      "gratis"
+    ],
+    "notes": [
+      "Spiaggia perfetta per il relax e per ammirare tramonti da cartolina con acque cristalline."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWtJyGxDHTq/",
+        "date": "",
+        "note": "Spiaggia perfetta per il relax e per ammirare tramonti da cartolina con acque cristalline.",
+        "cost": "gratis",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_sunset-beach",
+    "name": "Sunset Beach",
+    "aliases": [],
+    "city": "Koh Rong Samloem",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [
+      "gratis"
+    ],
+    "notes": [
+      "Zona meno turistica dell'isola, ideale se cerchi tranquillità e pace."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DWtJyGxDHTq/",
+        "date": "",
+        "note": "Zona meno turistica dell'isola, ideale se cerchi tranquillità e pace.",
+        "cost": "gratis",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_discover-kratie-homestay",
+    "name": "Discover Kratie Homestay",
+    "aliases": [],
+    "city": "Kratie",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Esperienza di alloggio autentico presso le famiglie locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Esperienza di alloggio autentico presso le famiglie locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_kampi-dolphins",
+    "name": "Kampi dolphins",
+    "aliases": [],
+    "city": "Kratie",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Area del Mekong famosa per l'avvistamento dei rari delfini dell'Irrawaddy."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Area del Mekong famosa per l'avvistamento dei rari delfini dell'Irrawaddy.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_koh-trong",
+    "name": "Koh Trong",
+    "aliases": [],
+    "city": "Kratie",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Isola fluviale sul Mekong dove scoprire la vita rurale in bicicletta."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Isola fluviale sul Mekong dove scoprire la vita rurale in bicicletta.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_privada-lodge",
+    "name": "Privada Lodge",
+    "aliases": [],
+    "city": "Kratie",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Lodge confortevole per soggiornare lungo il fiume."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Lodge confortevole per soggiornare lungo il fiume.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_street-three-eatery",
+    "name": "Street Three Eatery",
+    "aliases": [],
+    "city": "Kratie",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante locale per pasti tipici nel centro di Kratie."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante locale per pasti tipici nel centro di Kratie.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_bamboo-cafe-mondulkiri",
+    "name": "Bamboo Cafe Mondulkiri",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffè accogliente gestito da residenti locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Caffè accogliente gestito da residenti locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_bou-sra-waterfall",
+    "name": "Bou Sra Waterfall",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Maestosa cascata a più livelli immersa nella giungla delle alture."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Maestosa cascata a più livelli immersa nella giungla delle alture.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_indigenous-people-s-market",
+    "name": "Indigenous people 's market",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato tradizionale delle comunità indigene locali Bunong."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Mercato tradizionale delle comunità indigene locali Bunong.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_mk-cafe",
+    "name": "MK Café",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffetteria locale per bevande e relax."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Caffetteria locale per bevande e relax.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_pida-coffee-farm",
+    "name": "PIDA coffee farm",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Fattoria locale produttrice di caffè nelle alture di Mondulkiri."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Fattoria locale produttrice di caffè nelle alture di Mondulkiri.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_hangout",
+    "name": "The Hangout",
+    "aliases": [],
+    "city": "Mondulkiri",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Punto di ritrovo popolare per viaggiatori nella regione."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Punto di ritrovo popolare per viaggiatori nella regione.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_backyard-cafe",
+    "name": "Backyard Café",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale popolare per cibi sani, opzioni vegetariane e caffè."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale popolare per cibi sani, opzioni vegetariane e caffè.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_bai-sor",
+    "name": "Bai Sor",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante che offre ottima cucina khmer sostenendo progetti sociali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante che offre ottima cucina khmer sostenendo progetti sociali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_central-market_phnom-penh",
+    "name": "Central Market",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato centrale coperto in stile art déco."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Mercato centrale coperto in stile art déco.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_for-someone-i-like",
+    "name": "For Someone I like",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Negozio di articoli da regalo e artigianato locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Negozio di articoli da regalo e artigianato locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_institut-francais",
+    "name": "Institut français",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Centro culturale che ospita eventi e mostre."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Centro culturale che ospita eventi e mostre.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "L'Institut français è un centro culturale che ospita eventi e mostre.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_plantation-pepper-mill-museum",
+    "name": "La Plantation Pepper Mill Museum",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Esposizione dedicata alla storia e alla produzione del famoso pepe."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Esposizione dedicata alla storia e alla produzione del famoso pepe.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "La Plantation Pepper Mill Museum è un'esposizione dedicata alla storia e alla produzione del famoso pepe.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_museo-nazionale",
+    "name": "Museo Nazionale",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Museo di storia e archeologia khmer."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Museo di storia e archeologia khmer.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Museo Nazionale è un museo di storia e archeologia khmer.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_national-museum",
+    "name": "National Museum",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Il più grande museo di storia culturale e考古學 della Cambogia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Il più grande museo di storia culturale e考古學 della Cambogia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il National Museum è il più grande museo di storia culturale e archeologia della Cambogia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_oudong",
+    "name": "Oudong",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antica capitale reale, da visitare se rimane tempo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Antica capitale reale, da visitare se rimane tempo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Oudong è un'antica capitale reale.",
+    "_tips_synth": "Da visitare se rimane tempo."
+  },
+  {
+    "id": "cambogia_palazzo-reale",
+    "name": "Palazzo Reale",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Residenza ufficiale del re della Cambogia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Residenza ufficiale del re della Cambogia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Palazzo Reale è la residenza ufficiale del re della Cambogia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_royal-palace",
+    "name": "Royal Palace",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Complesso di edifici che serve da residenza reale per i re della Cambogia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Complesso di edifici che serve da residenza reale per i re della Cambogia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Royal Palace è un complesso di edifici che serve da residenza reale per i re della Cambogia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_russian-market",
+    "name": "Russian Market",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato famoso per souvenir e artigianato."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Mercato famoso per souvenir e artigianato.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_sosoro-museum",
+    "name": "SOSORO Museum",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Museo dedicato alla storia economica e monetaria della Cambogia."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Museo dedicato alla storia economica e monetaria della Cambogia.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il SOSORO Museum è un museo dedicato alla storia economica e monetaria della Cambogia.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_senteurs-d-angkor",
+    "name": "Senteurs d’Angkor",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Negozio di prodotti artigianali locali, cosmetici naturali e spezie."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Negozio di prodotti artigianali locali, cosmetici naturali e spezie.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_silver-pagoda",
+    "name": "Silver Pagoda",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Pagoda nota per il pavimento in piastrelle d'argento."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Pagoda nota per il pavimento in piastrelle d'argento.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "La Silver Pagoda è una pagoda nota per il pavimento in piastrelle d'argento.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_tube-coffee",
+    "name": "TUBE COFFEE",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Catena di caffetterie locali molto popolare per il caffè freddo."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Catena di caffetterie locali molto popolare per il caffè freddo.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_elephant-bar",
+    "name": "The Elephant Bar",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Storico bar situato all'interno del Raffles Hotel Le Royal."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Storico bar situato all'interno del Raffles Hotel Le Royal.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_killing-fields",
+    "name": "The Killing Fields",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Luogo commemorativo legato all'era dei Khmer Rossi, importante per comprendere la storia del paese."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdOZ0aGjFEZ/",
+        "date": "",
+        "note": "Luogo commemorativo legato all'era dei Khmer Rossi, importante per comprendere la storia del paese.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "The Killing Fields è un luogo commemorativo legato all'era dei Khmer Rossi, importante per comprendere la storia del paese.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_toul-sleng-s21",
+    "name": "Toul Sleng S21",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Ex scuola trasformata in prigione del regime dei Khmer Rossi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Ex scuola trasformata in prigione del regime dei Khmer Rossi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Toul Sleng S21 è un'ex scuola trasformata in prigione del regime dei Khmer Rossi.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_wat-ounalom",
+    "name": "Wat Ounalom",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Importante monastero buddista."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Importante monastero buddista.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Wat Ounalom è un importante monastero buddista.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_wat-phnom",
+    "name": "Wat Phnom",
+    "aliases": [],
+    "city": "Phnom Penh",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Importante tempio buddista della capitale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Importante tempio buddista della capitale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Wat Phnom è un importante tempio buddista della capitale.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_angkor-wat",
+    "name": "Angkor Wat",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Complesso archeologico con il piccolo e grande circuito.",
+      "Antichi templi perfetti da visitare all'alba per un'esperienza indimenticabile.",
+      "Simbolo della Cambogia e tempio principale contenuto all'interno del complesso di Angkor."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "2 giorni"
+    ],
+    "cons": [
+      "Molto affollato"
+    ],
+    "tips": [
+      "Svegliati presto per ammirare l'alba sul tempio.",
+      "Vedi l'alba qui per uno spettacolo unico e meno caldo."
+    ],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Complesso archeologico con il piccolo e grande circuito.",
+        "cost": "",
+        "rating": "",
+        "days": "2 giorni",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DdOZ0aGjFEZ/",
+        "date": "",
+        "note": "Antichi templi perfetti da visitare all'alba per un'esperienza indimenticabile.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "Molto affollato",
+        "tips": [
+          "Svegliati presto per ammirare l'alba sul tempio."
+        ]
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Simbolo della Cambogia e tempio principale contenuto all'interno del complesso di Angkor.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": [
+          "Vedi l'alba qui per uno spettacolo unico e meno caldo."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Angkor Wat è il tempio principale e simbolo della Cambogia, situato all'interno di un complesso archeologico che comprende il piccolo e il grande circuito.",
+    "_tips_synth": "Svegliati presto per ammirare l'alba sul tempio, godendo così di uno spettacolo unico e meno caldo."
+  },
+  {
+    "id": "cambogia_kampong-phluk",
+    "name": "Kampong Phluk",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Un incredibile villaggio dove le strade spariscono sott'acqua per sei mesi all'anno.",
+      "Villaggio galleggiante.",
+      "Villaggio galleggiante sul Tonle Sap con giro in canoa nella foresta allagata."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "Mezza giornata"
+    ],
+    "cons": [],
+    "tips": [
+      "Visitalo al tramonto per un'atmosfera super suggestiva."
+    ],
+    "mention_count": 3,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DbDgRqdPA2d/",
+        "date": "",
+        "note": "Un incredibile villaggio dove le strade spariscono sott'acqua per sei mesi all'anno.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Villaggio galleggiante.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Villaggio galleggiante sul Tonle Sap con giro in canoa nella foresta allagata.",
+        "cost": "",
+        "rating": "",
+        "days": "Mezza giornata",
+        "cons": "",
+        "tips": [
+          "Visitalo al tramonto per un'atmosfera super suggestiva."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Kampong Phluk è un incredibile villaggio galleggiante sul Tonle Sap dove le strade spariscono sott'acqua per sei mesi all'anno, offrendo la possibilità di fare un giro in canoa nella foresta allagata.",
+    "_tips_synth": "Visitalo al tramonto per un'atmosfera super suggestiva."
+  },
+  {
+    "id": "cambogia_angkor",
+    "name": "Angkor",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Straordinario sito archeologico e complesso di templi antichi.",
+      "Immenso complesso archeologico ed antica capitale dell'impero Khmer, il più grande complesso religioso al mondo."
+    ],
+    "creator_ratings": [],
+    "days": [
+      "1-2 giorni"
+    ],
+    "cons": [],
+    "tips": [
+      "Prendi una guida o un tour privato.",
+      "Scegli tra alba o tramonto, non fare entrambi.",
+      "Porta acqua, crema solare, cappello e scarpe comode."
+    ],
+    "mention_count": 2,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Straordinario sito archeologico e complesso di templi antichi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      },
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Immenso complesso archeologico ed antica capitale dell'impero Khmer, il più grande complesso religioso al mondo.",
+        "cost": "",
+        "rating": "",
+        "days": "1-2 giorni",
+        "cons": "",
+        "tips": [
+          "Prendi una guida o un tour privato.",
+          "Scegli tra alba o tramonto, non fare entrambi.",
+          "Porta acqua, crema solare, cappello e scarpe comode."
+        ]
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Angkor è uno straordinario e immenso complesso archeologico ed antica capitale dell'impero Khmer, riconosciuto come il più grande complesso religioso al mondo.",
+    "_tips_synth": "Prendi una guida o un tour privato. Scegli tra alba o tramonto, senza fare entrambi. Porta acqua, crema solare, cappello e scarpe comode."
+  },
+  {
+    "id": "cambogia_angkor-thom",
+    "name": "Angkor Thom",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "L'antica città fortificata, ricca di storia e monumenti da esplorare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "L'antica città fortificata, ricca di storia e monumenti da esplorare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Angkor Thom è l'antica città fortificata, ricca di storia e monumenti da esplorare.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_bayon",
+    "name": "Bayon",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Famoso tempio caratterizzato da giganteschi volti in pietra scolpiti sulle torri."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Famoso tempio caratterizzato da giganteschi volti in pietra scolpiti sulle torri.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il Bayon è un famoso tempio caratterizzato da giganteschi volti in pietra scolpiti sulle torri.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_beng-mealea-temple",
+    "name": "Beng Mealea Temple",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio immerso nella natura."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Tempio immerso nella natura.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Il tempio di Beng Mealea è immerso nella natura.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_book-and-coffee",
+    "name": "Book & Coffee",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorantino solidale nel villaggio di Doun Teav dove i ragazzi fanno pratica gestendo la cucina."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Ristorantino solidale nel villaggio di Doun Teav dove i ragazzi fanno pratica gestendo la cucina.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_footprint-cafe",
+    "name": "Footprint Café",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffetteria ideale per una pausa rilassante in città."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Caffetteria ideale per una pausa rilassante in città.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_haven-training-restaurant",
+    "name": "HAVEN Training Restaurant",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante etico che offre formazione professionale a giovani svantaggiati."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante etico che offre formazione professionale a giovani svantaggiati.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_koh-ker",
+    "name": "Koh Ker",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Complesso di templi piramidali risalente all'impero Khmer."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Complesso di templi piramidali risalente all'impero Khmer.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Koh Ker è un complesso di templi piramidali risalente all'impero Khmer.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_plantation",
+    "name": "La Plantation",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Punto vendita del celebre pepe di Kampot e spezie."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Punto vendita del celebre pepe di Kampot e spezie.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_lotus-silk-farm",
+    "name": "Lotus Silk Farm",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Fattoria didattica dove osservare la produzione della seta da steli di loto."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Fattoria didattica dove osservare la produzione della seta da steli di loto.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_made-in-cambodia-market",
+    "name": "Made in Cambodia Market",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercatino artigianale che supporta i prodotti locali cambogiani."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Mercatino artigianale che supporta i prodotti locali cambogiani.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_maison-lotus",
+    "name": "Maison Lotus",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Struttura ricettiva accogliente in stile tradizionale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Struttura ricettiva accogliente in stile tradizionale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_mekhala-restaurant-and-bar",
+    "name": "Mekhala Restaurant & Bar",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Locale ideale per gustare piatti tipici khmer e cocktail."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Locale ideale per gustare piatti tipici khmer e cocktail.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_navutu",
+    "name": "NAVUTU",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "alloggio",
+    "costs": [],
+    "notes": [
+      "Resort e centro benessere immerso nel verde."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Resort e centro benessere immerso nel verde.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_ojas",
+    "name": "Ojas",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante con cucina ricercata e salutare."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante con cucina ricercata e salutare.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_old-market",
+    "name": "Old Market",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Mercato tradizionale coperto ideale per immergersi nella vita locale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Mercato tradizionale coperto ideale per immergersi nella vita locale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_phare",
+    "name": "Phare",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Famoso circo cambogiano che unisce teatro, musica e acrobatica."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Famoso circo cambogiano che unisce teatro, musica e acrobatica.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Phare è un famoso circo cambogiano che unisce teatro, musica e acrobatica.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_pub-street",
+    "name": "Pub Street",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "nightlife",
+    "costs": [
+      "1 USD"
+    ],
+    "notes": [
+      "Via della movida notturna con luci al neon, musica, street food e birra economica."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DdOZ0aGjFEZ/",
+        "date": "",
+        "note": "Via della movida notturna con luci al neon, musica, street food e birra economica.",
+        "cost": "1 USD",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_spoons-cafe-restaurant",
+    "name": "SPOONS Café Restaurant",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante sociale che sostiene la formazione nel settore turistico."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante sociale che sostiene la formazione nel settore turistico.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_scribe-bar",
+    "name": "Scribe Bar",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "nightlife",
+    "costs": [],
+    "notes": [
+      "Bar rilassato dove bere cocktail e ascoltare musica."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Bar rilassato dove bere cocktail e ascoltare musica.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_senteurs-d-angkor-workshop",
+    "name": "Senteurs d’Angkor Workshop",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Laboratorio artigianale per scoprire la produzione di cosmetici e profumi."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Laboratorio artigianale per scoprire la produzione di cosmetici e profumi.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_siem-reap",
+    "name": "Siem Reap",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Città ideale per passeggiate."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DORU4t3jGpV/",
+        "date": "",
+        "note": "Città ideale per passeggiate.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Siem Reap è una città ideale per passeggiate.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_sister-srey-cafe",
+    "name": "Sister Srey Café",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Caffetteria accogliente ideale per una pausa a Siem Reap."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Caffetteria accogliente ideale per una pausa a Siem Reap.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_ta-prohm",
+    "name": "Ta Prohm",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio suggestivo e affascinante, completamente avvolto dalle radici della giungla."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Tempio suggestivo e affascinante, completamente avvolto dalle radici della giungla.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Ta Prohm è un tempio suggestivo e affascinante, completamente avvolto dalle radici della giungla.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_tevy-s-place",
+    "name": "Tevy's Place",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante noto per la cucina casalinga khmer e l'impatto sociale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante noto per la cucina casalinga khmer e l'impatto sociale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_community",
+    "name": "The Community",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "attivita",
+    "costs": [],
+    "notes": [
+      "Spazio comunitario e culturale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Spazio comunitario e culturale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_daily-make",
+    "name": "The Daily Make",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "shopping",
+    "costs": [],
+    "notes": [
+      "Negozio e spazio creativo per oggetti fatti a mano."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Negozio e spazio creativo per oggetti fatti a mano.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_little-red-fox-espresso",
+    "name": "The Little Red Fox Espresso",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ottimo locale per una pausa caffè nel centro di Siem Reap."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Ottimo locale per una pausa caffè nel centro di Siem Reap.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_mansion-restaurant",
+    "name": "The Mansion Restaurant",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cibo",
+    "costs": [],
+    "notes": [
+      "Ristorante con atmosfera coloniale e piatti locali."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Ristorante con atmosfera coloniale e piatti locali.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_wat-preah-prom-rath",
+    "name": "Wat Preah Prom Rath",
+    "aliases": [],
+    "city": "Siem Reap",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Tempio buddista colorato situato nel centro di Siem Reap."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/Dd3FRxcirIZ/",
+        "date": "2026-09-29",
+        "note": "Tempio buddista colorato situato nel centro di Siem Reap.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "2026-09-29",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Wat Preah Prom Rath è un tempio buddista colorato situato nel centro di Siem Reap.",
+    "_tips_synth": ""
+  },
+  {
+    "id": "cambogia_koh-han-ramsar-wetlands",
+    "name": "Koh Han Ramsar wetlands",
+    "aliases": [],
+    "city": "Stung Treng",
+    "country": "Cambogia",
+    "category": "natura",
+    "costs": [],
+    "notes": [
+      "Importante zona umida protetta ricca di biodiversità fluviale."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Importante zona umida protetta ricca di biodiversità fluviale.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": ""
+  },
+  {
+    "id": "cambogia_prasat-bakan",
+    "name": "Prasat Bakan",
+    "aliases": [],
+    "city": "Stung Treng",
+    "country": "Cambogia",
+    "category": "cultura",
+    "costs": [],
+    "notes": [
+      "Antico tempio storico immerso nella natura del nord-est."
+    ],
+    "creator_ratings": [],
+    "days": [],
+    "cons": [],
+    "tips": [],
+    "mention_count": 1,
+    "mentions": [
+      {
+        "reel": "https://www.instagram.com/p/DcibsLSgPMk/",
+        "date": "",
+        "note": "Antico tempio storico immerso nella natura del nord-est.",
+        "cost": "",
+        "rating": "",
+        "days": "",
+        "cons": "",
+        "tips": []
+      }
+    ],
+    "last_mention_date": "",
+    "status": "da_fare",
+    "rating": null,
+    "user_notes": "",
+    "_notes_synth": "Prasat Bakan è un antico tempio storico immerso nella natura del nord-est.",
+    "_tips_synth": ""
+  }
+]

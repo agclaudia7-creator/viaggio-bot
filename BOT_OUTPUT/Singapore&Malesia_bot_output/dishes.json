@@ -1,0 +1,2656 @@
+[
+  {
+    "id": "satay",
+    "name": "satay",
+    "aliases": [
+      "sate",
+      "spiedini satay"
+    ],
+    "description": "Spiedini cotti su griglie fumanti all'aperto, serviti la sera nell'apposita strada fuori da Lau Pa Sat.",
+    "places": [
+      {
+        "id": "malesia_beh-leh-hainam-satay",
+        "name": "Beh Leh Hainam Satay",
+        "city": "Melaka"
+      },
+      {
+        "id": "singapore_lau-pa-sat",
+        "name": "Lau Pa Sat",
+        "city": "Singapore"
+      },
+      {
+        "id": "malesia_ss2-night-market",
+        "name": "SS2 Night Market",
+        "city": "Petaling Jaya"
+      },
+      {
+        "id": "singapore_satay-street",
+        "name": "Satay Street",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/",
+      "https://www.instagram.com/p/Dc5cnRuGSjs/",
+      "https://www.instagram.com/p/DcPieJXT1LN/",
+      "https://www.instagram.com/p/DcoZb0MvzAc/",
+      "https://www.instagram.com/p/DcuAMd_zPKZ/",
+      "https://www.instagram.com/p/Dcytt_NEgiu/",
+      "https://www.instagram.com/p/DdEv2rJFH2n/",
+      "https://www.instagram.com/p/DdRmJ7ylLbW/",
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 9,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Sate_Udang.JPG/330px-Sate_Udang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "laksa",
+    "name": "laksa",
+    "aliases": [],
+    "description": "Piatto locale economico e gustoso servito nei centri hawker e in locali pluripremiati.",
+    "places": [
+      {
+        "id": "singapore_328-katong-laksa",
+        "name": "328 Katong Laksa",
+        "city": "Singapore"
+      },
+      {
+        "id": "malesia_cafe-laksa-rindu",
+        "name": "Cafe Laksa Rindu",
+        "city": "Langkawi"
+      },
+      {
+        "id": "malesia_limapulo",
+        "name": "Limapulo",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "singapore_maxwell-food-centre",
+        "name": "Maxwell Food Centre",
+        "city": "Singapore"
+      },
+      {
+        "id": "malesia_penang-road-famous-laksa",
+        "name": "Penang Road Famous Laksa",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DapqJ4PiUao/",
+      "https://www.instagram.com/p/Db8TPyGKjdu/",
+      "https://www.instagram.com/p/DbsRdcpIqMJ/",
+      "https://www.instagram.com/p/DdGDzL3GvKy/",
+      "https://www.instagram.com/p/Ddxz11yhM4I/",
+      "https://www.instagram.com/reel/Dcn_UYrI_Pi"
+    ],
+    "mention_count": 6,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Nyonya_Laksa.jpg/330px-Nyonya_Laksa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "roti",
+    "name": "Roti",
+    "aliases": [],
+    "description": "Pane o focaccia tipica.",
+    "places": [
+      {
+        "id": "malesia_jalan-alor",
+        "name": "Jalan Alor",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_mon-chinese-beef-roti",
+        "name": "Mon Chinese Beef Roti",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc0ZVKnoweZ/",
+      "https://www.instagram.com/p/DcqeBDNmsQz/",
+      "https://www.instagram.com/p/DdjlNL9Emem/",
+      "https://www.instagram.com/reel/DcqyJSEp4Sr",
+      "https://www.instagram.com/reel/DcsgILZTKBo"
+    ],
+    "mention_count": 5,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/2020-05-08_19_34_28_Chapati_being_made_in_a_pan_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/330px-2020-05-08_19_34_28_Chapati_being_made_in_a_pan_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "nasi-lemak",
+    "name": "Nasi Lemak",
+    "aliases": [],
+    "description": "Piatto nazionale malese a base di riso al cocco, pollo fritto croccante e sambal.",
+    "places": [
+      {
+        "id": "malesia_ali-muthu-and-ah-hock",
+        "name": "Ali, Muthu, & Ah Hock",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_blue-boy-vegetarian-restaurant",
+        "name": "Blue Boy Vegetarian Restaurant",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_oriental-kopi",
+        "name": "Oriental Kopi",
+        "city": "Penang"
+      },
+      {
+        "id": "malesia_village-park-restaurant",
+        "name": "Village Park Restaurant",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DbfrOr2sJiW/",
+      "https://www.instagram.com/p/Dc5cnRuGSjs/",
+      "https://www.instagram.com/p/DcnPaYMBXrP/",
+      "https://www.instagram.com/p/DdnyiXyk06q/",
+      "https://www.instagram.com/reel/Da2stgmBqVy"
+    ],
+    "mention_count": 5,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg/330px-Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "char-kway-teow",
+    "name": "Char Kway Teow",
+    "aliases": [],
+    "description": "Piatto locale economico e tradizionale gustato negli hawker centre.",
+    "places": [
+      {
+        "id": "malesia_jalan-alor",
+        "name": "Jalan Alor",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_kimberley-st-night-market",
+        "name": "Kimberley St Night Market",
+        "city": "Penang"
+      },
+      {
+        "id": "singapore_maxwell-food-centre",
+        "name": "Maxwell Food Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DapqJ4PiUao/",
+      "https://www.instagram.com/p/Dc-fkNPTyRd/",
+      "https://www.instagram.com/p/DdjlNL9Emem/"
+    ],
+    "mention_count": 3,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Char_kway_teow.jpg/330px-Char_kway_teow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "shawarma",
+    "name": "Shawarma",
+    "aliases": [],
+    "description": "Panino con carne o piatto alla griglia succoso e saporito.",
+    "places": [
+      {
+        "id": "malesia_damascus",
+        "name": "Damascus",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/",
+      "https://www.instagram.com/p/DcqeBDNmsQz/",
+      "https://www.instagram.com/p/Dd5lmdojIlA/"
+    ],
+    "mention_count": 3,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Shawarma_2.jpg/330px-Shawarma_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "double-roasted-pork-belly",
+    "name": "double roasted pork belly",
+    "aliases": [
+      "Double Roasted Pork",
+      "Double Roasted Pork with Chili Padi",
+      "maiale arrosto"
+    ],
+    "description": "Specialità di maiale arrosto croccante, imperdibile con chili padi.",
+    "places": [
+      {
+        "id": "malesia_tek-sen",
+        "name": "Tek Sen",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/",
+      "https://www.instagram.com/p/DcxjEu4zIG9/",
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 3,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "riso-al-pollo-hainanese",
+    "name": "riso al pollo hainanese",
+    "aliases": [
+      "pollo al riso"
+    ],
+    "description": "Celebre riso al pollo Hainanese stellato Michelin, un piatto economico e di ottima qualità.",
+    "places": [
+      {
+        "id": "singapore_maxwell-food-centre",
+        "name": "Maxwell Food Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DapqJ4PiUao/",
+      "https://www.instagram.com/p/DdEv2rJFH2n/",
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 3,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "roti-prata",
+    "name": "roti prata",
+    "aliases": [
+      "prata"
+    ],
+    "description": "Piatto indiano tipico e croccante, amato come specialità locale.",
+    "places": [
+      {
+        "id": "singapore_mr-and-mrs-mohgan-super-crispy-roti-prata",
+        "name": "Mr & Mrs Mohgan Super Crispy Roti Prata",
+        "city": "Singapore"
+      },
+      {
+        "id": "singapore_tekka-centre",
+        "name": "Tekka Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdEv2rJFH2n/",
+      "https://www.instagram.com/reel/DZFBaX1Bx0k",
+      "https://www.instagram.com/reel/DcYiu0gzYjY"
+    ],
+    "mention_count": 3,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/YosriRotiCanai.jpg/330px-YosriRotiCanai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "yogurt-gelato",
+    "name": "yogurt gelato",
+    "aliases": [],
+    "description": "Yogurt freddo con varie opzioni di guarnizione e salse.",
+    "places": [
+      {
+        "id": "malesia_llaollao",
+        "name": "Llaollao",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/",
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "teh-tarik",
+    "name": "Teh Tarik",
+    "aliases": [],
+    "description": "Bevanda tipica da abbinare al riso al cocco.",
+    "places": [
+      {
+        "id": "singapore_alta-sneem-restaurant",
+        "name": "Alta Sneem Restaurant",
+        "city": "Singapore"
+      },
+      {
+        "id": "malesia_village-park-restaurant",
+        "name": "Village Park Restaurant",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZj6yhtqccL",
+      "https://www.instagram.com/reel/Da2stgmBqVy"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Teh_Tarik_at_the_Iskandar_Curry_House_at_One_Riverside_%28DSCF0286%29.jpg/330px-Teh_Tarik_at_the_Iskandar_Curry_House_at_One_Riverside_%28DSCF0286%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "durian",
+    "name": "durian",
+    "aliases": [],
+    "description": "Famoso frutto locale.",
+    "places": [
+      {
+        "id": "malesia_durian-king",
+        "name": "Durian King",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_durian-pudu-corner",
+        "name": "Durian Pudu Corner",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DRTzP4oEYB_/",
+      "https://www.instagram.com/p/Dd6AMRViCAQ/"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Durian_in_black.jpg/330px-Durian_in_black.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "kaya-toast",
+    "name": "kaya toast",
+    "aliases": [],
+    "description": "Toast tradizionale con kaya per autentici sapori Nyonya.",
+    "places": [
+      {
+        "id": "malesia_baba-kaya-restaurant",
+        "name": "Baba Kaya Restaurant",
+        "city": "Melaka"
+      },
+      {
+        "id": "singapore_ya-kun-kaya-toast",
+        "name": "Ya Kun Kaya Toast",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k",
+      "https://www.instagram.com/reel/DclsH94qpp8"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Kaya_toast_on_a_plate.jpg/330px-Kaya_toast_on_a_plate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "popiah",
+    "name": "popiah",
+    "aliases": [],
+    "description": "Involtini resi eccezionali dall'aggiunta di ciccioli di maiale all'interno.",
+    "places": [
+      {
+        "id": "malesia_bunga-raya-popiah",
+        "name": "Bunga Raya Popiah",
+        "city": "Melaka"
+      },
+      {
+        "id": "singapore_maxwell-food-centre",
+        "name": "Maxwell Food Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/",
+      "https://www.instagram.com/p/DdEv2rJFH2n/"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/LunBhia.jpg/330px-LunBhia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "samosa",
+    "name": "samosa",
+    "aliases": [],
+    "description": "Samosa saporite disponibili in versione vegetariana e al pollo.",
+    "places": [
+      {
+        "id": "malesia_penang-famous-samosa",
+        "name": "Penang Famous Samosa",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/",
+      "https://www.instagram.com/reel/Db-Is3bzCxK"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Samosas%2C_snack_food_at_Wikipedia%27s_16th_Birthday_celebration_in_Chittagong_%2801%29.jpg/330px-Samosas%2C_snack_food_at_Wikipedia%27s_16th_Birthday_celebration_in_Chittagong_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "char-kuey-teow",
+    "name": "char kuey teow",
+    "aliases": [
+      "Char Koay Teow"
+    ],
+    "description": "Storico piatto di noodle saltati con gamberi, lap chiong, vongole e germogli di soia, dal profumo affumicato.",
+    "places": [
+      {
+        "id": "malesia_chong-charcoal-seafood-char-koy-teow",
+        "name": "Chong Charcoal Seafood Char Koy Teow",
+        "city": "Penang"
+      },
+      {
+        "id": "malesia_penang-road-famous-laksa",
+        "name": "Penang Road Famous Laksa",
+        "city": "Penang"
+      },
+      {
+        "id": "malesia_penang-road-jin-kor-char-kuey-teow",
+        "name": "Penang Road Jin Kor Char Kuey Teow",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/",
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Char_kway_teow.jpg/330px-Char_kway_teow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "cheesecake",
+    "name": "cheesecake",
+    "aliases": [],
+    "description": "Fetta di cheesecake per concludere la giornata.",
+    "places": [
+      {
+        "id": "malesia_moody-cow",
+        "name": "Moody Cow",
+        "city": "Penang"
+      },
+      {
+        "id": "singapore_queic",
+        "name": "Queic",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Malesia",
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dcd6_bvqVOk/",
+      "https://www.instagram.com/reel/DadD8_5qsX7"
+    ],
+    "mention_count": 2,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg/330px-Baked_cheesecake_with_raspberries_and_blueberries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "chicken-wings",
+    "name": "Chicken Wings",
+    "aliases": [],
+    "description": "Ali di pollo servite nel mercato notturno.",
+    "places": [
+      {
+        "id": "malesia_jalan-alor",
+        "name": "Jalan Alor",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdjlNL9Emem/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "matcha",
+    "name": "matcha",
+    "aliases": [],
+    "description": "Bevanda a base di tè.",
+    "places": [
+      {
+        "id": "malesia_jamboo-cafe",
+        "name": "Jamboo Cafe",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/Dclv52tK5pK"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/330px-Matcha_Scoop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "parfait",
+    "name": "parfait",
+    "aliases": [],
+    "description": "Dolce al cucchiaio.",
+    "places": [
+      {
+        "id": "malesia_32-parfait",
+        "name": "32 Parfait",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Db8bl8SKyzT/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "apam-balik",
+    "name": "apam balik",
+    "aliases": [],
+    "description": "Pancake tradizionali morbidi e soffici.",
+    "places": [
+      {
+        "id": "malesia_ah-loh-s-apam-balik",
+        "name": "Ah Loh's Apam Balik",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DbafVusMlU5"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "rendang",
+    "name": "rendang",
+    "aliases": [],
+    "description": "Stile di riso saporito.",
+    "places": [
+      {
+        "id": "malesia_ali-muthu-and-ah-hock",
+        "name": "Ali, Muthu, & Ah Hock",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "chicken-rice",
+    "name": "chicken rice",
+    "aliases": [],
+    "description": "Cibo confortante, succoso con spezie ben assorbite.",
+    "places": [
+      {
+        "id": "malesia_chee-meng-chicken-rice",
+        "name": "Chee Meng Chicken Rice",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "bua-loy-salted-egg-yolk-bingsu",
+    "name": "Bua Loy Salted Egg Yolk Bingsu",
+    "aliases": [],
+    "description": "Dolce cremoso e dolce-salato.",
+    "places": [
+      {
+        "id": "malesia_cheevit-cheeva",
+        "name": "Cheevit Cheeva",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "bagel",
+    "name": "Bagel",
+    "aliases": [],
+    "description": "Pane a ciambella con consistenza eccezionale.",
+    "places": [
+      {
+        "id": "malesia_grumpy-bagel",
+        "name": "Grumpy Bagel",
+        "city": "Kuala Lumpur"
+      },
+      {
+        "id": "malesia_klcg-confectionery-and-bakery",
+        "name": "KLCG Confectionery & Bakery",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bagel_with_sesame_3.jpg/330px-Bagel_with_sesame_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "shengjian-bao",
+    "name": "shengjian bao",
+    "aliases": [],
+    "description": "Bun cinesi croccanti sotto e ripieni di manzo succoso.",
+    "places": [
+      {
+        "id": "malesia_hai-kee-fried-beef-bun",
+        "name": "Hai Kee Fried Beef Bun",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dcij8lVyoin/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Sheng_Jian_Bao_on_a_pan.jpg/330px-Sheng_Jian_Bao_on_a_pan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "coconut-mango-bomb",
+    "name": "coconut mango bomb",
+    "aliases": [],
+    "description": "Bevanda o dessert a base di cocco e mango.",
+    "places": [
+      {
+        "id": "malesia_heytea",
+        "name": "HeyTea",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "wonton-mee",
+    "name": "wonton mee",
+    "aliases": [],
+    "description": "Piatto di noodles con salsa densa.",
+    "places": [
+      {
+        "id": "malesia_icc-pudu",
+        "name": "ICC Pudu",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg/330px-HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "patata-turca",
+    "name": "patata turca",
+    "aliases": [],
+    "description": "Patata ripiena di carne di manzo.",
+    "places": [
+      {
+        "id": "malesia_istanbul-bites",
+        "name": "Istanbul Bites",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Db8bl8SKyzT/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "mochi-fraisier",
+    "name": "Mochi Fraisier",
+    "aliases": [],
+    "description": "Dolce con mochi e fragole.",
+    "places": [
+      {
+        "id": "malesia_klcg-confectionery-and-bakery",
+        "name": "KLCG Confectionery & Bakery",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "hot-croissant-pudding",
+    "name": "Hot Croissant Pudding",
+    "aliases": [],
+    "description": "Pudding di croissant caldo servito con gelato.",
+    "places": [
+      {
+        "id": "malesia_klcg-confectionery-and-bakery",
+        "name": "KLCG Confectionery & Bakery",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pizza-margherita",
+    "name": "pizza Margherita",
+    "aliases": [],
+    "description": "Pizza classica con pomodoro e mozzarella.",
+    "places": [
+      {
+        "id": "malesia_klcg-confectionery-and-bakery",
+        "name": "KLCG Confectionery & Bakery",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg/330px-Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "budino-soia",
+    "name": "budino di soia",
+    "aliases": [],
+    "description": "Budino caldo, morbido, sano, fatto in casa e autentico.",
+    "places": [
+      {
+        "id": "malesia_kim-soya-bean",
+        "name": "Kim Soya Bean",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "kunafa",
+    "name": "Kunafa",
+    "aliases": [],
+    "description": "Dolce al formaggio croccante con formaggio Akawi, salato, lattiginoso ed elastico, con pistacchio.",
+    "places": [
+      {
+        "id": "malesia_kunafa-crisp",
+        "name": "Kunafa Crisp",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/K%C3%BCnefe.jpg/330px-K%C3%BCnefe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "zuppa-noodle-manzo",
+    "name": "zuppa di noodle di manzo",
+    "aliases": [],
+    "description": "Zuppa di noodle di manzo gustosa.",
+    "places": [
+      {
+        "id": "malesia_mee-tarik-jalan-sultan",
+        "name": "Mee Tarik Jalan Sultan",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "ravioli-fritti",
+    "name": "ravioli fritti",
+    "aliases": [],
+    "description": "Ravioli fritti serviti di notte.",
+    "places": [
+      {
+        "id": "malesia_mee-tarik-jalan-sultan",
+        "name": "Mee Tarik Jalan Sultan",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "agnello-bbq",
+    "name": "agnello BBQ",
+    "aliases": [],
+    "description": "Agnello cotto al barbecue.",
+    "places": [
+      {
+        "id": "malesia_mee-tarik-jalan-sultan",
+        "name": "Mee Tarik Jalan Sultan",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bruno_Agnello_2015.jpg/330px-Bruno_Agnello_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "pollo-peri-peri",
+    "name": "pollo peri-peri",
+    "aliases": [],
+    "description": "Pollo peri-peri succoso abbinato a riso speziato.",
+    "places": [
+      {
+        "id": "malesia_nando-s",
+        "name": "Nando's",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "riso-speziato",
+    "name": "riso speziato",
+    "aliases": [],
+    "description": "Riso speziato servito con pollo.",
+    "places": [
+      {
+        "id": "malesia_nando-s",
+        "name": "Nando's",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pollo-arrosto",
+    "name": "pollo arrosto",
+    "aliases": [],
+    "description": "Pollo arrosto tenero, succoso e saporito servito con riso.",
+    "places": [
+      {
+        "id": "malesia_nasi-ayam-chee-meng",
+        "name": "Nasi Ayam Chee Meng",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "nasi-lemak-ayam-berempah",
+    "name": "Nasi Lemak Ayam Berempah",
+    "aliases": [],
+    "description": "Nasi lemak con pollo fresco e succoso e sambal top.",
+    "places": [
+      {
+        "id": "malesia_nasi-lemak-burung-hantu",
+        "name": "Nasi Lemak Burung Hantu",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "kiyone-latte",
+    "name": "Kiyone Latte",
+    "aliases": [],
+    "description": "Bevanda matcha descritta come roasted, umami e sweet caramelized.",
+    "places": [
+      {
+        "id": "malesia_niko-neko-matcha",
+        "name": "Niko Neko Matcha",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc5cnRuGSjs/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pollo-con-germogli-soia",
+    "name": "pollo con germogli di soia",
+    "aliases": [],
+    "description": "Piatto di pollo servito con germogli di soia.",
+    "places": [
+      {
+        "id": "malesia_onn-kee-taugeh-ayam",
+        "name": "Onn Kee Taugeh Ayam",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dd05RCYxgEO/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "roti-sarang-burung",
+    "name": "Roti Sarang Burung",
+    "aliases": [],
+    "description": "Piatto tipico per la colazione.",
+    "places": [
+      {
+        "id": "malesia_rumah-kuning",
+        "name": "Rumah Kuning",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DXYxVzMAAHj/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "banana-leaf-rice",
+    "name": "banana leaf rice",
+    "aliases": [],
+    "description": "Riso servito su foglia di banana con curry molto saporito o curry di cipolle.",
+    "places": [
+      {
+        "id": "malesia_sri-nirwana-maju-restaurant",
+        "name": "Sri Nirwana Maju Restaurant",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DbA6qjHJZ--/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Banana-leaf-1.JPG/330px-Banana-leaf-1.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "durian-musang-king",
+    "name": "durian Musang King",
+    "aliases": [],
+    "description": "Famoso frutto durian gustato durante la stagione principale.",
+    "places": [
+      {
+        "id": "malesia_tropika-musang-king",
+        "name": "Tropika Musang King",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/230d8595-c870-42ab-9eda-0bb53099058a/thumb/"
+  },
+  {
+    "id": "warabi-mochi",
+    "name": "Warabi Mochi",
+    "aliases": [],
+    "description": "Mochi con combinazione di matcha di alta qualità e consistenza unica, dolce e costoso.",
+    "places": [
+      {
+        "id": "malesia_warabi-mochi",
+        "name": "Warabi Mochi",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DcqeBDNmsQz/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Senjuan_Yoshimune_warabimochi.jpg/330px-Senjuan_Yoshimune_warabimochi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "sushi-taco",
+    "name": "sushi taco",
+    "aliases": [],
+    "description": "Taco in stile sushi.",
+    "places": [
+      {
+        "id": "malesia_yosando",
+        "name": "Yosando",
+        "city": "Kuala Lumpur"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc3U9zqyrrr/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Sushipack_logo.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "tofu-con-beancurd-rojak",
+    "name": "tofu con beancurd rojak",
+    "aliases": [],
+    "description": "Piatto di frutti di mare freschi con tofu e beancurd rojak.",
+    "places": [
+      {
+        "id": "malesia_capitol-seafood-longkang-siham",
+        "name": "Capitol Seafood Longkang Siham",
+        "city": "Melaka"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "vongole",
+    "name": "vongole",
+    "aliases": [],
+    "description": "Vongole fresche.",
+    "places": [
+      {
+        "id": "malesia_capitol-seafood-longkang-siham",
+        "name": "Capitol Seafood Longkang Siham",
+        "city": "Melaka"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Tapes_decussatus2.jpg/330px-Tapes_decussatus2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gamberi-al-vapore",
+    "name": "gamberi al vapore",
+    "aliases": [],
+    "description": "Gamberi freschi cotti al vapore.",
+    "places": [
+      {
+        "id": "malesia_capitol-seafood-longkang-siham",
+        "name": "Capitol Seafood Longkang Siham",
+        "city": "Melaka"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "frullato-cocco-e-mango",
+    "name": "frullato di cocco e mango",
+    "aliases": [],
+    "description": "Fresco frullato di cocco e mango.",
+    "places": [
+      {
+        "id": "malesia_jonker-walk-night-market",
+        "name": "Jonker Walk Night Market",
+        "city": "Melaka"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "satay-celup",
+    "name": "satay celup",
+    "aliases": [],
+    "description": "Grande varietà di spiedini intinti in una ricca salsa di arachidi.",
+    "places": [
+      {
+        "id": "malesia_mcqueek-s-satay-celup",
+        "name": "McQueek's Satay Celup",
+        "city": "Melaka"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DX3ssY1oYO9/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Kingtu_Restaurant.jpg/330px-Kingtu_Restaurant.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "chicken-cube-in-claypot",
+    "name": "Chicken Cube in Claypot",
+    "aliases": [],
+    "description": "Specialità di pollo in coccio.",
+    "places": [
+      {
+        "id": "malesia_tek-sen",
+        "name": "Tek Sen",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pie-tee",
+    "name": "pie tee",
+    "aliases": [],
+    "description": "Piatto tradizionale della cucina Nyonya.",
+    "places": [
+      {
+        "id": "malesia_auntie-gaik-lean-s",
+        "name": "Auntie Gaik Lean’s",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Pie-Tee_-_Aunty_Nat_%284591377212%29.jpg/330px-Pie-Tee_-_Aunty_Nat_%284591377212%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "kapitan-curry",
+    "name": "kapitan curry",
+    "aliases": [],
+    "description": "Curry tradizionale Nyonya.",
+    "places": [
+      {
+        "id": "malesia_auntie-gaik-lean-s",
+        "name": "Auntie Gaik Lean’s",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/9b64d0d0-56c6-4668-be4d-ca45445dac4f/thumb/"
+  },
+  {
+    "id": "sago-gula-melaka",
+    "name": "sago gula melaka",
+    "aliases": [],
+    "description": "Dolce tradizionale Nyonya con sago.",
+    "places": [
+      {
+        "id": "malesia_auntie-gaik-lean-s",
+        "name": "Auntie Gaik Lean’s",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "ostriche",
+    "name": "ostriche",
+    "aliases": [],
+    "description": "Ostriche fresche.",
+    "places": [
+      {
+        "id": "malesia_penang-road-famous-laksa",
+        "name": "Penang Road Famous Laksa",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Struthio_Diversity.jpg/330px-Struthio_Diversity.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "hanoian-style-grilled-pork-with-vermicelli",
+    "name": "Hanoian Style Grilled Pork with Vermicelli",
+    "aliases": [],
+    "description": "Maiale grigliato in stile hanoi con vermicelli di riso.",
+    "places": [
+      {
+        "id": "malesia_an-viet",
+        "name": "An Viet",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "vietnamese-baguette",
+    "name": "Vietnamese Baguette",
+    "aliases": [],
+    "description": "Panino tradizionale vietnamita.",
+    "places": [
+      {
+        "id": "malesia_an-viet",
+        "name": "An Viet",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/330px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "egg-tarts",
+    "name": "egg tarts",
+    "aliases": [],
+    "description": "Tortine alle uova dolci e fragranti.",
+    "places": [
+      {
+        "id": "malesia_bao-shi-pastry",
+        "name": "Bao Shi Di Pastry",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3_Cheung_Sha_Wan_%E6%B7%B1%E7%9B%9B%E8%B7%AF_Sham_Shing_Road_%E6%B3%93%E6%99%AF%E6%BB%99%E5%95%86%E5%A0%B4_Banyan_Mall_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_Studio_December_2019_SS2_egg_tarts.jpg/330px-HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3_Cheung_Sha_Wan_%E6%B7%B1%E7%9B%9B%E8%B7%AF_Sham_Shing_Road_%E6%B3%93%E6%99%AF%E6%BB%99%E5%95%86%E5%A0%B4_Banyan_Mall_shop_%E8%9B%8B%E6%92%BB%E7%8E%8B_King_Bakery_Studio_December_2019_SS2_egg_tarts.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "mochi",
+    "name": "mochi",
+    "aliases": [],
+    "description": "Mochi soffici, inclusa la variante al mango.",
+    "places": [
+      {
+        "id": "malesia_bao-shi-pastry",
+        "name": "Bao Shi Di Pastry",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Mochi_002.jpg/330px-Mochi_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gelato-al-matcha-niko-neko-ajisai",
+    "name": "gelato al matcha Niko Neko Ajisai",
+    "aliases": [],
+    "description": "Gelato artigianale al matcha.",
+    "places": [
+      {
+        "id": "malesia_buono-gelato",
+        "name": "Buono Gelato",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "char-mee-hoon-mee",
+    "name": "Char Mee Hoon Mee",
+    "aliases": [],
+    "description": "Noodles saltati vegetariani con mock meat e pezzi di soia croccanti.",
+    "places": [
+      {
+        "id": "malesia_char-mee-hoon-seng",
+        "name": "Char Mee Hoon Seng",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdTpChQsdvG/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "wan-tan-mee",
+    "name": "wan tan mee",
+    "aliases": [],
+    "description": "Piatto di noodle per la colazione.",
+    "places": [
+      {
+        "id": "malesia_duo-tian-cafe",
+        "name": "Duo Tian Cafe",
+        "city": "Penang"
+      },
+      {
+        "id": "malesia_makan-pagi",
+        "name": "Makan Pagi",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg/330px-HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD_303_Queen%27s_Road_Central_%E6%AC%8A%E8%A8%98%E9%9B%B2%E5%90%9E%E9%BA%B5_Wonton_noodle_soup_shop_June_2020_SS2_10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "beef-rendang",
+    "name": "beef rendang",
+    "aliases": [],
+    "description": "Carne di manzo cotta a lungo con spezie ricche e saporite.",
+    "places": [
+      {
+        "id": "malesia_hameediyah-restaurant",
+        "name": "Hameediyah Restaurant",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Rendang_daging_sapi_asli_Padang.JPG/330px-Rendang_daging_sapi_asli_Padang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "mango-sago",
+    "name": "mango sago",
+    "aliases": [],
+    "description": "Bevanda in bottiglia a base di mango con vera frutta fresca.",
+    "places": [
+      {
+        "id": "malesia_heytea-gurney-plaza",
+        "name": "Heytea, Gurney Plaza",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/9/92/Mango_Dragon_Fruit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "minced-pork-vermicelli",
+    "name": "Minced Pork Vermicelli",
+    "aliases": [],
+    "description": "Vermicelli con carne di maiale macinata serviti in un ristorante locale.",
+    "places": [
+      {
+        "id": "malesia_hon-kei-food-corner",
+        "name": "Hon Kei Food Corner",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "shrimp-dumpling",
+    "name": "Shrimp Dumpling",
+    "aliases": [],
+    "description": "Gnocchi di gamberi serviti in un ristorante locale.",
+    "places": [
+      {
+        "id": "malesia_hon-kei-food-corner",
+        "name": "Hon Kei Food Corner",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "bistecca-con-riso-al-burro",
+    "name": "bistecca con riso al burro",
+    "aliases": [],
+    "description": "Bistecca servita con riso al burro.",
+    "places": [
+      {
+        "id": "malesia_island-problems",
+        "name": "Island Problems",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pasembur",
+    "name": "Pasembur",
+    "aliases": [],
+    "description": "Piatto tradizionale malese a base di frutti di mare e verdure fritte.",
+    "places": [
+      {
+        "id": "malesia_kareem-pasembur-rojak",
+        "name": "Kareem Pasembur Rojak",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DEkCcW_v2e6/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "lanzhou-ramen",
+    "name": "Lanzhou Ramen",
+    "aliases": [],
+    "description": "Ramen in stile Lanzhou, cibo halal.",
+    "places": [
+      {
+        "id": "malesia_lebuh-kimberley",
+        "name": "Lebuh Kimberley",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdbsZAHKWPm/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "gelato-al-dragon-fruit",
+    "name": "gelato al dragon fruit",
+    "aliases": [],
+    "description": "Gelato alcolico o aromatizzato al dragon fruit.",
+    "places": [
+      {
+        "id": "malesia_mimiya",
+        "name": "Mimiya",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dcd6_bvqVOk/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pulut-tai-tai",
+    "name": "Pulut Tai Tai",
+    "aliases": [],
+    "description": "Dolce tipico Nyonya noto anche come Kaya Kuih.",
+    "places": [
+      {
+        "id": "malesia_moh-teng-pheow",
+        "name": "Moh Teng Pheow",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pollo-arrosto-peri-peri",
+    "name": "Pollo arrosto peri-peri",
+    "aliases": [],
+    "description": "Pollo arrosto in stile afro-portoghese.",
+    "places": [
+      {
+        "id": "malesia_nando-s-gurney-plaza",
+        "name": "Nando's, Gurney Plaza",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "nasi-lemak-ikat-tepi",
+    "name": "Nasi Lemak Ikat Tepi",
+    "aliases": [],
+    "description": "Variante di nasi lemak servita in un ristorante a George Town.",
+    "places": [
+      {
+        "id": "malesia_nasi-kandar-asik-maju",
+        "name": "Nasi Kandar Asik Maju",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dd1AsBJtxQx/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "prawn-nasi-lemak",
+    "name": "Prawn Nasi Lemak",
+    "aliases": [],
+    "description": "Nasi lemak arricchito con gamberi.",
+    "places": [
+      {
+        "id": "malesia_nasi-lemak-wak-zee",
+        "name": "Nasi Lemak Wak Zee",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "riso-con-pancetta-maiale-mui-choy",
+    "name": "riso con pancetta di maiale mui choy",
+    "aliases": [],
+    "description": "Riso con pancetta di maiale mui choy.",
+    "places": [
+      {
+        "id": "malesia_new-world-food-village",
+        "name": "New World Food Village",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dc-fkNPTyRd/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "kunafa-choco-mille-crepe",
+    "name": "Kunafa Choco Mille Crepe",
+    "aliases": [],
+    "description": "Dolce moderno a base di crepe con cioccolato e kunafa.",
+    "places": [
+      {
+        "id": "malesia_ondo-bakery",
+        "name": "Ondo Bakery",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "blueberry-bagel",
+    "name": "Blueberry Bagel",
+    "aliases": [],
+    "description": "Bagel al mirtillo.",
+    "places": [
+      {
+        "id": "malesia_ondo-bakery",
+        "name": "Ondo Bakery",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/39d3d70c-07a9-4662-96a9-82d2e36e527f/thumb/"
+  },
+  {
+    "id": "pandan-kaya-toast",
+    "name": "Pandan Kaya Toast",
+    "aliases": [],
+    "description": "Toast con kaya al pandan.",
+    "places": [
+      {
+        "id": "malesia_oriental-kopi",
+        "name": "Oriental Kopi",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/63d7eb4d-8e11-48d4-a6ef-622bdce0c5e7/thumb/"
+  },
+  {
+    "id": "teochew-chendul",
+    "name": "Teochew Chendul",
+    "aliases": [],
+    "description": "Dolce tipico con gula melaka, fagioli rossi, latte di cocco e cendul verde.",
+    "places": [
+      {
+        "id": "malesia_penang-road-famous-teochew-chendul",
+        "name": "Penang Road Famous Teochew Chendul",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/a5af6545-9dd0-4041-b540-7985fc12595f/thumb/"
+  },
+  {
+    "id": "roti-canai",
+    "name": "Roti Canai",
+    "aliases": [],
+    "description": "Pane piatto indiano servito per colazione.",
+    "places": [
+      {
+        "id": "malesia_roti-bakar-hutton-lane",
+        "name": "Roti Bakar Hutton Lane",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/YosriRotiCanai.jpg/330px-YosriRotiCanai.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "roti-bakar-telur-goyang-cheese",
+    "name": "Roti Bakar Telur Goyang Cheese",
+    "aliases": [],
+    "description": "Pane tostato con uovo e formaggio.",
+    "places": [
+      {
+        "id": "malesia_roti-bakar-hutton-lane",
+        "name": "Roti Bakar Hutton Lane",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdGDzL3GvKy/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pollo-e-anatra-arrosto",
+    "name": "pollo e anatra arrosto",
+    "aliases": [],
+    "description": "Pollo e anatra arrosto.",
+    "places": [
+      {
+        "id": "malesia_sin-nam-huat",
+        "name": "Sin Nam Huat",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "bbq-pork",
+    "name": "BBQ Pork",
+    "aliases": [],
+    "description": "Maiale barbecue.",
+    "places": [
+      {
+        "id": "malesia_sin-nam-huat",
+        "name": "Sin Nam Huat",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Charsiu.jpg/330px-Charsiu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "siu-loop-noodles",
+    "name": "Siu Loop Noodles",
+    "aliases": [],
+    "description": "Noodle con carne siu loop.",
+    "places": [
+      {
+        "id": "malesia_sin-nam-huat",
+        "name": "Sin Nam Huat",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "zuppa-verdure-miste",
+    "name": "zuppa di verdure miste",
+    "aliases": [],
+    "description": "Zuppa con un mix di verdure.",
+    "places": [
+      {
+        "id": "malesia_sin-nam-huat",
+        "name": "Sin Nam Huat",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "koey-teow",
+    "name": "koey teow",
+    "aliases": [],
+    "description": "Noodle serviti con un brodo unico e saporito.",
+    "places": [
+      {
+        "id": "malesia_super-star-koey-teow",
+        "name": "Super Star Koey Teow",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/Dbs1mocIR3_/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Key_Tower_2022.png/330px-Key_Tower_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "tom-yum-mama-mee",
+    "name": "Tom Yum Mama Mee",
+    "aliases": [],
+    "description": "Noodle istantanei in brodo piccante tom yum.",
+    "places": [
+      {
+        "id": "malesia_thai-canteen",
+        "name": "Thai Canteen",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "mango-sticky-rice",
+    "name": "Mango Sticky Rice",
+    "aliases": [],
+    "description": "Dolce thailandese a base di riso appiccicoso e mango.",
+    "places": [
+      {
+        "id": "malesia_thai-canteen",
+        "name": "Thai Canteen",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Mango_sticy_rice_%283859549574%29.jpg/330px-Mango_sticy_rice_%283859549574%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "hainanese-bread",
+    "name": "Hainanese Bread",
+    "aliases": [],
+    "description": "Pane in stile hainanese ideale per la colazione.",
+    "places": [
+      {
+        "id": "malesia_toh-soon-cafe",
+        "name": "Toh Soon Cafe",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "kopi-o",
+    "name": "Kopi O",
+    "aliases": [],
+    "description": "Caffè nero tradizionale locale.",
+    "places": [
+      {
+        "id": "malesia_toh-soon-cafe",
+        "name": "Toh Soon Cafe",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hot_kopi.jpg/330px-Hot_kopi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "signature-dry-tok-tok-mee",
+    "name": "Signature Dry Tok Tok Mee",
+    "aliases": [],
+    "description": "Noodle tradizionali asciutti preparati con metodo in bamboo.",
+    "places": [
+      {
+        "id": "malesia_tok-tok-mee-bamboo-noodle",
+        "name": "Tok Tok Mee Bamboo Noodle",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "ginger-soup-con-black-sesame-tang-yuan",
+    "name": "Ginger Soup con Black Sesame Tang Yuan",
+    "aliases": [],
+    "description": "Zuppa dolce allo zenzero con ravioli di sesamo nero.",
+    "places": [
+      {
+        "id": "malesia_tong-sui-po",
+        "name": "Tong Sui Po",
+        "city": "Penang"
+      }
+    ],
+    "countries": [
+      "Malesia"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdnyiXyk06q/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "hokkien-mee",
+    "name": "Hokkien mee",
+    "aliases": [],
+    "description": "Piatto di noodle tipico locale.",
+    "places": [
+      {
+        "id": "singapore_lau-pa-sat",
+        "name": "Lau Pa Sat",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdEv2rJFH2n/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Newton_HokkienMee.JPG/330px-Newton_HokkienMee.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "spiedini-satay-e-gamberi-alla-griglia",
+    "name": "spiedini di satay e gamberi alla griglia",
+    "aliases": [],
+    "description": "Spiedini di satay e gamberi cotti alla griglia.",
+    "places": [
+      {
+        "id": "singapore_lau-pa-sat",
+        "name": "Lau Pa Sat",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "torta-ostriche",
+    "name": "torta di ostriche",
+    "aliases": [],
+    "description": "Torta salata a base di ostriche.",
+    "places": [
+      {
+        "id": "singapore_maxwell-food-centre",
+        "name": "Maxwell Food Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdEv2rJFH2n/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "biryani",
+    "name": "biryani",
+    "aliases": [],
+    "description": "Piatto di cucina indiana eccellente da provare a Little India.",
+    "places": [
+      {
+        "id": "singapore_tekka-centre",
+        "name": "Tekka Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdEv2rJFH2n/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/330px-%22Hyderabadi_Dum_Biryani%22.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "succhi-freschi",
+    "name": "succhi freschi",
+    "aliases": [],
+    "description": "Bevande fresche disponibili a Little India.",
+    "places": [
+      {
+        "id": "singapore_tekka-centre",
+        "name": "Tekka Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdEv2rJFH2n/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pollo-al-burro",
+    "name": "pollo al burro",
+    "aliases": [],
+    "description": "Piatto da provare nel quartiere Little India.",
+    "places": [
+      {
+        "id": "singapore_tekka-centre",
+        "name": "Tekka Centre",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "caffe-kopi",
+    "name": "caffè kopi",
+    "aliases": [
+      "kopi"
+    ],
+    "description": "Bevanda tradizionale per la colazione.",
+    "places": [
+      {
+        "id": "singapore_ya-kun-kaya-toast",
+        "name": "Ya Kun Kaya Toast",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "pandan-cake",
+    "name": "Pandan Cake",
+    "aliases": [],
+    "description": "Prodotto locale imperdibile disponibile nei negozi 7-Eleven.",
+    "places": [
+      {
+        "id": "singapore_7-eleven",
+        "name": "7-Eleven",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DduCtl5Ao-S/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "irvins-salted-egg",
+    "name": "IRVINS Salted Egg",
+    "aliases": [],
+    "description": "Prodotto locale da snack in vendita nei negozi 7-Eleven.",
+    "places": [
+      {
+        "id": "singapore_7-eleven",
+        "name": "7-Eleven",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DduCtl5Ao-S/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "milo",
+    "name": "MILO",
+    "aliases": [],
+    "description": "Bevanda locale disponibile nei negozi 7-Eleven.",
+    "places": [
+      {
+        "id": "singapore_7-eleven",
+        "name": "7-Eleven",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DduCtl5Ao-S/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/f9fdfef5-87df-404f-807d-61390d4ec753/thumb/"
+  },
+  {
+    "id": "100plus",
+    "name": "100PLUS",
+    "aliases": [],
+    "description": "Bevanda tipica locale acquistabile nei punti 7-Eleven.",
+    "places": [
+      {
+        "id": "singapore_7-eleven",
+        "name": "7-Eleven",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DduCtl5Ao-S/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/100plus_logo_2023.svg/330px-100plus_logo_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "twisties",
+    "name": "Twisties",
+    "aliases": [],
+    "description": "Snack locale in vendita nei negozi 7-Eleven.",
+    "places": [
+      {
+        "id": "singapore_7-eleven",
+        "name": "7-Eleven",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DduCtl5Ao-S/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Twisties_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "double-egg-roti",
+    "name": "double egg roti",
+    "aliases": [],
+    "description": "Roti con doppio uovo servito con salsa al curry.",
+    "places": [
+      {
+        "id": "singapore_alta-sneem-restaurant",
+        "name": "Alta Sneem Restaurant",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZj6yhtqccL"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "tze-char",
+    "name": "Tze Char",
+    "aliases": [],
+    "description": "Piatti tradizionali in stile Tze Char con varianti all'uovo salato.",
+    "places": [
+      {
+        "id": "singapore_fulee-mixed-vegetable-rice",
+        "name": "FuLee Mixed Vegetable Rice",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/Dbf3sDzh-ra"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://api.openverse.org/v1/images/26643182-be11-47a4-b9b5-74f5ff61d645/thumb/"
+  },
+  {
+    "id": "curry-fish-tail",
+    "name": "Curry Fish Tail",
+    "aliases": [],
+    "description": "Popolare piatto a base di testa di pesce al curry.",
+    "places": [
+      {
+        "id": "singapore_fulee-seafood",
+        "name": "FuLee Seafood",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/Dbf3sDzh-ra"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fishball.jpg/330px-Fishball.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "bak-chor-mee",
+    "name": "bak chor mee",
+    "aliases": [],
+    "description": "Spaghetti asciutti preparati in un famoso chiosco hawker con stella Michelin.",
+    "places": [
+      {
+        "id": "singapore_hill-street-tai-hwa-pork-noodle",
+        "name": "Hill Street Tai Hwa Pork Noodle",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DcaJ495qx8G"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/FishBallMeePok.jpg/330px-FishBallMeePok.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gan-mian",
+    "name": "gan mian",
+    "aliases": [],
+    "description": "Noodles asciutti tipici di un celebre chiosco premiato.",
+    "places": [
+      {
+        "id": "singapore_hill-street-tai-hwa-pork-noodle",
+        "name": "Hill Street Tai Hwa Pork Noodle",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DcaJ495qx8G"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+    "id": "te-matcha",
+    "name": "tè matcha",
+    "aliases": [],
+    "description": "Tè in stile tradizionale giapponese.",
+    "places": [
+      {
+        "id": "singapore_hvala",
+        "name": "Hvala",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Te_Mata_hamlet_near_Raglan.jpg/330px-Te_Mata_hamlet_near_Raglan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "gelato",
+    "name": "gelato",
+    "aliases": [],
+    "description": "Dolce freddo in stile giapponese.",
+    "places": [
+      {
+        "id": "singapore_hvala",
+        "name": "Hvala",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Delicious_Gelato_on_display.jpg/330px-Delicious_Gelato_on_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "beancurd",
+    "name": "beancurd",
+    "aliases": [],
+    "description": "Budino di tofu tradizionale.",
+    "places": [
+      {
+        "id": "singapore_rochor-beancurd-house",
+        "name": "Rochor Beancurd House",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/p/DdWLE9uT8EC/"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG/330px-Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "croissant-alle-mandorle",
+    "name": "croissant alle mandorle",
+    "aliases": [],
+    "description": "Delizioso e friabile croissant ripieno di mandorle.",
+    "places": [
+      {
+        "id": "singapore_tiong-bahru-bakery",
+        "name": "Tiong Bahru Bakery",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "gelato-in-formato-sandwich",
+    "name": "gelato in formato sandwich",
+    "aliases": [],
+    "description": "Iconico gelato venduto per strada a Orchard Road.",
+    "places": [
+      {
+        "id": "singapore_uncle-chieng-s-ice-cream",
+        "name": "Uncle Chieng’s Ice Cream",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DagjDHYTaUx"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": ""
+  },
+  {
+    "id": "murtabak",
+    "name": "murtabak",
+    "aliases": [],
+    "description": "Celebre e ricco piatto tradizionale preparato in un locale storico.",
+    "places": [
+      {
+        "id": "singapore_zam-zam",
+        "name": "Zam Zam",
+        "city": "Singapore"
+      }
+    ],
+    "countries": [
+      "Singapore"
+    ],
+    "reels": [
+      "https://www.instagram.com/reel/DZFBaX1Bx0k"
+    ],
+    "mention_count": 1,
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Murtabak.jpg/330px-Murtabak.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+]
