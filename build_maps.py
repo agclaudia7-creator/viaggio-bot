@@ -282,6 +282,8 @@ def synthesize_descriptions(places: list, out_dir: Path, use_llm: bool = True) -
 
 def description(p: dict) -> str:
     lines = []
+    if p.get("mention_count"):
+        lines.append(f"📍 Citazioni: {p['mention_count']}")
     if p.get("costs"):
         lines.append("💰 " + ", ".join(p["costs"]))
     if p.get("creator_ratings"):
