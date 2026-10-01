@@ -68,18 +68,30 @@ Risposte sempre brevi, schematiche, facili da consultare (panoramica sintetica, 
    - Tutto il resto (altri siti/blog, alloggi, social, anchor alla stessa pagina) viene ignorato: Gemini Notebook può già proporre alloggi a prescindere, non serve tracciarli.
    - Risposta Telegram: subito un "⏳ sto analizzando..." (con molti link Maps il reverse geocoding, 1 al secondo, può richiedere qualche minuto), poi il riepilogo (liste troncate a 10 elementi + "…(+N)" per non superare il limite di lunghezza dei messaggi Telegram). Se sono stati aggiunti luoghi Maps riparte lo stesso timer di aggiornamento dei reel (`schedule_update`).
 7. **[FATTO] App web di consultazione** (`app.py`, Streamlit, vedi anche `README.md`): quattro tab —
-   🗺️ Mappa (luoghi), 🍜 Cibo (piatti tipici, punto 8), 🏛️ Cultura (templi + consigli per argomento, punto 8), 💬 Chat Gemini (domande sulle fonti locali) —
-   pensata per guardare i dati senza aprire Telegram (es. da PC quando il bot non serve un'azione, o per
-   condividere la vista con altri). Protetta da password fissa in `PASSWORD` (variabile in cima al file).
-   Posizione utente e filtri (nazione/categoria/citazioni/esclusione) in sidebar, condivisi da tutte le
-   tab. Tab Mappa legge i CSV da `MyMaps/<Nazione>/<Nazione>_<livello>.csv` (cartella fratella di
-   `BOT_OUTPUT/`, stesso output del punto 3; se non trova dati locali ripiega sui CSV pubblicati su
-   GitHub Pages). `places.json` non è il percorso dati principale di quella tab (quello è usato da
-   `assistant.py`): `app.py` lo carica solo per un'eventuale estensione futura.
-   - **Posizione utente**: bottone "📍 Rileva automaticamente" via `streamlit-js-eval` (`get_geolocation`, componente Streamlit vero con round-trip JS↔Python; **non** usare `components.html` con `window.parent.streamlit.setComponentValue`, API inesistente che fallisce silenziosamente — bug visto e corretto), oppure inserimento manuale lat/lon o nome/link Maps (quest'ultimo cache-ato in `session_state` per non rifare la richiesta di rete a ogni interazione).
-   - **Ordinamento elenco**: per citazioni (default), per distanza dalla posizione utente, o per distanza dal luogo su cui è stato cliccato "🔍 Zoom" (il riferimento si cerca nel dataframe completo, non in quello filtrato, così resta valido anche se un filtro successivo lo escluderebbe dall'elenco).
-   - **Zoom su un luogo**: oltre a centrare la mappa, il suo marker diventa più grande/dorato con bordo nero e un pin a stella sopra, per distinguerlo dagli altri pallini (altrimenti identici per categoria/colore). Bottone "🎯 Centra mappa" (sopra la mappa, sempre visibile) azzera lo zoom e fa ricalcolare i bounds su tutti i luoghi che rispettano i filtri attuali. Stesso stile "evidenziato" riusabile per più luoghi insieme (`highlight_nomi` in `create_map`), usato dalla tab Cibo per mostrare dove si mangia un piatto senza spostare la vista.
-   - **Descrizione nel popup/elenco**: sintetizzata da Gemini quando il luogo ha più fonti ridondanti (vedi punto 3, `synthesize_descriptions`), altrimenti grezza.
+   🗺️ Mappa, 🍜 Cibo (punto 8), 🏛️ Cultura (punto 8), 💬 Chat Gemini — pensata per guardare i dati senza
+   aprire Telegram (es. da PC quando il bot non serve un'azione, o per condividere la vista con altri).
+   Protetta da password fissa in `PASSWORD` (variabile in cima al file). Posizione utente e filtri
+   (nazione/categoria/citazioni/esclusione) in sidebar, condivisi da tutte le tab.
+   - **Tab 🗺️ Mappa**: legge i CSV da `MyMaps/<Nazione>/<Nazione>_<livello>.csv` (cartella fratella di
+     `BOT_OUTPUT/`, stesso output del punto 3; se non trova dati locali ripiega sui CSV pubblicati su
+     GitHub Pages), NON `places.json` (quello lo usa `assistant.py` per il bot Telegram).
+     - **Posizione utente**: bottone "📍 Rileva automaticamente" via `streamlit-js-eval` (`get_geolocation`, componente Streamlit vero con round-trip JS↔Python; **non** usare `components.html` con `window.parent.streamlit.setComponentValue`, API inesistente che fallisce silenziosamente — bug visto e corretto), oppure inserimento manuale lat/lon o nome/link Maps (quest'ultimo cache-ato in `session_state` per non rifare la richiesta di rete a ogni interazione).
+     - **Ordinamento elenco**: per citazioni (default), per distanza dalla posizione utente, o per distanza dal luogo su cui è stato cliccato "🔍 Zoom" (il riferimento si cerca nel dataframe completo, non in quello filtrato, così resta valido anche se un filtro successivo lo escluderebbe dall'elenco).
+     - **Zoom su un luogo**: oltre a centrare la mappa, il suo marker diventa più grande/dorato con bordo nero e un pin a stella sopra, per distinguerlo dagli altri pallini (altrimenti identici per categoria/colore). Bottone "🎯 Centra mappa" (sopra la mappa, sempre visibile) azzera lo zoom e fa ricalcolare i bounds su tutti i luoghi che rispettano i filtri attuali. Stesso stile "evidenziato" riusabile per più luoghi insieme (`highlight_nomi` in `create_map`), usato dalla tab Cibo per mostrare dove si mangia un piatto senza spostare la vista.
+     - **Descrizione nel popup/elenco**: sintetizzata da Gemini quando il luogo ha più fonti ridondanti (vedi punto 3, `synthesize_descriptions`), altrimenti grezza.
+   - **Tab 🏛️ Cultura**: due sotto-tab. "🏛️ Templi e Luoghi Culturali" legge `places.json` direttamente
+     (`load_places_data()`, filtrato su `category == "cultura"`) e mostra `_notes_synth`/`_tips_synth`
+     (punto 2) per ogni luogo, con voti/costi/reel numerati. "💡 Consigli Culturali" legge
+     `culture_topics.json` (punto 8), raggruppato per argomento con ricerca testuale.
+   - **Tab 💬 Chat Gemini**: legge i file **.txt/.md** da `FONTI/<Nazione>/` per le nazioni selezionate
+     (`load_fonti_sources`, ogni file troncato a 10.000 caratteri; PDF/immagini nella stessa cartella
+     solo elencati, NON letti — richiederebbe l'upload a Gemini, non implementato).
+     `NATION_FOLDER_MAPPING` traduce i nomi di nazione del filtro CSV ("Malesia"/"Singapore", un bot per
+     nazione reale) nel nome della cartella FONTI che li raccoglie insieme (`Singapore&Malesia`, un bot
+     per entrambe): va aggiornato a mano se si aggiunge un'altra combinazione nazione/bot non 1:1.
+     Risponde con `build_places.call_gemini_text` (SOLO dai file caricati, niente internet); cronologia
+     in `st.session_state.chat_history`, persa al refresh. Client Gemini condiviso per sessione via
+     `get_gemini_client()` (`@st.cache_resource`).
    - Deploy indipendente dal bot Telegram (Streamlit Cloud o locale): può girare anche a portatile/telefono spenti, a patto che i CSV siano aggiornati (via Drive o GitHub Pages).
 8. **[FATTO] Piatti e cultura per argomento** (`build_dishes.py` / `build_culture.py`, script separati da
    `build_places.py`/`build_maps.py`, da lanciare a mano con `--all` dopo un aggiornamento importante dei
@@ -137,7 +149,7 @@ Risposte sempre brevi, schematiche, facili da consultare (panoramica sintetica, 
 - Tracciamento luoghi visitati + feedback per adattare i consigli futuri (campi già previsti in places.json).
 - Fusione cross-lotto di piatti/consigli duplicati in `build_dishes.py`/`build_culture.py` (oggi si uniscono solo dentro lo stesso lotto Gemini, vedi punto 8): da valutare se diventa fastidioso sulle nazioni con tanti dati.
 - "Crea il tuo itinerario": funzionalità non ancora progettata, da affrontare dopo aver consolidato cibo/cultura.
-- Chatbot nell'app che simuli una conversazione tipo Gemini Notebook, ma usando SOLO i dati nei txt/json del bot (niente internet): nemmeno questa ancora progettata.
+- **[FATTO, v1]** Chatbot nell'app (tab 💬 Chat Gemini, punto 7) che risponde SOLO sui file `.txt/.md` di `FONTI/<Nazione>/`. Limiti noti da affinare: PDF/immagini nella stessa cartella non vengono letti (solo elencati); nessuna persistenza della cronologia tra sessioni; nessun uso di `places.json`/`dishes.json`/`culture_topics.json` come fonte (solo i file testuali di FONTI).
 - Per ogni luogo, informazioni storiche/politiche/culturali non già nella descrizione: l'utente vuole SOLO dati dai reel inviati via Telegram, non ricerche su internet (niente Wikipedia/grounding) — quindi va alimentata dagli stessi dati già raccolti (es. estendendo `build_culture.py` a legare le voci anche al luogo, non solo all'argomento), non da fonti esterne. L'unica eccezione concessa finora è la miniatura dei piatti (punto 8, solo immagine, non testo): non estenderla ad altro senza chiederlo esplicitamente.
 
 ## Comandi Telegram

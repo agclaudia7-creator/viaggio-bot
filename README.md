@@ -80,9 +80,16 @@ L'app ha quattro tab: **🗺️ Mappa** (luoghi), **🍜 Cibo** (piatti/bevande 
 - Scarta la logistica di un singolo luogo (orari, prezzi, come arrivarci): quella resta nella scheda del luogo nella tab Mappa
 
 ### Tab 💬 Chat Gemini
-- Chat interattiva con cronologia nella sessione
-- Legge TUTTI i file da `FONTI/<Nazione>/` (txt, pdf, immagini, documenti)
-- Gemini risponde SOLO basandosi sulle fonti locali (niente info da internet)
+- Chat interattiva, cronologia tenuta solo nella sessione (si perde al refresh/riavvio)
+- Legge i file **.txt/.md** da `FONTI/<Nazione>/` per le nazioni selezionate in sidebar (ogni file
+  troncato a 10.000 caratteri se più lungo). I PDF/immagini nella stessa cartella vengono elencati ma
+  **non letti** (solo un segnaposto col nome del file: leggerli richiederebbe l'upload a Gemini, non
+  ancora implementato). `NATION_FOLDER_MAPPING` traduce "Malesia"/"Singapore" (nomi usati dal filtro
+  nazione, uno per CSV) nella cartella `FONTI/Singapore&Malesia/` (nome del bot che le raccoglie
+  insieme): se in futuro si aggiunge un'altra nazione con lo stesso schema va aggiunta qui a mano.
+- Gemini risponde SOLO basandosi su questi file (niente info da internet) — usa `google.genai` tramite
+  `build_places.call_gemini_text` (vedi CLAUDE.md: una versione precedente usava `google.generativeai`,
+  deprecato, che su reti con firewall/proxy TLS poteva bloccare la chat all'infinito)
 - Expander "📁 File caricati come fonti" mostra quali file vengono usati
 - Utile per domande su logistica, cultura, curiosità non in places.json
 
@@ -110,7 +117,7 @@ L'app ha quattro tab: **🗺️ Mappa** (luoghi), **🍜 Cibo** (piatti/bevande 
 1. Clona il repository
 2. Installa le dipendenze: `pip install -r requirements.txt`
 3. Configura le cartelle dati (vedi "Struttura dati" sotto)
-4. Cambia la password in `app.py` (linea ~18)
+4. Cambia la password in `app.py` (variabile `PASSWORD`, vicino all'inizio del file)
 5. Esegui: `streamlit run app.py`
 
 ## 📁 Struttura Dati
@@ -195,8 +202,8 @@ I CSV vengono generati da `build_maps.py` ogni volta che il bot aggiorna i luogh
 
 ## 🎨 Personalizzazione
 
-- **Colori categorie**: Modifica il dizionario `category_colors` in `create_map()` (linee ~263-269)
-- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` (linea ~231)
+- **Colori categorie**: Modifica il dizionario `category_colors` dentro `create_map()`
+- **Tile map**: Cambia il parametro `tiles=` nella creazione di `folium.Map()` dentro `create_map()`
   
 ### Tile map disponibili (senza API key)
 - **OpenStreetMap** (predefinito) - Stile base OSM, completamente gratuito e affidabile
@@ -208,7 +215,7 @@ I CSV vengono generati da `build_maps.py` ogni volta che il bot aggiorna i luogh
 
 ## 🔐 Sicurezza e Privacy
 
-- **Password**: Salva direttamente nel codice (`app.py`, linea ~18). Per cambiare: modifica `PASSWORD = "..."` e redeploy.
+- **Password**: Salva direttamente nel codice (`app.py`, variabile `PASSWORD`). Per cambiare: modifica `PASSWORD = "..."` e redeploy.
 - **Dati**: I CSV contengono solo informazioni pubbliche (reel Instagram pubblici).
 - **Geolocalizzazione**: Richiesta tramite `streamlit-js-eval`, che esegue `navigator.geolocation` nel browser e restituisce le coordinate solo alla sessione Streamlit corrente (`st.session_state`); non vengono salvate su disco né inviate altrove.
 - **Niente account**: Non richiede login, solo password di accesso.
