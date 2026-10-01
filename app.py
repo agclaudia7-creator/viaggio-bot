@@ -10,18 +10,9 @@ import io
 from math import radians, cos, sin, asin, sqrt
 import re
 import requests
-import hashlib
+from streamlit_js_eval import get_geolocation
 
 from build_culture import CULTURE_TOPICS
-
-# Carica Gemini se disponibile
-try:
-    import google.generativeai as genai
-    GEMINI_AVAILABLE = True
-    if os.getenv("GEMINI_API_KEY"):
-        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-except ImportError:
-    GEMINI_AVAILABLE = False
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -164,36 +155,6 @@ def load_csv_data():
     if all_data:
         return pd.concat(all_data, ignore_index=True)
     return pd.DataFrame()
-
-@st.cache_data
-def synthesize_cultural_text(text_list: list, text_type: str) -> str:
-    """Sintetizza una lista di testi in un paragrafo discorsivo con Gemini."""
-    if not text_list or not GEMINI_AVAILABLE:
-        return " ".join(text_list) if text_list else ""
-
-    # Cache locale in cache file
-    cache_key = hashlib.sha256("\n".join(text_list).encode()).hexdigest()[:12]
-
-    try:
-        model = genai.GenerativeModel("gemini-3.5-flash-lite")
-        if text_type == "description":
-            prompt = f"""Sintetizza questi testi in UN unico paragrafo discorsivo coerente, senza punti elenco:
-{chr(10).join(f"- {t}" for t in text_list)}
-
-Mantieni tutte le informazioni importanti ma scrivi come un paragrafo continuo, naturale e privo di ripetizioni."""
-        elif text_type == "tips":
-            prompt = f"""Sintetizza questi consigli pratici in UN unico paragrafo discorsivo coerente:
-{chr(10).join(f"- {t}" for t in text_list)}
-
-Scrivi come un paragrafo unico e naturale, mantenendo tutti i consigli importanti."""
-        else:
-            return " ".join(text_list)
-
-        response = model.generate_content(prompt)
-        return response.text or " ".join(text_list)
-    except Exception as e:
-        # Se Gemini fallisce, fallback al testo unito
-        return " ".join(text_list)
 
 def get_google_maps_url(lat, lon, name):
     """Crea URL Google Maps per aprire il luogo (metodo query come Telegram)."""
@@ -775,17 +736,21 @@ with tab_cultura:
 
             for place in cultural_places:
                 with st.expander(f"🏛️ **{place['name']}** ({place['city']}) - ×{place.get('mention_count', 1)} citazioni"):
-                    # Descrizione discorsiva sintetizzata
-                    if place.get("notes"):
+                    # Descrizione discorsiva sintetizzata (da build_places.py)
+                    if place.get("_notes_synth"):
                         st.write("**Descrizione:**")
-                        desc_text = synthesize_cultural_text(place["notes"], "description")
-                        st.write(desc_text)
+                        st.write(place["_notes_synth"])
+                    elif place.get("notes"):
+                        st.write("**Descrizione:**")
+                        st.write(" ".join(place["notes"]))
 
-                    # Consigli pratici sintetizzati
-                    if place.get("tips"):
+                    # Consigli pratici sintetizzati (da build_places.py)
+                    if place.get("_tips_synth"):
                         st.write("**Consigli pratici:**")
-                        tips_text = synthesize_cultural_text(place["tips"], "tips")
-                        st.write(tips_text)
+                        st.write(place["_tips_synth"])
+                    elif place.get("tips"):
+                        st.write("**Consigli pratici:**")
+                        st.write(" ".join(place["tips"]))
 
                     # Criticità (non sintetizzate, mostrate come lista breve)
                     if place.get("cons"):

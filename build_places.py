@@ -468,7 +468,8 @@ def group_places(reels, cache, aliases):
             "status": "da_fare",
             "rating": None,
             "user_notes": "",
-        })
+        }
+        places.append(place_data)
     places.sort(key=lambda p: (p["country"], p["city"], -p["mention_count"], p["name"]))
     return places, sorted(suggestions)
 
@@ -1056,6 +1057,66 @@ def process_tips_file(src: Path, out_dir: Path, reels: list, use_llm: bool, summ
     return summary
 
 
+CULTURE_SYNTH_PROMPT_VERSION = "culture-synth-1"
+
+def synthesize_cultural_place_text(places: list, use_llm: bool = True) -> None:
+    """Sintetizza descrizioni e consigli dei luoghi culturali in paragrafi discorsivi.
+    Aggiunge i campi _notes_synth e _tips_synth a places di categoria "cultura"."""
+    if not use_llm:
+        return
+
+    cultural_places = [p for p in places if p.get("category") == "cultura" and p.get("notes")]
+    if not cultural_places:
+        return
+
+    print(f"Sintetizzando {len(cultural_places)} luoghi culturali...")
+
+    for p in cultural_places:
+        # Se già sintetizzato e non è cambiato, salta
+        if p.get("_notes_synth") and p.get("_notes_synth_version") == CULTURE_SYNTH_PROMPT_VERSION:
+            continue
+
+        try:
+            # Sintetizza descrizioni
+            if p.get("notes"):
+                notes_text = "\n".join(f"- {n}" for n in p["notes"])
+                prompt_desc = f"""Sintetizza questi testi su un luogo culturale in UN unico paragrafo discorsivo coerente:
+{notes_text}
+
+Scrivi come un paragrafo continuo, naturale e senza ripetizioni, mantenendo tutte le informazioni importanti."""
+
+                resp_desc = call_gemini_json(None, None, prompt_desc, "")
+                if isinstance(resp_desc, str):
+                    p["_notes_synth"] = resp_desc
+                else:
+                    # Fallback
+                    p["_notes_synth"] = " ".join(p["notes"])
+
+            # Sintetizza consigli
+            if p.get("tips"):
+                tips_text = "\n".join(f"- {t}" for t in p["tips"])
+                prompt_tips = f"""Sintetizza questi consigli pratici in UN unico paragrafo discorsivo coerente:
+{tips_text}
+
+Scrivi come un paragrafo unico e naturale, mantenendo tutti i consigli importanti."""
+
+                resp_tips = call_gemini_json(None, None, prompt_tips, "")
+                if isinstance(resp_tips, str):
+                    p["_tips_synth"] = resp_tips
+                else:
+                    p["_tips_synth"] = " ".join(p["tips"])
+
+            p["_notes_synth_version"] = CULTURE_SYNTH_PROMPT_VERSION
+            time.sleep(PAUSE_SECONDS)
+
+        except QuotaExhausted:
+            print("  Quota Gemini esaurita, mi fermo qui")
+            return
+        except Exception as e:
+            print(f"  Errore per {p['name']}: {e}, continuo...")
+            continue
+
+
 def process_file(src: Path, out_dir=None, use_llm: bool = True, tips_only: bool = False) -> dict:
     """Elabora un txt. Ritorna un riepilogo: quota_hit, places, new_places, suggestions
     (per i bot di soli consigli: quota_hit, tips, new_tips)."""
@@ -1081,6 +1142,13 @@ def process_file(src: Path, out_dir=None, use_llm: bool = True, tips_only: bool 
         places, suggestions = group_places(reels, cache, load_aliases(out_dir / "aliases.json"))
     suggestions = dups["open"]   # quelle giudicate diverse non vengono più riproposte
     quota_hit = quota_hit or dups["quota_hit"]
+
+    # Sintetizza i luoghi culturali con Gemini
+    try:
+        synthesize_cultural_place_text(places, use_llm and not quota_hit)
+    except QuotaExhausted:
+        quota_hit = True
+
     places_path = out_dir / "places.json"
     old_ids = {p["id"] for p in json.loads(places_path.read_text(encoding="utf-8"))} if places_path.exists() else set()
     preserve_state(places, places_path)
