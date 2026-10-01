@@ -14,6 +14,15 @@ from streamlit_js_eval import get_geolocation
 
 from build_culture import CULTURE_TOPICS
 
+# Carica Gemini
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+    if os.getenv("GEMINI_API_KEY"):
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+except ImportError:
+    GEMINI_AVAILABLE = False
+
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
 
@@ -155,6 +164,40 @@ def load_csv_data():
     if all_data:
         return pd.concat(all_data, ignore_index=True)
     return pd.DataFrame()
+
+@st.cache_data
+def load_fonti_sources(nations: list) -> dict:
+    """Carica tutti i file da FONTI/<Nazione>/ per le nazioni selezionate."""
+    sources = {}
+    fonti_dir = Path("G:/Il mio Drive/Viaggi/Aspettativa/FONTI")
+
+    if not fonti_dir.exists():
+        return sources
+
+    for nation in nations:
+        nation_dir = fonti_dir / nation
+        if not nation_dir.exists():
+            continue
+
+        files_content = {}
+        for file_path in sorted(nation_dir.glob("*")):
+            if file_path.is_file():
+                try:
+                    if file_path.suffix in ['.txt', '.md']:
+                        content = file_path.read_text(encoding='utf-8', errors='ignore')
+                        files_content[file_path.name] = content
+                    elif file_path.suffix == '.pdf':
+                        # Per PDF, carica il percorso (Gemini può leggere file)
+                        files_content[file_path.name] = f"[PDF: {file_path.name}]"
+                    elif file_path.suffix in ['.jpg', '.jpeg', '.png', '.gif']:
+                        files_content[file_path.name] = f"[Immagine: {file_path.name}]"
+                except Exception as e:
+                    st.warning(f"Errore lettura {file_path.name}: {e}")
+
+        if files_content:
+            sources[nation] = files_content
+
+    return sources
 
 def get_google_maps_url(lat, lon, name):
     """Crea URL Google Maps per aprire il luogo (metodo query come Telegram)."""
@@ -560,7 +603,7 @@ if show_esclusi and len(df_esclusi) > 0:
             st.rerun()
 
 # ============= MAIN CONTENT =============
-tab_mappa, tab_cibo, tab_cultura = st.tabs(["🗺️ Mappa", "🍜 Cibo", "🏛️ Cultura"])
+tab_mappa, tab_cibo, tab_cultura, tab_chat = st.tabs(["🗺️ Mappa", "🍜 Cibo", "🏛️ Cultura", "💬 Chat Gemini"])
 
 with tab_mappa:
     # Bottone per ricaricare i dati (rifresca la cache di Streamlit)
@@ -688,15 +731,25 @@ with tab_cibo:
             with st.container(height=450):
                 for d in lista:
                     label = f"{d['name']} (×{d['mention_count']})" if d["mention_count"] > 1 else d["name"]
-                    if st.button(label, key=f"dish_{d['_key']}", use_container_width=True):
-                        st.session_state.selected_dish_key = d["_key"]
+                    c_img, c_btn = st.columns([1, 4])
+                    with c_img:
+                        if d.get("thumbnail_url"):
+                            st.image(d["thumbnail_url"], width=40)
+                    with c_btn:
+                        if st.button(label, key=f"dish_{d['_key']}", use_container_width=True):
+                            st.session_state.selected_dish_key = d["_key"]
 
         with col_b:
             sel = next((d for d in dishes_nazione if d["_key"] == st.session_state.get("selected_dish_key")), None)
             if not sel:
                 st.info("⬅️ Scegli un piatto dalla lista per vedere dove mangiarlo.")
             else:
-                st.subheader(f"🍽️ {sel['name']}")
+                col_img, col_title = st.columns([1, 3])
+                with col_img:
+                    if sel.get("thumbnail_url"):
+                        st.image(sel["thumbnail_url"], width=100)
+                with col_title:
+                    st.subheader(f"🍽️ {sel['name']}")
                 if sel["aliases"]:
                     st.caption("Alias: " + ", ".join(sel["aliases"]))
                 if sel["description"]:
@@ -804,6 +857,79 @@ with tab_cultura:
                             st.markdown(f"- {it['text']}{star}")
                         else:
                             st.markdown(f"- {it['text']}{star}")
+
+with tab_chat:
+    st.subheader("💬 Chat con Gemini Notebook")
+
+    if not GEMINI_AVAILABLE:
+        st.error("❌ Gemini non disponibile. Configura GEMINI_API_KEY nelle variabili d'ambiente.")
+    else:
+        # Carica le fonti
+        fonti_sources = load_fonti_sources(selected_nazioni)
+
+        if not fonti_sources:
+            st.info("📁 Nessun file trovato in FONTI/ per le nazioni selezionate.")
+        else:
+            # Mostra files disponibili
+            with st.expander("📁 File caricati come fonti"):
+                for nation, files in fonti_sources.items():
+                    st.write(f"**{nation}:** {', '.join(files.keys())}")
+
+            # Inizializza chat history
+            if "chat_history" not in st.session_state:
+                st.session_state.chat_history = []
+
+            # Visualizza chat history
+            for msg in st.session_state.chat_history:
+                with st.chat_message(msg["role"]):
+                    st.markdown(msg["content"])
+
+            # Input utente
+            user_input = st.chat_input("Fai una domanda sulle tue fonti di viaggio...")
+
+            if user_input:
+                # Aggiungi messaggio utente
+                st.session_state.chat_history.append({"role": "user", "content": user_input})
+
+                with st.chat_message("user"):
+                    st.markdown(user_input)
+
+                # Prepara il context dalle fonti
+                context = "Fonti disponibili:\n\n"
+                for nation, files in fonti_sources.items():
+                    context += f"## {nation}\n"
+                    for filename, content in files.items():
+                        if len(content) > 10000:  # Limita file molto grandi
+                            content = content[:10000] + "\n... [contenuto troncato]"
+                        context += f"\n### {filename}\n{content}\n"
+
+                # Chiama Gemini con le fonti come context
+                try:
+                    with st.chat_message("assistant"):
+                        with st.spinner("Sto pensando..."):
+                            model = genai.GenerativeModel("gemini-3.5-flash-lite")
+                            response = model.generate_content(
+                                f"""Sei un assistente di viaggio esperto. Usa SOLO le informazioni dalle fonti fornite per rispondere.
+
+FONTI:
+{context}
+
+DOMANDA DELL'UTENTE: {user_input}
+
+Se l'informazione non è nelle fonti, dillo chiaramente."""
+                            )
+
+                            assistant_response = response.text
+                            st.markdown(assistant_response)
+
+                            # Aggiungi risposta alla history
+                            st.session_state.chat_history.append({
+                                "role": "assistant",
+                                "content": assistant_response
+                            })
+
+                except Exception as e:
+                    st.error(f"❌ Errore Gemini: {e}")
 
 # ============= FOOTER =============
 st.divider()
