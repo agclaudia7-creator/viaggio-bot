@@ -444,7 +444,11 @@ def group_places(reels, cache, aliases):
                 if not is_dup:
                     kept.append(val)
             return kept
-        places.append({
+        notes_list = uniq("note")
+        tips_list = list(dict.fromkeys(t for m in mentions for t in m["tips"]))
+        cons_list = uniq("cons")
+
+        place_data = {
             "id": f"{slug(g['country'])}_{slug(g['name'])}".strip("_"),
             "name": g["name"],
             "aliases": sorted(g["aliases"]),
@@ -452,11 +456,11 @@ def group_places(reels, cache, aliases):
             "country": g["country"],
             "category": cats.most_common(1)[0][0],
             "costs": sorted(set(costs)),
-            "notes": uniq("note"),
+            "notes": notes_list,
             "creator_ratings": uniq("rating"),   # voti dati nei reel (non quello personale)
             "days": uniq("days"),
-            "cons": uniq("cons"),
-            "tips": list(dict.fromkeys(t for m in mentions for t in m["tips"])),
+            "cons": cons_list,
+            "tips": tips_list,
             "mention_count": len(mentions),
             "mentions": mentions,
             "last_mention_date": dates[-1] if dates else "",   # reel più recente che lo cita

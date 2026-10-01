@@ -10,9 +10,18 @@ import io
 from math import radians, cos, sin, asin, sqrt
 import re
 import requests
-from streamlit_js_eval import get_geolocation
+import hashlib
 
 from build_culture import CULTURE_TOPICS
+
+# Carica Gemini se disponibile
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+    if os.getenv("GEMINI_API_KEY"):
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+except ImportError:
+    GEMINI_AVAILABLE = False
 
 # Configurazione pagina
 st.set_page_config(page_title="Mappa Viaggi", layout="wide", initial_sidebar_state="expanded")
@@ -155,6 +164,36 @@ def load_csv_data():
     if all_data:
         return pd.concat(all_data, ignore_index=True)
     return pd.DataFrame()
+
+@st.cache_data
+def synthesize_cultural_text(text_list: list, text_type: str) -> str:
+    """Sintetizza una lista di testi in un paragrafo discorsivo con Gemini."""
+    if not text_list or not GEMINI_AVAILABLE:
+        return " ".join(text_list) if text_list else ""
+
+    # Cache locale in cache file
+    cache_key = hashlib.sha256("\n".join(text_list).encode()).hexdigest()[:12]
+
+    try:
+        model = genai.GenerativeModel("gemini-3.5-flash-lite")
+        if text_type == "description":
+            prompt = f"""Sintetizza questi testi in UN unico paragrafo discorsivo coerente, senza punti elenco:
+{chr(10).join(f"- {t}" for t in text_list)}
+
+Mantieni tutte le informazioni importanti ma scrivi come un paragrafo continuo, naturale e privo di ripetizioni."""
+        elif text_type == "tips":
+            prompt = f"""Sintetizza questi consigli pratici in UN unico paragrafo discorsivo coerente:
+{chr(10).join(f"- {t}" for t in text_list)}
+
+Scrivi come un paragrafo unico e naturale, mantenendo tutti i consigli importanti."""
+        else:
+            return " ".join(text_list)
+
+        response = model.generate_content(prompt)
+        return response.text or " ".join(text_list)
+    except Exception as e:
+        # Se Gemini fallisce, fallback al testo unito
+        return " ".join(text_list)
 
 def get_google_maps_url(lat, lon, name):
     """Crea URL Google Maps per aprire il luogo (metodo query come Telegram)."""
@@ -736,42 +775,45 @@ with tab_cultura:
 
             for place in cultural_places:
                 with st.expander(f"🏛️ **{place['name']}** ({place['city']}) - ×{place.get('mention_count', 1)} citazioni"):
-                    # Riassunto
-                    st.write(f"**Categoria:** {place.get('category', 'N/A')}")
-
-                    # Note (descrizione principale)
+                    # Descrizione discorsiva sintetizzata
                     if place.get("notes"):
                         st.write("**Descrizione:**")
-                        for note in place["notes"]:
-                            st.write(f"- {note}")
+                        desc_text = synthesize_cultural_text(place["notes"], "description")
+                        st.write(desc_text)
 
-                    # Consigli specifici
+                    # Consigli pratici sintetizzati
                     if place.get("tips"):
                         st.write("**Consigli pratici:**")
-                        for tip in place["tips"]:
-                            st.write(f"💡 {tip}")
+                        tips_text = synthesize_cultural_text(place["tips"], "tips")
+                        st.write(tips_text)
 
-                    # Criticità
+                    # Criticità (non sintetizzate, mostrate come lista breve)
                     if place.get("cons"):
                         st.write("**Cose da sapere:**")
                         for con in place["cons"]:
                             st.write(f"⚠️ {con}")
 
-                    # Voti
-                    if place.get("creator_ratings"):
-                        st.write(f"**Voti creator:** {', '.join(place['creator_ratings'])}")
+                    # Voti e Costi in colonna
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        if place.get("creator_ratings"):
+                            st.write(f"**Voti:** {', '.join(place['creator_ratings'])}")
+                    with col2:
+                        if place.get("costs"):
+                            st.write(f"**Costi:** {', '.join(place['costs'])}")
 
-                    # Costi
-                    if place.get("costs"):
-                        st.write(f"**Costi:** {', '.join(place['costs'])}")
-
-                    # Link ai reel
+                    # Link ai reel numerati
                     if place.get("mentions"):
-                        st.write(f"**Reel che lo citano:**")
-                        for m in place["mentions"][:5]:  # Mostra max 5 reel
-                            st.write(f"🎬 [{m['reel']}]({m['reel']})")
-                        if len(place["mentions"]) > 5:
-                            st.write(f"... e {len(place['mentions']) - 5} altri reel")
+                        st.write("**Reel che lo citano:**")
+                        # Mostra i primi 3 reel direttamente
+                        for i, m in enumerate(place["mentions"][:3], 1):
+                            st.write(f"[Link {i}]({m['reel']})")
+
+                        # Se ce ne sono di più, mostra un expander
+                        if len(place["mentions"]) > 3:
+                            with st.expander(f"📺 Vedi tutti i {len(place['mentions'])} reel"):
+                                for i, m in enumerate(place["mentions"][3:], 4):
+                                    st.write(f"[Link {i}]({m['reel']})")
 
     with sub_tab2:
         st.subheader("Consigli e Tradizioni Culturali")
